@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'CG Ignite Docs', // Title for your website.
   tagline: 'Low-Code Programming with CG Ignite',
-  url: 'https://slabrador09.github.io', // Your website URL
+  url: 'https://Cybergroup-Research.github.io', // Your website URL
   baseUrl: '/ignite-docs/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'ignite-docs',
-  organizationName: 'slabrador09',
+  organizationName: 'Cybergroup-Research',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'

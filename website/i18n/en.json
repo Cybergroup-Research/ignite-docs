@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Low-Code Programming with CG Ignite",
+    "tagline": "A website for testing",
     "docs": {
       "doc1": {
         "title": "Latin-ish",
@@ -14,6 +14,10 @@
       },
       "doc3": {
         "title": "This is document number 3"
+      },
+      "doc6": {
+        "title": "Set Message Property",
+        "sidebar_label": "Message Property"
       },
       "doc4": {
         "title": "Other Document"
@@ -31,7 +35,8 @@
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "Message Property": "Message Property"
     }
   },
   "pages-strings": {

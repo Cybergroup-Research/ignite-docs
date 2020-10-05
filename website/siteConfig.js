@@ -24,7 +24,7 @@ const siteConfig = {
     title: 'CG Ignite Docs', // Title for your website.
     tagline: 'Low-Code Programming with CG Ignite',
     url: 'https://Cybergroup-Research.github.io', // Your website URL
-    baseUrl: '/ignite-docs/', // Base URL for your project */
+    baseUrl: '/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
     //   baseUrl: '/test-site/',

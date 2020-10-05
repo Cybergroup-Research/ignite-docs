@@ -1,8 +1,0 @@
-{
-  "scripts": {
-    "start": "(cd /app/website && npm install && cd /app/website && npm run build && cd /app/website && npm start);"
-  },
-  "engines": {
-    "node": "12.18.4"
-  }
-}

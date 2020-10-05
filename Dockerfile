@@ -4,7 +4,7 @@ WORKDIR /app/website
 
 EXPOSE 3000 35729
 COPY ./docs /app/docs
-COPY ./website /app
-RUN npm install
+COPY ./website /app/website
+RUN yarn install
 
-CMD ["npm", "start"]
+CMD ["yarn", "start"]

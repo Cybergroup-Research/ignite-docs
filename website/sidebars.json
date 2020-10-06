@@ -3,7 +3,14 @@
     "Docusaurus": ["doc1"],
     "First Category": ["doc2"],
     "Second Category": ["doc3"],
-    "Message Property": [ "doc6" ]
+    "MQTT": [
+      "mqtt/connect-to-broker",
+      "mqtt/publish-message",
+      "mqtt/set-topic",
+      "mqtt/publish-retained-message",
+      "mqtt/subscribe",
+      "mqtt/parsed-json"
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-    title: 'CG Ignite Docs', // Title for your website.
+    title: '', // Title for your website.
     tagline: 'Low-Code Programming with CG Ignite',
     url: 'https://Cybergroup-Research.github.io', // Your website URL
     baseUrl: '/', // Base URL for your project */

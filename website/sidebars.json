@@ -1,6 +1,5 @@
 {
   "docs": {
-    "Docusaurus": [ "doc1" ],
     "HTTP Endpoints": [
       "http endpoints/create-endpoint",
       "http endpoints/handle-query-parameters",

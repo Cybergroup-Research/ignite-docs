@@ -48,9 +48,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/cg-ignite-icon-black.png',
+  footerIcon: 'img/cg-ignite-icon-white.png',
+  favicon: 'img/cg-ignite-icon-black.png',
 
   /* Colors for website */
   colors: {

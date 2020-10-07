@@ -1,8 +1,28 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"],
+    "Docusaurus": [ "doc1" ],
+    "First Category": [ "doc2" ],
+    "HTTP Endpoints": [
+      "http endpoints/create-endpoint",
+      "http endpoints/handle-query-parameters",
+      "http endpoints/handle-url-parameters",
+      "http endpoints/access-request-headers",
+      "http endpoints/serve-json-content",
+      "http endpoints/serve-local-file",
+      "http endpoints/post-raw-data",
+      "http endpoints/post-form-data",
+      "http endpoints/post-json-data",
+      "http endpoints/work-with-cookies"
+    ],
+    "HTTP Requests": [
+      "http requests/get-request",
+      "http requests/set-request-url",
+      "http requests/set-url-using-template",
+      "http requests/set-query-string-params",
+      "http requests/get-parsed-JSON",
+      "http requests/get-binary-response",
+      "http requests/set-request-headers"
+    ],
     "MQTT": [
       "mqtt/connect-to-broker",
       "mqtt/publish-message",

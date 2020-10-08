@@ -66,7 +66,7 @@ class HomeSplash extends React.Component {
 				<div className="inner">
 					<ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
 					<PromoSection>
-						<Button href="https://www.cygrp.com/cgignite/" target="_blank">Try It Out</Button>
+						<Button href="" target="_blank">Try It Out</Button>
 					</PromoSection>
 				</div>
 			</SplashContainer>

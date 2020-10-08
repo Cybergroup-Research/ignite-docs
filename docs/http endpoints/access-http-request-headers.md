@@ -25,7 +25,7 @@ node to access the headers.
 {% endraw %}
 
 ~~~text
-[~]$ curl http://localhost:1880/hello-headers
+[~]$ curl https://app_name.herokuapp.com/hello-headers
 <html>
     <head></head>
     <body>

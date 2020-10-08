@@ -25,7 +25,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 {% endraw %}
 
 ~~~text
-[~]$ curl -X POST -d 'Nick' -H "Content-type: text/plain" http://localhost:1880/hello-raw
+[~]$ curl -X POST -d 'Nick' -H "Content-type: text/plain" https://app_name.herokuapp.com/hello-raw
 <html>
     <head></head>
     <body>

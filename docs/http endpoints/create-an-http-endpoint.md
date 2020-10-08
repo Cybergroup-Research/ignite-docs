@@ -17,17 +17,14 @@ Use the <code class="node">HTTP In</code> node to listen for requests, a
 
 ## Example
 
-![](/images/http/create-an-http-endpoint.png)
+![](../assets/httpEndpoints/create-an-http-endpoint.png)
 
-{% raw %}
 ~~~json
 [{"id":"59ff2a1.fa600d4","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello","method":"get","swaggerDoc":"","x":100,"y":80,"wires":[["54c1e70d.ab3e18"]]},{"id":"54c1e70d.ab3e18","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>Hello World!</h1>\n    </body>\n</html>","x":250,"y":80,"wires":[["266c286f.d993d8"]]},{"id":"266c286f.d993d8","type":"http response","z":"3045204d.cfbae","name":"","x":390,"y":80,"wires":[]}]
 ~~~
-{: .flow}
-{% endraw %}
 
 ~~~text
-[~]$ curl http://localhost:1880/hello
+[~]$ curl https://app_name.herokuapp.com/hello
 <html>
     <head></head>
     <body>
@@ -35,7 +32,6 @@ Use the <code class="node">HTTP In</code> node to listen for requests, a
     </body>
 </html>
 ~~~
-{: .shell}
 
 ## Discussion
 
@@ -58,5 +54,5 @@ If you have turned on http authentication then you may need add your userid and 
 to the curl command. e.g.
 
 ~~~text
-[~]$ curl -u userid:password  http://localhost:1880/hello 
+[~]$ curl -u userid:password  https://app_name.herokuapp.com/hello 
 ~~~

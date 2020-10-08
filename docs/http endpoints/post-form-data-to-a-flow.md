@@ -26,7 +26,7 @@ the form data as properties of `msg.payload`.
 {% endraw %}
 
 ~~~text
-[~]$ curl -X POST -d "name=Nick" http://localhost:1880/hello-form
+[~]$ curl -X POST -d "name=Nick" https://app_name.herokuapp.com/hello-form
 <html>
     <head></head>
     <body>
@@ -45,7 +45,7 @@ configured to `POST` the data, the browser will encode the data held in the
 For example, when a form that looks like this is submitted:
 
 ~~~html
-<form action="http://localhost:1880/hello-form" method="post">
+<form action="https://app_name.herokuapp.com/hello-form" method="post">
   <input name="name" value="Nick">
   <button>Say hello</button>
 </form>

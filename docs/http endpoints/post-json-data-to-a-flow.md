@@ -26,7 +26,7 @@ properties of `msg.payload`.
 {% endraw %}
 
 ~~~text
-[~]$ curl -X POST -d '{"name":"Nick"}' -H "Content-type: application/json" http://localhost:1880/hello-form
+[~]$ curl -X POST -d '{"name":"Nick"}' -H "Content-type: application/json" https://app_name.herokuapp.com/hello-form
 <html>
     <head></head>
     <body>

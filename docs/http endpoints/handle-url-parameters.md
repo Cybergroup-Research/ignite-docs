@@ -34,7 +34,7 @@ property and then access the specific value provided in a request using the
 
 ## Example
 ~~~text
-[~]$ curl http://localhost:1880/hello-param/Nick
+[~]$ curl https://app_name.herokuapp.com/hello-param/Nick
 <html>
     <head></head>
     <body>

@@ -26,7 +26,7 @@ set the `Content-Type` to the appropriate value for the file type being returned
 {% endraw %}
 
 ~~~text
-[~]$ curl  http://localhost:1880/hello-file > file.png
+[~]$ curl  https://app_name.herokuapp.com/hello-file > file.png
 ~~~
 {: .shell}
 

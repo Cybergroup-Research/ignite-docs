@@ -27,7 +27,7 @@ node to access the parameters.
 {% endraw %}
 
 ~~~text
-[~]$ curl http://localhost:1880/hello-query?name=Nick
+[~]$ curl https://app_name.herokuapp.com/hello-query?name=Nick
 <html>
     <head></head>
     <body>

@@ -25,7 +25,7 @@ object.
 {% endraw %}
 
 ~~~text
-[~]$ curl -i http://localhost:1880/hello-json
+[~]$ curl -i https://app_name.herokuapp.com/hello-json
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *

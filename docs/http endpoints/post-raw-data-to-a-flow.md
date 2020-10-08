@@ -15,9 +15,9 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 
 ## Example
 
-![](/images/http/post-raw-data-to-a-flow.png)
+![](../assets/httpEndpoints/post-raw-data-to-a-flow.png)
 
-{% raw %}
+<b>Flow Json</b>
 ~~~json
 [{"id":"3e1c5107.c1e3ae","type":"http in","z":"3045204d.cfbae","name":"","url":"/hello-raw","method":"post","swaggerDoc":"","x":120,"y":920,"wires":[["cf679478.309868"]]},{"id":"cf679478.309868","type":"template","z":"3045204d.cfbae","name":"page","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"<html>\n    <head></head>\n    <body>\n        <h1>Hello {{ payload }}!</h1>\n    </body>\n</html>","x":290,"y":920,"wires":[["f3c1a3f0.0c3e6"]]},{"id":"f3c1a3f0.0c3e6","type":"http response","z":"3045204d.cfbae","name":"","x":430,"y":920,"wires":[]}]
 ~~~
@@ -33,7 +33,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
     </body>
 </html>
 ~~~
-{: .shell}
+
 
 ## Discussion
 

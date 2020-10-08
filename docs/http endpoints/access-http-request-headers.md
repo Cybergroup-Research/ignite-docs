@@ -15,7 +15,7 @@ node to access the headers.
 
 ## Example
 
-![](../assets/httpEndpoints/access-http-request-headers.png){:width="800px"}
+![](../assets/httpEndpoints/access-http-request-headers.png)
 
 <b>Flow Json</b>
 ~~~json

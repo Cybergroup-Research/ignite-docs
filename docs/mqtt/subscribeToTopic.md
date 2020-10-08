@@ -15,14 +15,14 @@ receive messages published to matching topics.
 
 ## Example
 
-![](/images/mqtt/subscribe-to-topic.png)
+![](../assets/mqtt/subscribe-to-topic.png)
 
-{% raw %}
+<b>Flow Json</b>
 ~~~json
 [{"id":"8024cb4.98c5238","type":"mqtt in","z":"eda2a949.74ea98","name":"","topic":"sensors/#","qos":"2","broker":"61de5090.0f5d9","x":240,"y":180,"wires":[["15d727dd.33e808"]]},{"id":"15d727dd.33e808","type":"debug","z":"eda2a949.74ea98","name":"","active":true,"console":"false","complete":"false","x":390,"y":180,"wires":[]},{"id":"61de5090.0f5d9","type":"mqtt-broker","z":"","broker":"localhost","port":"1883","clientid":"","usetls":false,"compatmode":true,"keepalive":"60","cleansession":true,"willTopic":"","willQos":"0","willPayload":"","birthTopic":"","birthQos":"0","birthPayload":""}]
 ~~~
-{: .flow}
-{% endraw %}
+
+
 
 ## Discussion
 

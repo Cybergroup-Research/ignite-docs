@@ -46,7 +46,7 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/cg-ignite-icon-black.png',
+  headerIcon: 'img/cg-ignite-icon-white.png',
   footerIcon: 'img/cg-ignite-icon-white.png',
   favicon: 'img/cg-ignite-icon-black.png',
 

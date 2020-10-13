@@ -8,7 +8,7 @@ sidebar_label: Rate Limit Messages
 
 You want to slow down the messages passing through a flow. For example,
 you have a message containing an array of values that you
-[split into a stream of messages](/operate-on-array) and want to process
+[split into a stream of messages](operate-on-array.md) and want to process
 each message in that stream at a rate of one per second.
 
 ## Solution

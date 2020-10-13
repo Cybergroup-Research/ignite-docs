@@ -29,12 +29,6 @@ class Footer extends React.Component {
               />
             )}
           </a>
-          <div>
-            <h5>Docs</h5>
-            <a href={this.docUrl('http endpoints/create-endpoint')}>
-              Getting Started (or other categories)
-            </a>
-          </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>

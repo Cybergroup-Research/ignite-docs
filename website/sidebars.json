@@ -1,7 +1,10 @@
 {
   "docs": {
     "Messages": [
-      "messages/set-message-property-fixed"
+      "messages/set-message-property-fixed",
+      "messages/delete-property",
+      "messages/move-property",
+      "messages/map-range"
     ],
     "Data Formats":[
       "data formats/convert-json",

@@ -1,5 +1,11 @@
 {
   "docs": {
+    "Messages": [
+      "messages/set-message-property-fixed"
+    ],
+    "Flow Control": [
+      "flow control/trigger-on-start"
+    ],
     "HTTP Endpoints": [
       "http endpoints/create-endpoint",
       "http endpoints/handle-query-parameters",

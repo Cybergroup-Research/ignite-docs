@@ -15,6 +15,10 @@
     "Flow Control": [
       "flow control/trigger-on-start"
     ],
+    "Error handling": [
+      "error handling/retry-on-error",
+      "error handling/trigger-on-error"
+    ],
     "HTTP Endpoints": [
       "http endpoints/create-endpoint",
       "http endpoints/handle-query-parameters",

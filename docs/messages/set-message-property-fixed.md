@@ -25,7 +25,7 @@ Use the <code class="node">Change</code> node to set the property of the message
 
 The <code class="node">Change</code> node can be used to set properties of a message.
 
-The node supports setting various JavaScript types as well as some Node-RED specific types.
+The node supports setting various JavaScript types as well as some Ignite specific types.
 
  - strings: `"hello world"`
  - numbers: `42`

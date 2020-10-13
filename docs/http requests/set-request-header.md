@@ -25,7 +25,7 @@ message sent to the <code class="node">HTTP request</code> node.
 
 
 In this example we set the `X-Auth-User` and `X-Auth-Key` request headers to call a
-private HTTP input node on the FRED Node-RED cloud service.
+private HTTP input node on the FRED Ignite cloud service.
 
 The code in the <code class="node">Function</code> node below adds these additional message
 fields by adding a `msg.headers` object, and setting the header field/values in this object as shown.

@@ -27,7 +27,7 @@ and an associated <code class="node">MQTT Config</code> node to connect to an MQ
 ## Discussion
 
 Many users will run an MQTT broker such as [mosquitto](http://mosquitto.org) on
-the same Raspberry Pi or PC that Node-RED is running on.  Once you have an
+the same Raspberry Pi or PC that Ignite is running on.  Once you have an
 <code class="node">MQTT</code> input or output node in your flow, you create an
 <code class="node">MQTT Config</code> node by clicking on the `Server` configuration
  pop-up and selecting `Add an MQTT broker...`.  Assuming your broker is open,

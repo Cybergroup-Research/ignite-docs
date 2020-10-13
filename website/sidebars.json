@@ -21,8 +21,8 @@
       "flow control/operate-on-array",
       "flow control/trigger-timeout",
       "flow control/trigger-placeholder",
-      "flow control/rate-limit-messsages",
-      "flow control/rate-limit-messsage-stream",
+      "flow control/rate-limit-messages",
+      "flow control/rate-limit-message-stream",
       "flow control/report-by-exception",
       "flow control/join-streams"
     ],

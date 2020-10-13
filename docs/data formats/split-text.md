@@ -21,7 +21,7 @@ recombine them back into a single block of text.
 
 ![](../assets/dataformats/split-text.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"df6514f0.029748","type":"inject","z":"64133d39.bb0394","name":"inject","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":"","x":110,"y":900,"wires":[["11f53f61.2f7be1"]]},{"id":"11f53f61.2f7be1","type":"template","z":"64133d39.bb0394","name":"","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"one\ntwo\nthree\nfour\nfive","x":240,"y":900,"wires":[["760c1d71.c29744"]]},{"id":"760c1d71.c29744","type":"split","z":"64133d39.bb0394","name":"","splt":"\\n","x":190,"y":960,"wires":[["3e427aac.9b9596"]]},{"id":"3e427aac.9b9596","type":"change","z":"64133d39.bb0394","name":"Prepend line number","rules":[{"t":"set","p":"payload","pt":"msg","to":"(parts.index+1) & \": \" & payload","tot":"jsonata"}],"action":"","property":"","from":"","to":"","reg":false,"x":360,"y":960,"wires":[["d44d4767.945fd8"]]},{"id":"d44d4767.945fd8","type":"join","z":"64133d39.bb0394","name":"","mode":"auto","build":"string","property":"payload","propertyType":"msg","key":"topic","joiner":"\\n","timeout":"","count":"","x":530,"y":960,"wires":[["bfe3e43b.85fa88"]]},{"id":"bfe3e43b.85fa88","type":"debug","z":"64133d39.bb0394","name":"debug","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","x":650,"y":960,"wires":[]}]
 ~~~

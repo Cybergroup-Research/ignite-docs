@@ -18,7 +18,7 @@ formats.
 
 ![](../assets/dataformats/convert-json.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"634256b7.2d6818","type":"inject","z":"64133d39.bb0394","name":"JSON String","topic":"","payload":"{\"a\":1}","payloadType":"str","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":110,"y":80,"wires":[["a2fe0fc8.095e1"]]},{"id":"a2fe0fc8.095e1","type":"json","z":"64133d39.bb0394","name":"","property":"payload","action":"","pretty":false,"x":270,"y":80,"wires":[["9a4ce2b8.47698"]]},{"id":"9a4ce2b8.47698","type":"debug","z":"64133d39.bb0394","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":430,"y":80,"wires":[]},{"id":"80032e2.7c92cd","type":"inject","z":"64133d39.bb0394","name":"Object","topic":"","payload":"{\"a\":1}","payloadType":"json","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":90,"y":120,"wires":[["cd40a0f4.4f5ac"]]},{"id":"cd40a0f4.4f5ac","type":"json","z":"64133d39.bb0394","name":"","property":"payload","action":"","pretty":false,"x":270,"y":120,"wires":[["478b4106.4fd7c"]]},{"id":"478b4106.4fd7c","type":"debug","z":"64133d39.bb0394","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":430,"y":120,"wires":[]}]
 ~~~

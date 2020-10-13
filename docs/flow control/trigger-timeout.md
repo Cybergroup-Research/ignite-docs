@@ -19,7 +19,7 @@ arrived after a defined interval.
 
 ![](../assets/flowControl/trigger-timeout.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"6ea53ad8.2362a4","type":"debug","z":"ac14500e.2c57d","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","x":450,"y":1160,"wires":[]},{"id":"3da6946e.184a5c","type":"inject","z":"ac14500e.2c57d","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":100,"y":1160,"wires":[["38caaff4.03f6d","6ea53ad8.2362a4"]]},{"id":"38caaff4.03f6d","type":"trigger","z":"ac14500e.2c57d","op1":"","op2":"timeout","op1type":"nul","op2type":"str","duration":"5","extend":true,"units":"s","reset":"","bytopic":"all","name":"Watchdog","x":270,"y":1200,"wires":[["ae477709.016088"]]},{"id":"ae477709.016088","type":"debug","z":"ac14500e.2c57d","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":450,"y":1200,"wires":[]}]
 ~~~

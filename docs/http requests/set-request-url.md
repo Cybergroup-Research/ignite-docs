@@ -16,7 +16,7 @@ Set the URL property of the <code class="node">HTTP Request</code> node.
 
 ![](../assets/httpRequests/set-request-url.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"b36aa30.3a7276","type":"http request","z":"c9a81b70.8abed8","name":"","method":"GET","ret":"txt","url":"","x":470,"y":300,"wires":[["1ef9987c.956c78"]]},{"id":"11167f67.5d5031","type":"inject","z":"c9a81b70.8abed8","name":"cars on craigslist","topic":"","payload":"http://vancouver.craigslist.org/search/sss?format=rss&query=cars","payloadType":"str","repeat":"","crontab":"","once":false,"x":140,"y":300,"wires":[["70154cd4.de1444"]]},{"id":"70154cd4.de1444","type":"change","z":"c9a81b70.8abed8","name":"","rules":[{"t":"set","p":"url","pt":"msg","to":"payload","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":310,"y":300,"wires":[["b36aa30.3a7276"]]},{"id":"1ef9987c.956c78","type":"debug","z":"c9a81b70.8abed8","name":"","active":true,"console":"false","complete":"false","x":630,"y":300,"wires":[]}]
 ~~~

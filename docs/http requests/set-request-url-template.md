@@ -16,7 +16,7 @@ Configure the <code class="node">HTTP Request</code> node to generate a URL dyna
 
 ![](../assets/httpRequests/set-request-url-template.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"41747a17.54ffd4","type":"http request","z":"c9a81b70.8abed8","name":"","method":"GET","ret":"txt","url":"https://jsonplaceholder.typicode.com/posts/{{post}}","tls":"","x":550,"y":480,"wires":[["d682318c.36823"]]},{"id":"d682318c.36823","type":"debug","z":"c9a81b70.8abed8","name":"","active":true,"console":"false","complete":"payload","x":710,"y":480,"wires":[]},{"id":"90bfea22.dd2b98","type":"inject","z":"c9a81b70.8abed8","name":"post id","topic":"","payload":"2","payloadType":"str","repeat":"","crontab":"","once":false,"x":250,"y":480,"wires":[["e67a0cc.596d4f"]]},{"id":"e67a0cc.596d4f","type":"change","z":"c9a81b70.8abed8","name":"","rules":[{"t":"set","p":"post","pt":"msg","to":"payload","tot":"msg"}],"action":"","property":"","from":"","to":"","reg":false,"x":390,"y":480,"wires":[["41747a17.54ffd4"]]}]
 ~~~
@@ -44,4 +44,4 @@ The JSON output from this API in the debug panel will look as follows:
 
 ## Discussion
 
-By default, mustache will escape any HTML entities in the values it substitutes. To ensure HTML escaping is not used in your URL use `<b>Flow Json</b>{{{triple}}}` braces.
+By default, mustache will escape any HTML entities in the values it substitutes. To ensure HTML escaping is not used in your URL use `<b>Flow JSON</b>{{{triple}}}` braces.

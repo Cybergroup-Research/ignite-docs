@@ -17,7 +17,7 @@ Use an <code class="node">Inject</code> node configured to fire once on start.
 
 ## Example
 
-![](../assets/httpRequests/trigger-on-start.png){:width="530px"}
+![](../assets/flowControl/trigger-on-start.png)
 
 <b>Flow Json</b>
 ~~~json

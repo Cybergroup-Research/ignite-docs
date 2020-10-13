@@ -16,7 +16,18 @@
       "data formats/split-text"
     ],
     "Flow Control": [
-      "flow control/trigger-on-start"
+      "flow control/trigger-on-start",
+      "flow control/trigger-at-interval",
+      "flow control/trigger-at-time",
+      "flow control/route-on-property",
+      "flow control/route-on-context",
+      "flow control/operate-on-array",
+      "flow control/trigger-timeout",
+      "flow control/trigger-placeholder",
+      "flow control/rate-limit-messages",
+      "flow control/rate-limit-message-stream",
+      "flow control/report-by-exception",
+      "flow control/join-streams"
     ],
     "Error handling": [
       "error handling/retry-on-error",

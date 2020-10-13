@@ -1,15 +1,15 @@
 ---
 id: trigger-on-start
-title: Trigger a flow whenever Node-RED starts
+title: Trigger a flow whenever Ignite Runtime starts
 sidebar_label: Trigger On Start
 ---
 
 ## Problem
 
-You want to trigger a flow whenever Node-RED starts.
+You want to trigger a flow whenever Ignite Runtime starts.
 
 This could be used to initialise context variables, or to send a notification
-that Node-RED has been restarted.
+that Ignite Runtime has been restarted.
 
 ## Solution
 

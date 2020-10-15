@@ -18,7 +18,7 @@ interval.
 
 ![](../assets/flowControl/trigger-at-interval.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"372cfc32.bcd244","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"","payloadType":"date","repeat":"5","crontab":"","once":false,"x":150,"y":600,"wires":[["6c63c499.ce3adc"]]},{"id":"6c63c499.ce3adc","type":"debug","z":"535331d8.55c1f","name":"","active":true,"console":"false","complete":"false","x":410,"y":600,"wires":[]}]
 ~~~

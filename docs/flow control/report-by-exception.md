@@ -19,7 +19,7 @@ unless its value has changed.
 
 ![](../assets/flowControl/report-by-exception.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"6079638d.df403c","type":"inject","z":"ac14500e.2c57d","name":"","topic":"","payload":"0","payloadType":"num","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":90,"y":1500,"wires":[["87129503.c7b358"]]},{"id":"87129503.c7b358","type":"rbe","z":"ac14500e.2c57d","name":"report-by-exception","func":"deadband","gap":"","start":"","inout":"out","property":"payload","x":300,"y":1520,"wires":[["5e2ffc27.c61dd4"]]},{"id":"5e2ffc27.c61dd4","type":"debug","z":"ac14500e.2c57d","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","x":510,"y":1520,"wires":[]},{"id":"2dc49f96.3070c","type":"inject","z":"ac14500e.2c57d","name":"","topic":"","payload":"1","payloadType":"num","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":90,"y":1540,"wires":[["87129503.c7b358"]]}]
 ~~~

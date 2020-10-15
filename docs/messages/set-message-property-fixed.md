@@ -16,7 +16,7 @@ Use the <code class="node">Change</code> node to set the property of the message
 
 ![](../assets/messages/set-message-property-fixed.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"d72dc4ce.89b368","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":140,"y":80,"wires":[["78075f19.e0174"]]},{"id":"78075f19.e0174","type":"change","z":"535331d8.55c1f","name":"","rules":[{"t":"set","p":"payload","pt":"msg","to":"Hello World!","tot":"str"}],"action":"","property":"","from":"","to":"","reg":false,"x":340,"y":80,"wires":[["78dc7c25.b90d54"]]},{"id":"78dc7c25.b90d54","type":"debug","z":"535331d8.55c1f","name":"","active":true,"console":"false","complete":"false","x":550,"y":80,"wires":[]}]
 ~~~
@@ -25,7 +25,11 @@ Use the <code class="node">Change</code> node to set the property of the message
 
 The <code class="node">Change</code> node can be used to set properties of a message.
 
+<<<<<<< HEAD
 The node supports setting various JavaScript types as well as some Ignite Runtime specific types.
+=======
+The node supports setting various JavaScript types as well as some Ignite specific types.
+>>>>>>> 77962820abc7d85fa2438e8b53bf4fe454a050b9
 
  - strings: `"hello world"`
  - numbers: `42`

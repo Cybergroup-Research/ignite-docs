@@ -18,7 +18,7 @@ JavaScript objects from it.
 
 ![](../assets/dataformats/parse-csv.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"73e4e16.4d9742","type":"inject","z":"64133d39.bb0394","name":"Inject","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":110,"y":780,"wires":[["2bef78fd.ae70f8"]]},{"id":"90ed51dc.dcc71","type":"csv","z":"64133d39.bb0394","name":"","sep":",","hdrin":true,"hdrout":false,"multi":"mult","ret":"\\n","temp":"","skip":"1","x":410,"y":780,"wires":[["9aace6e7.adc538"]]},{"id":"9aace6e7.adc538","type":"debug","z":"64133d39.bb0394","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":570,"y":780,"wires":[]},{"id":"2bef78fd.ae70f8","type":"template","z":"64133d39.bb0394","name":"CSV data","field":"payload","fieldType":"msg","format":"handlebars","syntax":"mustache","template":"# This is some random data\na,b,c\n80,18,2\n52,36,10\n91,18,61\n32,47,65","output":"str","x":260,"y":780,"wires":[["90ed51dc.dcc71"]]}]
 ~~~

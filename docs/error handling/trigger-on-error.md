@@ -16,7 +16,7 @@ Use the <code class="node">Catch</code> node to receive the error and trigger a 
 
 ![](../assets/errorhandling/trigger-on-error.png)
 
-<b>Flow Json</b>
+<b>Flow JSON</b>
 ~~~json
 [{"id":"2bd6810d.e22ece","type":"catch","z":"fc046f99.4be08","name":"","scope":["2c94a22c.91012e"],"uncaught":false,"x":130,"y":160,"wires":[["d16b9fac.8212a"]]},{"id":"2c94a22c.91012e","type":"function","z":"fc046f99.4be08","name":"Throw Error","func":"node.error(\"an example error\", msg);   ","outputs":1,"noerr":0,"x":310,"y":100,"wires":[[]]},{"id":"d16b9fac.8212a","type":"debug","z":"fc046f99.4be08","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"error","targetType":"msg","x":300,"y":160,"wires":[]},{"id":"c5ee9670.5dbbd8","type":"inject","z":"fc046f99.4be08","name":"Trigger error","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":110,"y":100,"wires":[["2c94a22c.91012e"]]}]
 ~~~

@@ -30,15 +30,9 @@ The <code class="node">MQTT Input</code> node must be hardcoded with the topic f
 to use - it cannot be changed dynamically.
 
 One possible workaround is to set the topic to an environment variable such as
-<<<<<<< HEAD
-`$(MY_TOPIC)`. When the Ignite Runtime runtime starts it will substitute the environment
-variable value into that property of the node. This does allow the topic to be changed, although
-doing so does require a restart of Ignite Runtime to pickup changes to the environment variable.
-=======
 `$(MY_TOPIC)`. When the Ignite runtime starts it will substitute the environment
 variable value into that property of the node. This does allow the topic to be changed, although
 doing so does require a restart of Ignite to pickup changes to the environment variable.
->>>>>>> 77962820abc7d85fa2438e8b53bf4fe454a050b9
 
 You can also use MQTT wildcards, `+` for a single topic level or `#` for multiple. This allows
 you to receive multiple topics with a single node. The messages will be sent from

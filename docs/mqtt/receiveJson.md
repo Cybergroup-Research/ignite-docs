@@ -27,8 +27,4 @@ Use the <code class="node">MQTT Input</code> node and a <code class="node">JSON 
 
 The payload of an <code class="node">MQTT Input</code> node is a string unless it was detected as a binary buffer.  To parse the JSON string and convert it to a JavaScript Object, use the <code class="node">JSON</code> node.
 
-<<<<<<< HEAD
-Newer versions of the MQTT node (Ignite Runtime version 0.19+) now have a select option to choose the required output format so the JSON node may no longer be required.
-=======
 Newer versions of the MQTT node (Ignite version 0.19+) now have a select option to choose the required output format so the JSON node may no longer be required.
->>>>>>> 77962820abc7d85fa2438e8b53bf4fe454a050b9

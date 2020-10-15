@@ -28,11 +28,7 @@ To find content in a web page, the Chrome browser’s ‘Inspect Element’ can 
 useful tool.  Using the browser, right click on a page element to see the tags,
 ids and classes applied to an element as shown.
 
-<<<<<<< HEAD
-In this example we retrieve the latest version of Ignite Runtime from [https://nodered.org]().
-=======
 In this example we retrieve the latest version of Ignite from [https://nodered.org]().
->>>>>>> 77962820abc7d85fa2438e8b53bf4fe454a050b9
 Using the inspector we can see the version is located in a `<span>` tag with the
 class `Ignite-latest-version`.
 

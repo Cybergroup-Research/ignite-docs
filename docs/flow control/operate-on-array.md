@@ -30,11 +30,7 @@ them back into a single array.
 In other programming environments, this task would be accomplished by creating a loop
 over the elements of the array.
 
-<<<<<<< HEAD
-In Ignite Runtime, the way to achieve the same thing is to turn the single message containing
-=======
 In Ignite, the way to achieve the same thing is to turn the single message containing
->>>>>>> 77962820abc7d85fa2438e8b53bf4fe454a050b9
 the array into a stream of messages that can be processed individually and finally
 recombine them back into one message.
 

@@ -64,6 +64,9 @@
     ],
     "OData": [
       "odata/create-an-odata-service"
+    ],
+    "Sequelize": [
+      "sequelize/execute-query"
     ]
   },
   "docs-other": {

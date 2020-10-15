@@ -33,4 +33,4 @@ In the example flow, we have defined a sample edm "users" using both, a <code cl
 
 The <code class="node">Catch</code> receives the error which passes the message back to the <code class="node">Function</code> node to sebd an error response.
 
-Read our full blog on "How to create an OData 4.0 Service" <a href="">here.</a>
+Read our full blog on "How to create an OData 4.0 Service" <a href="https://www.cgignite.com/post/connect-salesforce-external-objects-to-odata-4-0-apis" target="_blank">here.</a>

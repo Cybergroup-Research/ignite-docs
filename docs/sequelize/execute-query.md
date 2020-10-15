@@ -17,7 +17,7 @@ Drag and drop a <code class="node">Debug</code> node and connect to sequelize no
 
 ## Example
 
-![](../assets/odata/execute-query.png)
+![](../assets/sequelize/execute-query.png)
 
 <b>Flow JSON</b>
 ~~~json

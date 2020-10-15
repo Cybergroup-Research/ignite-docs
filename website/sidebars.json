@@ -61,6 +61,9 @@
       "mqtt/publish-retained-message",
       "mqtt/subscribe",
       "mqtt/parsed-json"
+    ],
+    "OData": [
+      "odata/create-an-odata-service"
     ]
   },
   "docs-other": {

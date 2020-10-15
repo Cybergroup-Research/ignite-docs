@@ -1,7 +1,7 @@
 ---
 id: create-an-odata-service
-title: Create an OData 4.0 service using Ignite Nodes.
-sidebar_label: Create An OData Service
+title: Create an OData 4.0 service
+sidebar_label: Create an OData Service
 ---
 
 ## Problem

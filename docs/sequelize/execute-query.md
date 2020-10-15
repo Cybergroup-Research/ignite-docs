@@ -1,5 +1,5 @@
 ---
-id: execute-query
+id: execute-a-query
 title: Execute a query - Sequelize node
 sidebar_label: Execute a Query
 ---
@@ -17,7 +17,7 @@ Drag and drop a <code class="node">Debug</code> node and connect to sequelize no
 
 ## Example
 
-![](../assets/sequelize/execute-query.png)
+![](../assets/sequelize/execute-a-query.png)
 
 <b>Flow JSON</b>
 ~~~json

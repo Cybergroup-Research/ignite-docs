@@ -10,7 +10,7 @@ You want to create an OData Service inside Ignite using Ignite-Odata & Ignite-Se
 
 ## Solution
 
-Drag and drop an <code class="node">Http in</code> node to receive the http requests for each http verb and connect it to <code class="node">Odata-in</code> node.
+Drag and drop an <code class="node">Http in</code> node to receive the http requests for each http verb(GET, POST, PUT, PATCH, DELETE) and connect it to <code class="node">Odata-in</code> node.
 Use a <code class="node">Function</code> node before <code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside <code class="node">Odata-in</code> node to define your database schema.
 Connect the <code class="node">Odata-in</code> node to <code class="node">Sequelize</code> node and configure your database settings.
 Draw a wire from <code class="node">Sequelize</code> node to <code class="node">Odata-out</code> node to formulate an OData complaint response.

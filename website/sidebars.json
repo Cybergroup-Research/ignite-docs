@@ -63,6 +63,9 @@
       "mqtt/parsed-json"
     ],
     "OData": [
+      "odata/define-metadata-model",
+      "odata/convert-req-to-query",
+      "odata/read-only-odata-service",
       "odata/create-an-odata-service"
     ],
     "Sequelize": [

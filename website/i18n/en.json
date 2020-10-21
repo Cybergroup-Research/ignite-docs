@@ -215,6 +215,10 @@
         "title": "Define a Metadata Model",
         "sidebar_label": "Define a Metadata Model"
       },
+      "odata/metadata-model-using-edm": {
+        "title": "Define Metadata Model using EDM",
+        "sidebar_label": "Define Metadata Model using EDM"
+      },
       "odata/read-only-odata-service": {
         "title": "OData Service with Read Only Support",
         "sidebar_label": "Read Only OData Service"

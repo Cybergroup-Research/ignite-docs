@@ -64,6 +64,7 @@
     ],
     "OData": [
       "odata/define-metadata-model",
+      "odata/metadata-model-using-edm",
       "odata/convert-req-to-query",
       "odata/read-only-odata-service",
       "odata/create-an-odata-service"

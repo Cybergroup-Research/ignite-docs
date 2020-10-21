@@ -10,11 +10,11 @@ You want to create an OData Service with read support(GET) only.
 
 ## Solution
 
-Drag and drop an <code class="node">Http in</code> node to receive with GET method and connect it to <code class="node">Odata-in</code> node.
-Use a <code class="node">Function</code> node before <code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside <code class="node">Odata-in</code> node to define your database schema.
-Connect the <code class="node">Odata-in</code> node to <code class="node">Sequelize</code> node and configure your database settings.
-Draw a wire from <code class="node">Sequelize</code> node to <code class="node">Odata-out</code> node to formulate an OData complaint response.
-Use a <code class="node">Http response</code> node to send the http response back to the client.
+Drag and drop an <code class="node">Http in</code> node to receive with GET method and connect it to an <code class="node">Odata-in</code> node.
+Use a <code class="node">Function</code> node before the<code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside the<code class="node">Odata-in</code> node to define your database schema.
+Connect the <code class="node">Odata-in</code> node to a <code class="node">Sequelize</code> node and configure your database settings.
+Draw a wire from the<code class="node">Sequelize</code> node to an<code class="node">Odata-out</code> node to formulate an OData compliant response.
+Use an <code class="node">Http response</code> node to send the http response back to the client.
 
 ## Example
 
@@ -27,7 +27,7 @@ Use a <code class="node">Http response</code> node to send the http response bac
 
 ## Discussion
 
-Above OData service can be used to create OData complaint REST APIs with read support only.
+The above OData service can be used to create OData compliant REST APIs with read support only.
 
 In the example flow, we have defined a sample edm "users" using both, a <code class="node">Function</code> node and the <code class="node">EDM</code> node.
 

@@ -1,18 +1,18 @@
 ---
 id: convert-req-to-query
-title: Convert an OData Request to SQL Query
+title: Convert an OData Request to a SQL Query
 sidebar_label: Convert Request to Query
 ---
 
 ## Problem
 
-You want to intercept OData requests and convert them into SQL statements that makes sense in OData context.
+You want to intercept OData requests and convert them into SQL statements that make sense in OData context.
 
 ## Solution
 
 Drag and drop an <code class="node">Http in</code> node to receive the http requests.
 Use a <code class="node">Function</code> node to define your database schema and connect it to <code class="node">Http in</code> node.
-Drag and drop an <code class="node">Odata-in</code> node to and connect it to the <code class="node">Function</code> node.
+Drag and drop an <code class="node">Odata-in</code> node and connect it to the <code class="node">Function</code> node.
 Use a <code class="node">Debug</code> node and connect it to the <code class="node">Odata-in</code> node to log out the sql-statements in the debug window to verify.
 
 ## Example
@@ -26,6 +26,6 @@ Use a <code class="node">Debug</code> node and connect it to the <code class="no
 
 ## Discussion
 
-This flow intercepts OData requests and convert them into database specific sql statements.
+This flow intercepts OData requests and converts them into database specific SQL statements.
 
 These statements can be executed with the help of any desirable database node, we recommend using <code class="node">Ignite-Sequelize</code>.

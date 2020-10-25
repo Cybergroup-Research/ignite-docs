@@ -17,7 +17,7 @@ Use an <code class="node">Http response</code> node to send the response back to
 
 ## Example
 
-![](../assets/authentication/basic-auth.png)
+![](../assets/auth/basic-auth.png)
 
 <b>Flow JSON</b>
 ~~~json

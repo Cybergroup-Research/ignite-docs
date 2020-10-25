@@ -1,7 +1,7 @@
 ---
 id: generate-jwt
 title: Generate a JSON Web Token
-sidebar_label: generate-jwt
+sidebar_label: Generate JWT
 ---
 
 ## Problem
@@ -18,7 +18,7 @@ Use another <code class="node">Function</code> node to send the token as an acce
 
 ## Example
 
-![](../assets/authentication/generate-jwt.png)
+![](../assets/auth/generate-jwt.png)
 
 <b>Flow JSON</b>
 ~~~json

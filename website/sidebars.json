@@ -72,10 +72,10 @@
     "Sequelize": [
       "sequelize/execute-a-query"
     ],    
-    "Authentication": [
-      "authentication/basic-auth",
-      "authentication/generate-jwt",
-      "authentication/verify-jwt"
+    "Auth": [
+      "auth/basic-auth",
+      "auth/generate-jwt",
+      "auth/verify-jwt"
     ]
   },
   "docs-other": {

@@ -15,6 +15,7 @@ class Content extends React.Component {
 						<li id="toc-item-mqtt"><a href="#mqtt">MQTT</a></li>
 						<li id="toc-item-odata"><a href="#odata">OData</a></li>
 						<li id="toc-item-sequelize"><a href="#sequelize">Sequelize</a></li>
+						<li id="toc-item-auth"><a href="#auth">Auth</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -104,6 +105,12 @@ class Content extends React.Component {
 						<h3 id="sequelize">Sequelize</h3>
 						<ul>
 							<li><a href="docs/sequelize/execute-a-query">Execute a Query</a></li>
+						</ul>
+						<h3 id="auth">Sequelize</h3>
+						<ul>
+							<li><a href="docs/auth/basic-auth">Basic Authentication</a></li>
+							<li><a href="docs/auth/generate-jwt">Generate JWT</a></li>
+							<li><a href="docs/auth/verify-jwt">Verify JWT</a></li>
 						</ul>
 					</div>
 				</div>

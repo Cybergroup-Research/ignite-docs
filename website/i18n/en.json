@@ -5,17 +5,17 @@
     "previous": "Previous",
     "tagline": "Low-Code Programming with CG Ignite",
     "docs": {
-      "authentication/basic-auth": {
+      "auth/basic-auth": {
         "title": "Secure Endpoints with Basic Authentication",
         "sidebar_label": "Basic Authentication"
       },
-      "authentication/generate-jwt": {
+      "auth/generate-jwt": {
         "title": "Generate a JSON Web Token",
-        "sidebar_label": "generate-jwt"
+        "sidebar_label": "Generate JWT"
       },
-      "authentication/verify-jwt": {
+      "auth/verify-jwt": {
         "title": "Verify a JSON Web Token",
-        "sidebar_label": "verify-jwt"
+        "sidebar_label": "Verify JWT"
       },
       "data formats/convert-json": {
         "title": "Convert to/from JSON",
@@ -254,7 +254,7 @@
       "MQTT": "MQTT",
       "OData": "OData",
       "Sequelize": "Sequelize",
-      "Authentication": "Authentication",
+      "Auth": "Auth",
       "First Category": "First Category"
     }
   },

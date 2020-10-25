@@ -1,7 +1,7 @@
 ---
 id: verify-jwt
 title: Verify a JSON Web Token
-sidebar_label: verify-jwt
+sidebar_label: Verify JWT
 ---
 
 ## Problem
@@ -17,7 +17,7 @@ Use an <code class="node">Http response</code> node to send the response back to
 
 ## Example
 
-![](../assets/authentication/verify-jwt.png)
+![](../assets/auth/verify-jwt.png)
 
 <b>Flow JSON</b>
 ~~~json

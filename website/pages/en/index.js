@@ -106,7 +106,7 @@ class Content extends React.Component {
 						<ul>
 							<li><a href="docs/sequelize/execute-a-query">Execute a Query</a></li>
 						</ul>
-						<h3 id="auth">Sequelize</h3>
+						<h3 id="auth">Auth</h3>
 						<ul>
 							<li><a href="docs/auth/basic-auth">Basic Authentication</a></li>
 							<li><a href="docs/auth/generate-jwt">Generate JWT</a></li>

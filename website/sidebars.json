@@ -71,6 +71,9 @@
     ],
     "Sequelize": [
       "sequelize/execute-a-query"
+    ],    
+    "Authentication": [
+      "authentication/basic-auth"
     ]
   },
   "docs-other": {

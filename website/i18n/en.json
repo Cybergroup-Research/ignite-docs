@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Low-Code Programming with CG Ignite",
     "docs": {
+      "authentication/basic-auth": {
+        "title": "Secure Endpoints with Basic Authentication",
+        "sidebar_label": "Basic Authentication"
+      },
       "data formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"
@@ -242,6 +246,7 @@
       "MQTT": "MQTT",
       "OData": "OData",
       "Sequelize": "Sequelize",
+      "Authentication": "Authentication",
       "First Category": "First Category"
     }
   },

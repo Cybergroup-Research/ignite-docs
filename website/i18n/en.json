@@ -9,6 +9,14 @@
         "title": "Secure Endpoints with Basic Authentication",
         "sidebar_label": "Basic Authentication"
       },
+      "authentication/generate-jwt": {
+        "title": "Generate a JSON Web Token",
+        "sidebar_label": "generate-jwt"
+      },
+      "authentication/verify-jwt": {
+        "title": "Verify a JSON Web Token",
+        "sidebar_label": "verify-jwt"
+      },
       "data formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"

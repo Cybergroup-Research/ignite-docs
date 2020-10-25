@@ -73,7 +73,9 @@
       "sequelize/execute-a-query"
     ],    
     "Authentication": [
-      "authentication/basic-auth"
+      "authentication/basic-auth",
+      "authentication/generate-jwt",
+      "authentication/verify-jwt"
     ]
   },
   "docs-other": {

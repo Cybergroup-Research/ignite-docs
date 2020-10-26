@@ -20,9 +20,10 @@ Drag and drop a <code class="node">Debug</code> node and connect to sequelize no
 ![](../assets/sequelize/execute-a-query.png)
 
 <b>Flow JSON</b>
-~~~json
+
+```json
 [{"id":"5c243fd4.8e65d","type":"inject","z":"e80b077d.dc8e78","name":"","topic":"start","payload":"","payloadType":"str","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":330,"y":280,"wires":[["e7daf9cc.61e858"]]},{"id":"e7daf9cc.61e858","type":"sequelize","z":"e80b077d.dc8e78","name":"","usepayload":false,"query":"SELECT * FROM Users;","database":"","output":true,"outputs":1,"x":560,"y":280,"wires":[["bb949601.188718"]]},{"id":"bb949601.188718","type":"debug","z":"e80b077d.dc8e78","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","x":770,"y":280,"wires":[]}]
-~~~
+```
 
 ## Discussion
 

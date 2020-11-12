@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Low-Code Programming with CG Ignite",
+    "tagline": "Ignite Cookbook",
     "docs": {
       "auth/basic-auth": {
         "title": "Secure Endpoints with Basic Authentication",

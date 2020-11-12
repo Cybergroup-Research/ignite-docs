@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
     title: '', // Title for your website.
-    tagline: 'Low-Code Programming with CG Ignite',
+    tagline: 'Ignite Cookbook',
     url: 'https://Cybergroup-Research.github.io', // Your website URL
     baseUrl: '/', // Base URL for your project */
     // For github.io type URLs, you would set the url and baseUrl like:

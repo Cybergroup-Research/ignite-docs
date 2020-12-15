@@ -16,6 +16,7 @@ class Content extends React.Component {
 						<li id="toc-item-odata"><a href="#odata">OData</a></li>
 						<li id="toc-item-sequelize"><a href="#sequelize">Sequelize</a></li>
 						<li id="toc-item-auth"><a href="#auth">Auth</a></li>
+						<li id="toc-item-jsonata"><a href="#jsonata">JSONata</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -88,7 +89,7 @@ class Content extends React.Component {
 						<h3 id="mqtt">MQTT</h3>
 						<ul>
 							<li><a href="docs/mqtt/connect-to-broker">Connect to an MQTT broker</a></li>
-							<li><a href="docs/mqtt/connect-to-broker">Publish messages to a topic</a></li>
+							<li><a href="docs/mqtt/publish-message">Publish messages to a topic</a></li>
 							<li><a href="docs/mqtt/set-topic">Set the topic of a published message</a></li>
 							<li><a href="docs/mqtt/publish-retained-message">Publish a retained message to a topic</a></li>
 							<li><a href="docs/mqtt/subscribe">Subscribe to a topic</a></li>
@@ -111,6 +112,12 @@ class Content extends React.Component {
 							<li><a href="docs/auth/basic-auth">Basic Authentication</a></li>
 							<li><a href="docs/auth/generate-jwt">Generate JWT</a></li>
 							<li><a href="docs/auth/verify-jwt">Verify JWT</a></li>
+						</ul>
+						<h3 id="jsonata">JSONata</h3>
+						<ul>
+							<li><a href="docs/jsonata/jsonata-node">JSONata Node</a></li>
+							<li><a href="docs/jsonata/jsonata-explorer">JSONata Explorer</a></li>
+							<li><a href="docs/jsonata/additional-resource">Additional Resource</a></li>
 						</ul>
 					</div>
 				</div>

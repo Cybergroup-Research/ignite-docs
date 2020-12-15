@@ -172,6 +172,15 @@
         "title": "Simple GET request",
         "sidebar_label": "GET Request"
       },
+      "jsonata/additional-resource": {
+        "title": "Additional Resource"
+      },
+      "jsonata/jsonata-explorer": {
+        "title": "JSONata Explorer"
+      },
+      "jsonata/jsonata-node": {
+        "title": "JSONata Node"
+      },
       "messages/delete-property": {
         "title": "Delete a message property",
         "sidebar_label": "Delete Message Property"
@@ -255,6 +264,7 @@
       "OData": "OData",
       "Sequelize": "Sequelize",
       "Auth": "Auth",
+      "jsonata": "jsonata",
       "First Category": "First Category"
     }
   },

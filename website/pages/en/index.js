@@ -117,7 +117,6 @@ class Content extends React.Component {
 						<ul>
 							<li><a href="docs/jsonata/jsonata-node">JSONata Node</a></li>
 							<li><a href="docs/jsonata/jsonata-explorer">JSONata Explorer</a></li>
-							<li><a href="docs/jsonata/additional-resource">Additional Resource</a></li>
 						</ul>
 					</div>
 				</div>

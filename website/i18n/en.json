@@ -172,9 +172,6 @@
         "title": "Simple GET request",
         "sidebar_label": "GET Request"
       },
-      "jsonata/additional-resource": {
-        "title": "Additional Resource"
-      },
       "jsonata/jsonata-explorer": {
         "title": "JSONata Explorer"
       },
@@ -264,7 +261,7 @@
       "OData": "OData",
       "Sequelize": "Sequelize",
       "Auth": "Auth",
-      "jsonata": "jsonata",
+      "JSONata": "JSONata",
       "First Category": "First Category"
     }
   },

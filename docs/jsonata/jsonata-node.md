@@ -3,15 +3,15 @@ layout: jsonata-node
 title: JSONata Node
 ---
 
-## Problem
+## Introduction
 
-You want to extract custom data from the complex JSON.
+Ignite JSONata node is used to extract meaningful/customized data from your input JSON and JSONata query. Based on the JSONata query passed to the ignite JSONata node, it will return the result in JSON structure.
 
-## Solution
+## How to use
 
 Drag and drop an "inject" node to inject a message into a flow. Use templates node, define your JSON and JSONata query and connect it to "inject" node. Connect template node with "ignite-jsonata" node and connect it to the debug node to get the value of resultant data from "jsonataResult" field.
 
-## Example
+### Example
 
 ![](../assets/jsonata/ignite-jsonata_flow.PNG)
 
@@ -22,9 +22,11 @@ Drag and drop an "inject" node to inject a message into a flow. Use templates no
 
 ![](../assets/jsonata/Ignite_JSONata_Node.gif)
 
-To install "ignite-jsonata" node, you can go to manage nodes paletter section and search for "ignite-jsoanata" node.
+## How to install Ignite-JSONata node
 
-![](../assets/jsonata/ignite-jsonata_install.PNG)
+To install "ignite-jsonata" node, you can go to manage nodes paletter section and search for "ignite-jsoanata" node and them simply install it.
+
+![](../assets/jsonata/Ignite_JSONata_Node_Install.gif)
 
 ## Discussion
 

@@ -77,10 +77,9 @@
       "auth/generate-jwt",
       "auth/verify-jwt"
     ],    
-    "jsonata": [
+    "JSONata": [
       "jsonata/jsonata-node",
-      "jsonata/jsonata-explorer",
-      "jsonata/additional-resource"
+      "jsonata/jsonata-explorer"
     ]
   },
   "docs-other": {

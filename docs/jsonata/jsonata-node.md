@@ -5,11 +5,11 @@ title: JSONata Node
 
 ## Introduction
 
-Ignite JSONata node is used to extract meaningful/customized data from your input JSON and JSONata query. Based on the JSONata query passed to the ignite JSONata node, it will return the result in JSON structure.
+An Ignite JSONata node is used to extract meaningful/customized data from your input JSON and JSONata query. Based on the JSONata query passed to the Ignite JSONata node, it will return the result in JSON structure.
 
 ## How to use
 
-Drag and drop an "inject" node to inject a message into a flow. Use templates node, define your JSON and JSONata query and connect it to "inject" node. Connect template node with "ignite-jsonata" node and connect it to the debug node to get the value of resultant data from "jsonataResult" field.
+Drag and drop an "inject" node to inject a message into a flow. Use a template node, define your JSON and JSONata query and connect it to an "inject" node. Connect a template node with an "ignite-jsonata" node and connect it to the debug node to get the value of resultant data from the "jsonataResult" field.
 
 ### Example
 
@@ -24,12 +24,12 @@ Drag and drop an "inject" node to inject a message into a flow. Use templates no
 
 ## How to install Ignite-JSONata node
 
-To install "ignite-jsonata" node, you can go to manage nodes paletter section and search for "ignite-jsoanata" node and them simply install it.
+To install an "ignite-jsonata" node, you can go to the “Manage palette" section and search for "ignite-jsoanata" node and then simply install it.
 
 ![](../assets/jsonata/Ignite_JSONata_Node_Install.gif)
 
 ## Discussion
 
-Once you will provide JSON and JSONata query to filter out the result you will get the filtered json output in "msg.jsonataResult property".
+Once you provide the JSON and JSONata query to filter out the result, you will get the filtered JSON output in "msg.jsonataResult" property.
 
-You can find the ignite JSONata explorer for exploring purpose here https://jsonata.cgignite.io
+You can find the ignite JSONata explorer for exploring purpose here: https://jsonata.cgignite.io

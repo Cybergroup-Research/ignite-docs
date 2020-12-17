@@ -5,22 +5,22 @@ title: JSONata Explorer
 
 ## What is JSONata
 
-- Open-source lanuage for querying and transforming JSON.
-- Extract specific meaningful data from it using a relatively simple logic.
+- Open-source lanuage for querying and transforming JSON
+- A way to extract specific meaningful data using a relatively simple logic
 - Sophisticated query expressions with minimal syntax
-- Format query results into any JSON output structure
+- A way to format query results into any JSON output structure
 - Inspired by the location path semantics of XPath 3.1
-- Create user-defined functions
-- Imposes no limit on the complexity of your data transformation task.
+- Creates user-defined functions
+- Imposes no limit on the complexity of your data transformation task
 - Any valid JSON data is also a valid JSONata expression.
 
-Imagine you have an order with several items and you need to calculate an average price or a total price; or you have only maximum amount and you need to get minimum amount as a result of your integration.
+Imagine you have an order with several items and you need to calculate an average price or a total price, or you have only the maximum amount and you need to get the minimum amount as a result of your integration.
 
-With JSONata such data transformations become a matter of several minutes and you will be able to watch in real-time how your data transforms according to your conditions.
+With JSONata, such data transformations can be completed in a matter of several minutes and you will be able to watch in real-time how your data transforms according to your conditions
 
 ## What is JSONata Explorer
 
-It is an Open-editor to explore you JSON. It has 3 sections as below image-
+It is an Open-editor to explore your JSON. It has 3 sections as shown in the below image:
 
 - <b>Section-1:</b> You can provide any JSON (simple/complex)
 
@@ -32,7 +32,7 @@ It is an Open-editor to explore you JSON. It has 3 sections as below image-
 
 ## Redirect to JSONata Explorer from Ignite Editor
 
-You can redirect to Ignite JSONata from editor
+You can redirect to Ignite JSONata from the editor
 
 ![](../assets/jsonata/Ignite_Editor_LinkToJSONataExplorer.gif)
 
@@ -40,7 +40,7 @@ You can redirect to Ignite JSONata from editor
 
 - <b>Step-1:</b> Open <a href="https://jsonata.cgignite.io/" target="_blank">JSONata Explorer</a>
 
-- <b>Step-2:</b> Copy below JSON and paste into section-1 inside JSONata Explorer
+- <b>Step-2:</b> Copy below JSON and paste into Section-1 inside JSONata Explorer
 
 ```sh
 {
@@ -56,9 +56,9 @@ You can redirect to Ignite JSONata from editor
 }
 ```
 
-- <b>Step-3:</b> Now write down <b>FirstName</b> in the section-2 inside JSONata Explorer
+- <b>Step-3:</b> Now add <b>FirstName</b> in the Section-2 inside JSONata Explorer
 
-- <b>Step-4:</b> You will get the result John in section-3 inside JSONata Explorer
+- <b>Step-4:</b> You will get the result "John" in the Section-3 inside JSONata Explorer
 
 ![](../assets/jsonata/Ignite-JSONata_example.png)
 
@@ -92,4 +92,4 @@ Here are some example expressions and their results when applied to the JSON doc
 
    [df1]: <https://docs.jsonata.org/overview>
 
-For more information about JSONata detail please visist <a href="https://docs.jsonata.org/overview" target="_blank">here</a>
+For more information about JSONata details, please visit <a href="https://docs.jsonata.org/overview" target="_blank">here</a>

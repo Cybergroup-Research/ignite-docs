@@ -80,6 +80,10 @@
     "JSONata": [
       "jsonata/jsonata-node",
       "jsonata/jsonata-explorer"
+    ],
+    "Breakpoint": [
+      "breakpoint/breakpoint-introduction",
+      "breakpoint/breakpoint-howToUse"
     ]
   },
   "docs-other": {

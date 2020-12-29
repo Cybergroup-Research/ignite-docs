@@ -17,6 +17,7 @@ class Content extends React.Component {
 						<li id="toc-item-sequelize"><a href="#sequelize">Sequelize</a></li>
 						<li id="toc-item-auth"><a href="#auth">Auth</a></li>
 						<li id="toc-item-jsonata"><a href="#jsonata">JSONata</a></li>
+						<li id="toc-item-breakpoint"><a href="#breakpoint">Breakpoint</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -117,6 +118,11 @@ class Content extends React.Component {
 						<ul>
 							<li><a href="docs/jsonata/jsonata-node">JSONata Node</a></li>
 							<li><a href="docs/jsonata/jsonata-explorer">JSONata Explorer</a></li>
+						</ul>
+						<h3 id="breakpoint">Breakpoint</h3>
+						<ul>
+							<li><a href="docs/breakpoint/breakpoint-introduction">Introduction</a></li>
+							<li><a href="docs/breakpoint/breakpoint-howToUse">How to use</a></li>
 						</ul>
 					</div>
 				</div>

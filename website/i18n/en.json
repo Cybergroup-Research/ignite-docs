@@ -17,6 +17,12 @@
         "title": "Verify a JSON Web Token",
         "sidebar_label": "Verify JWT"
       },
+      "breakpoint/breakpoint-howToUse": {
+        "title": "How to use"
+      },
+      "breakpoint/breakpoint-introduction": {
+        "title": "Introduction"
+      },
       "data formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"
@@ -262,6 +268,7 @@
       "Sequelize": "Sequelize",
       "Auth": "Auth",
       "JSONata": "JSONata",
+      "Breakpoint": "Breakpoint",
       "First Category": "First Category"
     }
   },

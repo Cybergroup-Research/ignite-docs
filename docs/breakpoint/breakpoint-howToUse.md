@@ -5,7 +5,7 @@ title: How to use
 
 ## How to use
 
-use breakpoint node after any node where you want to get the data and want to explore that data using breakpoint node. breakpoint node will help to to load the json data directly into the <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a>
+Use breakpoint node after any node, where you want to get the data and want to explore that data using breakpoint node. breakpoint node will help you to load the json data directly into the <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a>
 
 ### Example
 

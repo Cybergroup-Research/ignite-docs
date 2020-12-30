@@ -5,7 +5,9 @@ title: How to use
 
 ## How to use
 
-Use breakpoint node after any node, where you want to get the data and want to explore that data using breakpoint node. breakpoint node will help you to load the json data directly into the <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a>
+Input the breakpoint node with some JSON message or other message. Set the timer for which you want to pause the execution of the flow. When you will inject some value, value will wait till the time you specified. You can find the status of the node, just below the node. 
+When node is in Running status, if you click on the button "Explore with JSONata", your JSON data (msg.payload) will automatically loaded into <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a> and open in the new tab.
+Once specified time will pass, flow will resume the execution and data will automatically wiped off.
 
 ### Example
 

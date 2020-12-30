@@ -18,6 +18,7 @@ class Content extends React.Component {
 						<li id="toc-item-auth"><a href="#auth">Auth</a></li>
 						<li id="toc-item-jsonata"><a href="#jsonata">JSONata</a></li>
 						<li id="toc-item-breakpoint"><a href="#breakpoint">Breakpoint</a></li>
+						<li id="toc-item-openAPI"><a href="#openAPI">OpenAPI</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -123,6 +124,12 @@ class Content extends React.Component {
 						<ul>
 							<li><a href="docs/breakpoint/breakpoint-introduction">Introduction</a></li>
 							<li><a href="docs/breakpoint/breakpoint-howToUse">How to use</a></li>
+						</ul>
+						<h3 id="openAPI">OpenAPI</h3>
+						<ul>
+							<li><a href="docs/openAPI/openAPI-introduction">Introduction</a></li>
+							<li><a href="docs/openAPI/openAPI-router">OpenAPI Router</a></li>
+							<li><a href="docs/openAPI/openAPI-client">OpenAPI Client</a></li>
 						</ul>
 					</div>
 				</div>

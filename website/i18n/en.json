@@ -247,6 +247,15 @@
         "title": "OData Service with Read Only Support",
         "sidebar_label": "Read Only OData Service"
       },
+      "openAPI/openAPI-client": {
+        "title": "OpenAPI Client"
+      },
+      "openAPI/openAPI-introduction": {
+        "title": "Introduction"
+      },
+      "openAPI/openAPI-router": {
+        "title": "OpenAPI Router"
+      },
       "sequelize/execute-a-query": {
         "title": "Execute a query - Sequelize node",
         "sidebar_label": "Execute a Query"
@@ -269,6 +278,7 @@
       "Auth": "Auth",
       "JSONata": "JSONata",
       "Breakpoint": "Breakpoint",
+      "OpenAPI": "OpenAPI",
       "First Category": "First Category"
     }
   },

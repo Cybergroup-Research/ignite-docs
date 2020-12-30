@@ -84,6 +84,11 @@
     "Breakpoint": [
       "breakpoint/breakpoint-introduction",
       "breakpoint/breakpoint-howToUse"
+    ],
+    "OpenAPI": [
+      "openAPI/openAPI-introduction",
+      "openAPI/openAPI-router",
+      "openAPI/openAPI-client"
     ]
   },
   "docs-other": {

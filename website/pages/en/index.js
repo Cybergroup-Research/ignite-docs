@@ -20,6 +20,7 @@ class Content extends React.Component {
 						<li id="toc-item-breakpoint"><a href="#breakpoint">Breakpoint</a></li>
 						<li id="toc-item-openAPI"><a href="#openAPI">OpenAPI</a></li>
 						<li id="toc-item-releaseCapability"><a href="#release-capability">Release Capability</a></li>
+						<li id="toc-item-designer"><a href="#designer">Designer</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -135,6 +136,10 @@ class Content extends React.Component {
 						<h3 id="release-capability">Release Capability</h3>
 						<ul>
 							<li><a href="docs/release capability/upload-download-release-capability">Upload Download Release Capability</a></li>
+						</ul>
+						<h3 id="designer">Designer</h3>
+						<ul>
+							<li><a href="docs/designer/designer">Designer</a></li>
 						</ul>
 					</div>
 				</div>

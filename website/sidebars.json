@@ -89,6 +89,9 @@
       "openAPI/openAPI-introduction",
       "openAPI/openAPI-router",
       "openAPI/openAPI-client"
+    ],
+    "Release Capability": [
+      "release capability/upload-download-release-capability"
     ]
   },
   "docs-other": {

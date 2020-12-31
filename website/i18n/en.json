@@ -51,6 +51,10 @@
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
       },
+      "designer/designer": {
+        "title": "Designer",
+        "sidebar_label": "Designer"
+      },
       "doc2": {
         "title": "document number 2"
       },
@@ -284,6 +288,7 @@
       "Breakpoint": "Breakpoint",
       "OpenAPI": "OpenAPI",
       "Release Capability": "Release Capability",
+      "Designer": "Designer",
       "First Category": "First Category"
     }
   },

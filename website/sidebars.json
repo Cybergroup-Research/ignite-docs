@@ -92,6 +92,9 @@
     ],
     "Release Capability": [
       "release capability/upload-download-release-capability"
+    ],
+    "Designer": [
+      "designer/designer"
     ]
   },
   "docs-other": {

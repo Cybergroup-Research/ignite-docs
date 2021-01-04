@@ -95,6 +95,10 @@
     ],
     "Designer": [
       "designer/designer"
+    ],
+    "Monitor": [
+      "monitor/monitor-introduction",
+      "monitor/monitor-howToUse"
     ]
   },
   "docs-other": {

@@ -21,6 +21,7 @@ class Content extends React.Component {
 						<li id="toc-item-openAPI"><a href="#openAPI">OpenAPI</a></li>
 						<li id="toc-item-releaseCapability"><a href="#release-capability">Release Capability</a></li>
 						<li id="toc-item-designer"><a href="#designer">Designer</a></li>
+						<li id="toc-item-monitor"><a href="#monitor">Monitor</a></li>
 					</ul>
 				</div>
 				<div style={{width:"75%"}}>
@@ -140,6 +141,11 @@ class Content extends React.Component {
 						<h3 id="designer">Designer</h3>
 						<ul>
 							<li><a href="docs/designer/designer">Designer</a></li>
+						</ul>
+						<h3 id="monitor">Monitor</h3>
+						<ul>
+							<li><a href="docs/monitor/monitor-introduction">Introduction</a></li>
+							<li><a href="docs/monitor/monitor-howToUse">How to use</a></li>
 						</ul>
 					</div>
 				</div>

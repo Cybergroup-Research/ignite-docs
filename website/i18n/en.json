@@ -204,6 +204,12 @@
         "title": "Set a message property to a fixed value",
         "sidebar_label": "Set Property Fixed"
       },
+      "monitor/monitor-howToUse": {
+        "title": "How To Use"
+      },
+      "monitor/monitor-introduction": {
+        "title": "Introduction"
+      },
       "mqtt/connect-to-broker": {
         "title": "Connect to an MQTT broker",
         "sidebar_label": "MQTT broker"
@@ -289,6 +295,7 @@
       "OpenAPI": "OpenAPI",
       "Release Capability": "Release Capability",
       "Designer": "Designer",
+      "Monitor": "Monitor",
       "First Category": "First Category"
     }
   },

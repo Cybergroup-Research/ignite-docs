@@ -1,9 +1,6 @@
 {
   "docs": {
-    "Getting Start": [
-      "gettingStart/howToInstall",
-      "gettingStart/exploreEditor"
-    ],
+    
     "Messages": [
       "messages/set-message-property-fixed",
       "messages/delete-property",

@@ -6,7 +6,7 @@ class Content extends React.Component {
 			<div className="wrapper homeWrapper" style={{display:"flex",flexDirection:"col"}}>
 				<div style={{width:"25%"}}>
 					<ul id="page-toc">
-						<li id="toc-item-gettingStart"><a href="#gettingStart">Getting Start</a></li>
+						{/* <li id="toc-item-gettingStart"><a href="#gettingStart">Getting Started</a></li> */}
 						<li id="toc-item-messages"><a href="#messages">Messages</a></li>
 						<li id="toc-item-flow-control"><a href="#flow-control">Flow control</a></li>
 						<li id="toc-item-error-handling"><a href="#error-handling">Error handling</a></li>
@@ -32,11 +32,11 @@ class Content extends React.Component {
 						<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks.</p>
 						<p>Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
 						<h2 id="table-of-contents">Table of Contents</h2>
-						<h3 id="gettingStart">Getting Start</h3>
+						{/* <h3 id="gettingStart">Getting Started</h3>
 						<ul>
 							<li><a href="docs/gettingStart/howToInstall">How To Install</a></li>
 							<li><a href="docs/gettingStart/exploreEditor">Explore Editor</a></li>
-						</ul>
+						</ul> */}
 						<h3 id="messages">Messages</h3>
 						<ul>
 							<li><a href="docs/messages/set-message-property-fixed">Set a message property to a fixed value</a></li>

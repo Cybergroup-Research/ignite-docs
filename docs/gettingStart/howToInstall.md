@@ -11,7 +11,7 @@ Ignite is "Heroku" based application, so user must be sign up with Heroku. Below
 
 ### Step:1
 
-Visit https://www.cgignite.com/
+Visit <a href="https://www.cgignite.com/" target="_blank">CgIgnite</a>
 
 ### Step:2
 

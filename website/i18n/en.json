@@ -114,6 +114,14 @@
         "title": "Trigger a flow if a message isn’t received after a defined time",
         "sidebar_label": "Trigger Timeout"
       },
+      "gettingStart/exploreEditor": {
+        "title": "Explore Editor",
+        "sidebar_label": "Explore Editor"
+      },
+      "gettingStart/howToInstall": {
+        "title": "How To Install",
+        "sidebar_label": "How To Install"
+      },
       "http endpoints/access-request-headers": {
         "title": "Access HTTP request headers",
         "sidebar_label": "Access Headers"
@@ -280,6 +288,7 @@
       "Home": "Home"
     },
     "categories": {
+      "Getting Start": "Getting Start",
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",

@@ -3,7 +3,7 @@ layout: jsonata-explorer
 title: JSONata Explorer
 ---
 
-## What is JSONata
+## What Is JSONata
 
 - Open-source lanuage for querying and transforming JSON
 - A way to extract specific meaningful data using a relatively simple logic
@@ -18,7 +18,7 @@ Imagine you have an order with several items and you need to calculate an averag
 
 With JSONata, such data transformations can be completed in a matter of several minutes and you will be able to watch in real-time how your data transforms according to your conditions
 
-## What is JSONata Explorer
+## What Is JSONata Explorer
 
 It is an Open-editor to explore your JSON. It has 3 sections as shown in the below image:
 
@@ -30,13 +30,13 @@ It is an Open-editor to explore your JSON. It has 3 sections as shown in the bel
 
 ![](../assets/jsonata/ignite-jsonata-editor-Detail.PNG)
 
-## Redirect to JSONata Explorer from Ignite Editor
+## Redirect To JSONata Explorer From Ignite Editor
 
 You can redirect to Ignite JSONata from the editor
 
 ![](../assets/jsonata/Ignite_Editor_LinkToJSONataExplorer.gif)
 
-## How to use JSONata Explorer
+## How To Use JSONata Explorer
 
 - <b>Step-1:</b> Open <a href="https://jsonata.cgignite.io/" target="_blank">JSONata Explorer</a>
 

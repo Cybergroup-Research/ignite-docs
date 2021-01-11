@@ -24,3 +24,7 @@ Enter the URL to your OpenAPI configuration (json or yaml file) and push the <b>
 ~~~
 
 ![](../assets/openAPI/ignite-OpenAPI_Router_Usage.gif)
+
+## View in Designer
+
+By clicking on button 'View in Desinger' it will load the OpenAPI in Ignite Desinger in a new tab.

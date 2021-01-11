@@ -10,7 +10,7 @@ This node, is used to load and hit openAPI end point
 
 ## Usage
 
-Enter the URL to your openAPI configuration (json or yaml file) and push the <b>Read</b> button. That's it. You can now select the operation you want to run.
+Enter the URL to your openAPI configuration (json or yaml file) and push the <b>Load Specification</b> button. That's it. You can now select the operation you want to run.
 
 ### Example
 

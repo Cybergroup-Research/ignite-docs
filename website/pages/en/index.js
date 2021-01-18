@@ -22,7 +22,7 @@ class Content extends React.Component {
 						<a className="sidebar-topic" href="#openAPI">OpenAPI</a>
 						<a className="sidebar-topic" href="#designer">Designer</a>
 						<a className="sidebar-topic" href="#monitor">Monitor</a>
-						<a className="sidebar-topic" href="#release-capability">Release Capability</a>
+						<a className="sidebar-topic" href="#release-capability">Release Management</a>
 					</div>
 				</div>
 				<div style={{width:"80%"}}>

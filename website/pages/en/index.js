@@ -147,8 +147,8 @@ class Content extends React.Component {
 							<a className="category-element" href="docs/monitor/monitor-howToUse">How to use</a>
 						</div>
 						<div className="category-container">
-							<h3 id="release-capability" className="category-title">Release Capability</h3>
-							<a className="category-element" href="docs/release capability/upload-download-release-capability">Upload Download Release Capability</a>
+							<h3 id="release-capability" className="category-title">Release Management</h3>
+							<a className="category-element" href="docs/release capability/upload-download-release-capability">Upload Download Release Packages</a>
 						</div>
 					</div>
 				</div>

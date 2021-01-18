@@ -91,7 +91,7 @@
       "openAPI/openAPI-router",
       "openAPI/openAPI-client"
     ],
-    "Release Capability": [
+    "Release Management": [
       "release capability/upload-download-release-capability"
     ],
     "Designer": [

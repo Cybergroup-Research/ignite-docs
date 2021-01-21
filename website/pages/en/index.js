@@ -22,7 +22,7 @@ class Content extends React.Component {
 						<a className="sidebar-topic" href="#openAPI">OpenAPI</a>
 						<a className="sidebar-topic" href="#designer">Designer</a>
 						<a className="sidebar-topic" href="#monitor">Monitor</a>
-						<a className="sidebar-topic" href="#release-capability">Release Management</a>
+						<a className="sidebar-topic" href="#release-management">Release Management</a>
 					</div>
 				</div>
 				<div style={{width:"80%"}}>
@@ -147,8 +147,8 @@ class Content extends React.Component {
 							<a className="category-element" href="docs/monitor/monitor-howToUse">How to use</a>
 						</div>
 						<div className="category-container">
-							<h3 id="release-capability" className="category-title">Release Management</h3>
-							<a className="category-element" href="docs/release capability/upload-download-release-capability">Upload Download Release Packages</a>
+							<h3 id="release-management" className="category-title">Release Management</h3>
+							<a className="category-element" href="docs/release management/upload-download-release-management">Upload Download Release Packages</a>
 						</div>
 					</div>
 				</div>

@@ -274,9 +274,9 @@
       "openAPI/openAPI-router": {
         "title": "OpenAPI Router"
       },
-      "release capability/upload-download-release-capability": {
-        "title": "Upload Download Release Capability",
-        "sidebar_label": "Upload Download Release Capability"
+      "release management/upload-download-release-management": {
+        "title": "Upload Download Release Management",
+        "sidebar_label": "Upload Download Release Management"
       },
       "sequelize/execute-a-query": {
         "title": "Execute a query - Sequelize node",
@@ -301,7 +301,7 @@
       "JSONata": "JSONata",
       "Breakpoint": "Breakpoint",
       "OpenAPI": "OpenAPI",
-      "Release Capability": "Release Capability",
+      "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",
       "First Category": "First Category"

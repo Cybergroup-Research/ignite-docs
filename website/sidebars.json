@@ -92,7 +92,7 @@
       "openAPI/openAPI-client"
     ],
     "Release Management": [
-      "release capability/upload-download-release-capability"
+      "release management/upload-download-release-management"
     ],
     "Designer": [
       "designer/designer"

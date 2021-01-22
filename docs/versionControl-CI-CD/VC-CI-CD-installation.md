@@ -39,11 +39,11 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](../assets/VersionControl-CI-CD/CreateNewApp.png)
+    ![](../assets/versionControl-CI-CD/CreateNewApp.png)
 
 2.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](../assets/VersionControl-CI-CD/RunTimeRegistration.png)
+    ![](../assets/versionControl-CI-CD/RunTimeRegistration.png)
 
 ### Run the application
 
@@ -77,17 +77,17 @@ When application is ready to accept the request, open **http://localhost:1881/**
 
 If your installation and setup was successful, you should see a page similar to the following
 
-![](../assets/VersionControl-CI-CD/Ignite-Runtime.png)
+![](../assets/versionControl-CI-CD/Ignite-Runtime.png)
 
 ### Runtime Registration
 
 To start the application development, register your application on registration page. 
 
-![](../assets/VersionControl-CI-CD/RunTimeRegistration.png)
+![](../assets/versionControl-CI-CD/RunTimeRegistration.png)
 
 1.	Select Development & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
 
-![](../assets/VersionControl-CI-CD/SelectRuntimeEnvironment.png)
+![](../assets/versionControl-CI-CD/SelectRuntimeEnvironment.png)
 
 2.	Click on **Test Connection** button to test and complete the registration process
 
@@ -95,7 +95,7 @@ To start the application development, register your application on registration 
 
 If your environment variable is correct, you should see a page similar to the following,
 
-![](../assets/VersionControl-CI-CD/CreateProjectPage.png)
+![](../assets/versionControl-CI-CD/CreateProjectPage.png)
 
 ### Creating your first project
 
@@ -132,7 +132,7 @@ Once you have created your project, you can continue to use the editor just as y
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](../assets/VersionControl-CI-CD/ProjectSettingDialogue.png)
+![](../assets/versionControl-CI-CD/ProjectSettingDialogue.png)
 
 You can also access this from the Projects -> Project Settings option in the main menu.
 
@@ -148,7 +148,7 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](../assets/VersionControl-CI-CD/ProjectInformation.png)
+![](../assets/versionControl-CI-CD/ProjectInformation.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
@@ -178,7 +178,7 @@ Whenever you change a project file, such as by deploying a new flow configuratio
 
 When you have staged the files you want to commit, click the commit button, enter a message and confirm.
     
-![](../assets/VersionControl-CI-CD/LocalChanges.png)
+![](../assets/versionControl-CI-CD/LocalChanges.png)
 
 ##### Commit History
 
@@ -188,7 +188,7 @@ At the top of the list is the ‘Branch’ button. That allows you to checkout/c
 
 If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
 
-![](../assets/VersionControl-CI-CD/CommitHistory.png)
+![](../assets/versionControl-CI-CD/CommitHistory.png)
 
 This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
 

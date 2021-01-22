@@ -281,6 +281,14 @@
       "sequelize/execute-a-query": {
         "title": "Execute a query - Sequelize node",
         "sidebar_label": "Execute a Query"
+      },
+      "versionControl-CI-CD/VC-CI-CD-installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "versionControl-CI-CD/VC-CI-CD-introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       }
     },
     "links": {
@@ -304,6 +312,7 @@
       "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",
+      "Version Control and CI/CD": "Version Control and CI/CD",
       "First Category": "First Category"
     }
   },

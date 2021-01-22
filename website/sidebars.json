@@ -100,6 +100,10 @@
     "Monitor": [
       "monitor/monitor-introduction",
       "monitor/monitor-howToUse"
+    ],
+    "Version Control and CI/CD": [
+      "versionControl-CI-CD/VC-CI-CD-introduction",
+      "versionControl-CI-CD/VC-CI-CD-installation"
     ]
   },
   "docs-other": {

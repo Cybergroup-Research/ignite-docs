@@ -35,6 +35,7 @@ For more information on installing Postgres Database on Docker Desktop, see <a h
 ### Create a workspace and initial application
 
 You develop apps in the context of an <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a>. 
+
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
@@ -47,23 +48,29 @@ To create a new, Ignite App:
 ### Run the application
 
 The Ignite Container includes a server, so that you can build and serve your app locally.
+
 1.	Open Terminal, Create new workspace folder, such as my-app.
 2.	Run the following command:
     ```
     cd my-app 
     ```
-3.	Create a file docker-compose.yml
-cybergroupignite/runtime:rc-dev-1.0.24-98aff1b is our latest docker image, following environment variable are required to start local development.
+3.	Create a file **docker-compose.yml**. see, Appendix “Docker Compose” for reference.
+**cybergroupignite/runtime:rc-dev-1.0.24-98aff1b** is our latest docker image, 
+following environment variable are required to start local development.
+
     ```
         IGNITE_EDITOR_API_SECRET: “<your editor key>” 
         DATABASE_URL: “<your database url>”
         DB_SSL_OPTION: “true” or "false” based on your Postgres Database installation 
         START_MODE: "PROJECT" required for git based application development
     ```
+
 4.	Run the following command:
-```
-docker-compose up
-```
+
+    ```
+    docker-compose up
+    ```
+
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
 When application is ready to accept the request, open **http://localhost:1881/**.
@@ -85,6 +92,7 @@ To start the application development, register your application on registration 
 2.	Click on **Test Connection** button to test and complete the registration process
 
 3.	On Successful connection browser will be redirected to editor.
+
 If your environment variable is correct, you should see a page similar to the following,
 
 ![](../assets/VersionControl-CI-CD/CreateProjectPage.png)
@@ -143,6 +151,7 @@ Each project has its own package.json file that includes a list of node modules 
 ![](../assets/VersionControl-CI-CD/ProjectInformation.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
+
 -	**node-red-node-mysql** is not currently installed
 -	**node-red-node-random** is used by the current flow
 -	**node-red-node-rbe** is listed, but is unused by the current flow
@@ -171,7 +180,6 @@ When you have staged the files you want to commit, click the commit button, ente
     
 ![](../assets/VersionControl-CI-CD/LocalChanges.png)
 
-
 ##### Commit History
 
 The Commit History section lists all of the commits in the current branch of the repository. When you create a project, Editor automatically commits the initial set of default files for the project.
@@ -187,8 +195,11 @@ This is one area that the editor tries to simplify the user experience, and does
 ##### Creating new projects
 
 After you have created your first project by migrating your existing flow files you can create additional projects.
+
 Selecting Projects -> New from the menu opens the Projects dialog.
+
 This provides three options:
+
 -   open an existing project
 -   create a new project
 -   clone a project repository
@@ -196,6 +207,7 @@ This provides three options:
 **Open an existing project**
 
 Runtime only runs one project at any time. By opening another project you change what flows are running. 
+
 The ‘open project’ view also allows you to delete projects by hovering over them in the list and clicking the delete button. You cannot delete the active project.
 
 **Create a new project**
@@ -208,3 +220,96 @@ This lets you clone an existing remote repository. You can use either an http(s)
 
 Note: for http urls, do not include your username and/or password in the url itself. You can should provide those separately when prompted.
 
+## Build
+
+The Ignite Application runs on docker container, you can build image from project repository.
+
+1.  Open Terminal
+
+2.  Clone your git repository
+
+3.  Create a Docker file. See, Appendix "Build” for reference or https://github.com/Cybergroup-Research/example-project/blob/main/Dockerfile
+
+4.  Run the following command:
+
+    ```
+    docker build . -t your-image-name
+    ```
+
+Docker image can be pushed to public/private repository like https://hub.docker.com/ 
+
+## Deployment
+
+To start application, follow following command.
+
+1.  Open Terminal
+
+2.  Run the following command:
+
+    ```
+    docker run [OPTIONS] IMAGE [COMMAND] [ARG..]
+    ```
+
+Environment variable required to start the application are:
+
+```
+IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
+
+DATABASE_URL: "<Database URL>"
+
+START_MODE: "BUILD"
+```
+
+## Appendix
+
+### Example
+
+Checkout example repository to build image using git action & deploy on Heroku, see https://github.com/Cybergroup-Research/example-project
+
+#### Docker Compose
+
+##### Application Development
+
+```
+version: "3.9"
+```
+
+```
+  services:
+
+    web:
+
+      image: cybergroupignite/runtime:rc-dev-1.0.24-98aff1b
+
+      ports:
+
+        - "1881:1881"
+
+      volumes: 
+
+        - ./data:/root/.node-red
+
+      environment:
+
+        IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
+
+        DATABASE_URL: "<Database URL>"
+
+        START_MODE: "PROJECT"
+```
+
+#### Docker Compose
+
+##### Application Development
+
+```
+FROM cybergroupignite/runtime:rc-dev-1.0.24-fdcaeba
+```
+
+```
+  WORKDIR /usr/src/nodered
+
+  COPY . ./build
+
+  RUN npm run compile
+```

@@ -23,7 +23,7 @@ class Content extends React.Component {
 						<a className="sidebar-topic" href="#designer">Designer</a>
 						<a className="sidebar-topic" href="#monitor">Monitor</a>
 						<a className="sidebar-topic" href="#release-management">Release Management</a>
-						<a className="sidebar-topic" href="#versionControl-ci-cd">Version Control and CI/CD</a>
+						<a className="sidebar-topic" href="#versionControl-ci-cd">CI/CD</a>
 					</div>
 				</div>
 				<div style={{width:"80%"}}>
@@ -152,7 +152,7 @@ class Content extends React.Component {
 							<a className="category-element" href="docs/release management/upload-download-release-management">Upload Download Release Packages</a>
 						</div>
 						<div className="category-container">
-							<h3 id="versionControl-ci-cd" className="category-title">Version Control and CI/CD</h3>
+							<h3 id="versionControl-ci-cd" className="category-title">CI/CD</h3>
 							<a className="category-element" href="docs/versionControl-CI-CD/VC-CI-CD-introduction">Introduction</a>
 							<a className="category-element" href="docs/versionControl-CI-CD/VC-CI-CD-installation">Installation</a>
 						</div>

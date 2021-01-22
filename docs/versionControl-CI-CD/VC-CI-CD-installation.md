@@ -55,7 +55,7 @@ The Ignite Container includes a server, so that you can build and serve your app
     cd my-app 
     ```
 3.	Create a file **docker-compose.yml**. see, Appendix “Docker Compose” for reference.
-**cybergroupignite/runtime:rc-dev-1.0.24-98aff1b** is our latest docker image, 
+**cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
     ```
@@ -266,50 +266,34 @@ START_MODE: "BUILD"
 
 Checkout example repository to build image using git action & deploy on Heroku, see https://github.com/Cybergroup-Research/example-project
 
-#### Docker Compose
+### Docker Compose
 
 ##### Application Development
 
 ```
 version: "3.9"
-```
-
-```
   services:
-
     web:
-
-      image: cybergroupignite/runtime:rc-dev-1.0.24-98aff1b
-
+      image: cybergroupignite/runtime:v2.0.0
       ports:
-
         - "1881:1881"
-
       volumes: 
-
         - ./data:/root/.node-red
-
       environment:
-
         IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
-
         DATABASE_URL: "<Database URL>"
-
         START_MODE: "PROJECT"
 ```
 
-#### Docker Compose
+### Dockerfile
 
-##### Application Development
-
-```
-FROM cybergroupignite/runtime:rc-dev-1.0.24-fdcaeba
-```
+##### Build
 
 ```
-  WORKDIR /usr/src/nodered
-
-  COPY . ./build
-
-  RUN npm run compile
+FROM cybergroupignite/runtime:v2.0.0
+ARG BUILD_VERSION
+WORKDIR /usr/src/nodered
+RUN echo BUILD_VERSION=${BUILD_VERSION} >> .env
+COPY . ./build
+RUN npm run compile
 ```

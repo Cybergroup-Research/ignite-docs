@@ -101,7 +101,7 @@
       "monitor/monitor-introduction",
       "monitor/monitor-howToUse"
     ],
-    "Version Control and CI/CD": [
+    "CI/CD": [
       "versionControl-CI-CD/VC-CI-CD-introduction",
       "versionControl-CI-CD/VC-CI-CD-installation"
     ]

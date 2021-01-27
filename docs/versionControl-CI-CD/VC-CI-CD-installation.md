@@ -30,7 +30,7 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
     ```
     in a terminal window.
 
-![](../assets/versionControl-CI-CD/DockerVersion.png)
+    ![](../assets/versionControl-CI-CD/DockerVersion.PNG)
 
 - **Postgres**
 
@@ -45,7 +45,7 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](../assets/versionControl-CI-CD/NewAppButton.png)
+    ![](../assets/versionControl-CI-CD/NewAppButton.PNG)
 
     ![](../assets/versionControl-CI-CD/CreateNewApp.png)
 
@@ -59,11 +59,11 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 1.	Open explorer, Create new workspace folder, such as my-app.
 
-![](../assets/versionControl-CI-CD/CreateNewFolder.png)
+![](../assets/versionControl-CI-CD/CreateNewFolder.PNG)
 
 2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](../assets/versionControl-CI-CD/CreateDockerComposeFile.png)
+![](../assets/versionControl-CI-CD/CreateDockerComposeFile.PNG)
 
 See, Appendix **[“Docker Compose”](http://localhost:3000/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)** for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
@@ -105,7 +105,7 @@ services:
     ```
     docker-compose up
     ```
-    ![](../assets/versionControl-CI-CD/Docker-compose-execution.png)
+    ![](../assets/versionControl-CI-CD/Docker-compose-execution.PNG)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 

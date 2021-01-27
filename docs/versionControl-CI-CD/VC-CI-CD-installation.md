@@ -16,7 +16,7 @@ To use the Ignite Project, you should be familiar with the following:
 2.  <a href="https://www.postgresql.org/docs/13/index.html" style="color:blue" taget="_blank">PostgreSQL</a> 
 3.  <a href="https://try.github.io/" style="color:blue" taget="_blank">Git</a>
 
-Knowledge of <a href="https://docs.docker.com/compose/" style="color:blue" taget="_blank">**Docker Compose**</a> is helpful, but not required.
+Knowledge of <a href="https://docs.docker.com/compose/" style="color:blue" taget="_blank">**Docker Compose**</a> is helpful.
 To install Ignite Project on your local system, you need the following:
 
 - **Docker**
@@ -182,15 +182,15 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](../assets/versionControl-CI-CD/ProjectInformation.png)
+![](../assets/versionControl-CI-CD/ProjectDependencies.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
--	**node-red-node-mysql** is not currently installed
--	**node-red-node-random** is used by the current flow
--	**node-red-node-rbe** is listed, but is unused by the current flow
+-	**@cgignite/ignite-auth** is not currently installed
+-	**@cgignite/ignite-sendgrid** is used by the current flow
+-	**@cgignite/ignite-breakpoint** is listed, but is unused by the current flow
  
-Finally, **node-red-node-smooth** provides a node that is used by the current flow, but that module is not listed as a dependency.
+Finally, **@cgignite/ignite-metrics** provides a node that is used by the current flow, but that module is not listed as a dependency.
 
 Keeping the dependency list up to date is important if you want to share the project with others - as it will help users to install the necessary modules.
 

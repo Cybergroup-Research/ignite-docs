@@ -65,7 +65,7 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 ![](../assets/versionControl-CI-CD/CreateDockerComposeFile.PNG)
 
-See, Appendix <span class="link">[Docker Compose](http://localhost:3000/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)</span> for reference.
+See, Appendix <span class="link">[Docker Compose](/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)</span> for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
@@ -262,7 +262,7 @@ The Ignite Application runs on docker container, you can build image from projec
 
 2.  Clone your git repository
 
-3.  Create a Docker file. See, Appendix <span class="link">["Build”](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile)</span> for reference or [Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)
+3.  Create a Docker file. See, Appendix <span class="link">[Build](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile)</span> for reference or <span class="link">[Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)</span>
 
 4.  Run the following command:
 

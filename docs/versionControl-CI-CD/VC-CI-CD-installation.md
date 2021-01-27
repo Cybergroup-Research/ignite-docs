@@ -24,7 +24,13 @@ To install Ignite Project on your local system, you need the following:
     Ignite requires a latest version of Docker Desktop.
 For more information on installing Docker Desktop, see <a href="https://www.docker.com/products/" style="color:blue" taget="_blank">docker-desktop</a>. 
 
-    If you are unsure what version of Docker Desktop runs on your system, run docker -v in a terminal window.
+    If you are unsure what version of Docker Desktop runs on your system, run 
+    ```
+    docker -v
+    ```
+    in a terminal window.
+
+![](../assets/versionControl-CI-CD/DockerVersion.png)
 
 - **Postgres**
 
@@ -39,6 +45,8 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
+    ![](../assets/versionControl-CI-CD/NewAppButton.png)
+
     ![](../assets/versionControl-CI-CD/CreateNewApp.png)
 
 2.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
@@ -49,27 +57,55 @@ To create a new, Ignite App:
 
 The Ignite Container includes a server, so that you can build and serve your app locally.
 
-1.	Open Terminal, Create new workspace folder, such as my-app.
-2.	Run the following command:
-    ```
-    cd my-app 
-    ```
-3.	Create a file **docker-compose.yml**. see, Appendix “Docker Compose” for reference.
+1.	Open explorer, Create new workspace folder, such as my-app.
+
+![](../assets/versionControl-CI-CD/CreateNewFolder.png)
+
+2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
+
+![](../assets/versionControl-CI-CD/CreateDockerComposeFile.png)
+
+See, Appendix **[“Docker Compose”](http://localhost:3000/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)** for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
-    ```
-        IGNITE_EDITOR_API_SECRET: “<your editor key>” 
-        DATABASE_URL: “<your database url>”
-        DB_SSL_OPTION: “true” or "false” based on your Postgres Database installation 
-        START_MODE: "PROJECT" required for git based application development
-    ```
+```
+    IGNITE_EDITOR_API_SECRET: “<your editor key>” 
+    DATABASE_URL: “<your database url>”
+    START_MODE: "PROJECT" required for git based application development
+    DB_SSL_OPTION: “true” or "false” based on your Postgres Database installation 
+```
 
-4.	Run the following command:
+Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page. 
+
+![](../assets/versionControl-CI-CD/SecretKey_Code.png)
+
+**docker-compose.yml** file will look like as below-
+
+```
+version: "3.9"
+services:
+    web:
+        image: cybergroupignite/runtime:v2.0.0
+        ports:
+            - "1881:1881"
+        volumes: 
+            - ./data:/root/.node-red
+        environment:
+            IGNITE_EDITOR_API_SECRET: "453b748bc0109f8d94e8acb2cacdbb3ea56ebe58"
+            DATABASE_URL: "postgres://username:password@host:port/database"
+            START_MODE: "PROJECT"
+            DB_SSL_OPTION: "true"
+```
+
+
+
+4.	Open my-app in the terminal and run the following command:
 
     ```
     docker-compose up
     ```
+    ![](../assets/versionControl-CI-CD/Docker-compose-execution.png)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
@@ -272,7 +308,7 @@ Checkout example repository to build image using git action & deploy on Heroku, 
 
 ```
 version: "3.9"
-  services:
+services:
     web:
       image: cybergroupignite/runtime:v2.0.0
       ports:
@@ -283,6 +319,7 @@ version: "3.9"
         IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
         DATABASE_URL: "<Database URL>"
         START_MODE: "PROJECT"
+        DB_SSL_OPTION: "<true/false>"
 ```
 
 ### Dockerfile

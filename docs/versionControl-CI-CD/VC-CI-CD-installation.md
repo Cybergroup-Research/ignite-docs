@@ -80,7 +80,7 @@ Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page.
 
 ![](../assets/versionControl-CI-CD/SecretKey_Code.png)
 
-**docker-compose.yml** file will look like as below-
+[**docker-compose.yml**](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml) file will look like as below-
 
 ```
 version: "3.9"
@@ -89,10 +89,8 @@ services:
         image: cybergroupignite/runtime:v2.0.0
         ports:
             - "1881:1881"
-        volumes: 
-            - ./data:/root/.node-red
         environment:
-            IGNITE_EDITOR_API_SECRET: "453b748bc0109f8d94e8acb2cacdbb3ea56ebe58"
+            IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
             DATABASE_URL: "postgres://username:password@host:port/database"
             START_MODE: "PROJECT"
             DB_SSL_OPTION: "true"
@@ -264,7 +262,7 @@ The Ignite Application runs on docker container, you can build image from projec
 
 2.  Clone your git repository
 
-3.  Create a Docker file. See, Appendix "Build” for reference or https://github.com/Cybergroup-Research/example-project/blob/main/Dockerfile
+3.  Create a Docker file. See, Appendix ["Build”](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile) for reference or [Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)
 
 4.  Run the following command:
 
@@ -290,41 +288,49 @@ Environment variable required to start the application are:
 
 ```
 IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
-
 DATABASE_URL: "<Database URL>"
-
 START_MODE: "BUILD"
 ```
 
 ## Appendix
 
-### Example
-
-Checkout example repository to build image using git action & deploy on Heroku, see https://github.com/Cybergroup-Research/example-project
-
 ### Docker Compose
 
-##### Application Development
-
+Sample [**docker-compose.yml**](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml) file for application development.
 ```
 version: "3.9"
 services:
-    web:
-      image: cybergroupignite/runtime:v2.0.0
-      ports:
-        - "1881:1881"
-      volumes: 
-        - ./data:/root/.node-red
-      environment:
-        IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
-        DATABASE_URL: "<Database URL>"
-        START_MODE: "PROJECT"
-        DB_SSL_OPTION: "<true/false>"
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+  ignite:
+    image: cybergroupignite/runtime:v2.0.0
+    ports:
+      - "1881:1881"
+    environment:
+      IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
+      DATABASE_URL: "postgres://admin:admin@[postgres]:5432/postgres"
+      DB_SSL_OPTION: "false" 
+      START_MODE: "PROJECT"
+      PORT: "1881"
+    depends_on:
+      - postgres
+
 ```
+This Compose file defines two services: ignite and postgres. 
 
-### Dockerfile
+#### Ignite service
+The ignite service uses a public **cybergroupignite/runtime** image pulled from the [Docker Hub registry](https://hub.docker.com/repository/docker/cybergroupignite/runtime).
 
-##### Build
+#### Postgres service
+The postgres service uses a public **postgres** image pulled from the [**Docker Hub**](https://hub.docker.com/_/postgres) registry.
+
+### Build
+
+Sample [**Dockerfile**](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile) file for creating docker image.
 
 ```
 FROM cybergroupignite/runtime:v2.0.0
@@ -334,3 +340,4 @@ RUN echo BUILD_VERSION=${BUILD_VERSION} >> .env
 COPY . ./build
 RUN npm run compile
 ```
+Checkout [**Example**](https://github.com/Cybergroup-Research/ignite-example-build) Git repository to build docker image using [**git action**](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/.github/workflows/main-build-deploy.yml) & deploy to Heroku.

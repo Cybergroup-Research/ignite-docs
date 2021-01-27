@@ -65,7 +65,7 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 ![](../assets/versionControl-CI-CD/CreateDockerComposeFile.PNG)
 
-See, Appendix **[“Docker Compose”](http://localhost:3000/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)** for reference.
+See, Appendix <span class="link">[Docker Compose](http://localhost:3000/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)</span> for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
@@ -80,7 +80,7 @@ Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page.
 
 ![](../assets/versionControl-CI-CD/SecretKey_Code.png)
 
-[**docker-compose.yml**](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml) file will look like as below-
+<span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file will look like as below-
 
 ```
 version: "3.9"
@@ -262,7 +262,7 @@ The Ignite Application runs on docker container, you can build image from projec
 
 2.  Clone your git repository
 
-3.  Create a Docker file. See, Appendix ["Build”](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile) for reference or [Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)
+3.  Create a Docker file. See, Appendix <span class="link">["Build”](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile)</span> for reference or [Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)
 
 4.  Run the following command:
 
@@ -296,7 +296,7 @@ START_MODE: "BUILD"
 
 ### Docker Compose
 
-Sample [**docker-compose.yml**](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml) file for application development.
+Sample <span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file for application development.
 ```
 version: "3.9"
 services:
@@ -323,14 +323,14 @@ services:
 This Compose file defines two services: ignite and postgres. 
 
 #### Ignite service
-The ignite service uses a public **cybergroupignite/runtime** image pulled from the [Docker Hub registry](https://hub.docker.com/repository/docker/cybergroupignite/runtime).
+The ignite service uses a public **cybergroupignite/runtime** image pulled from the <span class="link">[Docker Hub registry](https://hub.docker.com/repository/docker/cybergroupignite/runtime)</span>.
 
 #### Postgres service
-The postgres service uses a public **postgres** image pulled from the [**Docker Hub**](https://hub.docker.com/_/postgres) registry.
+The postgres service uses a public **postgres** image pulled from the <span class="link">[Docker Hub](https://hub.docker.com/_/postgres)</span> registry.
 
 ### Build
 
-Sample [**Dockerfile**](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile) file for creating docker image.
+Sample <span class="link">[Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)</span> file for creating docker image.
 
 ```
 FROM cybergroupignite/runtime:v2.0.0
@@ -340,4 +340,4 @@ RUN echo BUILD_VERSION=${BUILD_VERSION} >> .env
 COPY . ./build
 RUN npm run compile
 ```
-Checkout [**Example**](https://github.com/Cybergroup-Research/ignite-example-build) Git repository to build docker image using [**git action**](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/.github/workflows/main-build-deploy.yml) & deploy to Heroku.
+Checkout <span class="link">[Example](https://github.com/Cybergroup-Research/ignite-example-build)</span> Git repository to build docker image using <span class="link">[git action](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/.github/workflows/main-build-deploy.yml)</span> & deploy to Heroku.

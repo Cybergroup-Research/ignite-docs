@@ -98,7 +98,7 @@
     ],
     "Monitor": [
       "monitor/monitor-introduction",
-      "monitor/monitor-howToUse"
+      "monitor/monitor-how-to-use"
     ],
     "CI/CD": [
       "code-integration-and-code-deployment/ci-cd-introduction",

@@ -145,7 +145,7 @@ class Content extends React.Component {
 						<div className="category-container">
 							<h3 id="monitor" className="category-title">Monitor</h3>
 							<a className="category-element" href="docs/monitor/monitor-introduction">Introduction</a>
-							<a className="category-element" href="docs/monitor/monitor-howToUse">How to use</a>
+							<a className="category-element" href="docs/monitor/monitor-how-to-use">How to use</a>
 						</div>
 						<div className="category-container">
 							<h3 id="release-management" className="category-title">Release Management</h3>

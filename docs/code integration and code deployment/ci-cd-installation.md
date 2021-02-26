@@ -29,7 +29,7 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
     ```
     in a terminal window.
 
-    ![](../assets/cicd/installation/DockerVersion.PNG)
+    ![](../assets/cicd/docker-version.png)
 
 - **Postgres**
 
@@ -44,13 +44,13 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](../assets/cicd/installation/NewAppButton.PNG)
+    ![](../assets/cicd/new-app-button.png)
 
-    ![](../assets/cicd/installation/CreateNewApp.png)
+    ![](../assets/cicd/create-new-app.png)
 
 2.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](../assets/cicd/installation/RunTimeRegistration.png)
+    ![](../assets/cicd/runtime-registration.png)
 
 ### Run the application
 
@@ -58,11 +58,11 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 1.	Open explorer, Create new workspace folder, such as my-app.
 
-![](../assets/cicd/installation/CreateNewFolder.PNG)
+![](../assets/cicd/create-new-folder.png)
 
 2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](../assets/cicd/installation/CreateDockerComposeFile.PNG)
+![](../assets/cicd/create-docker-compose-file.png)
 
 See, Appendix <span class="link">[Docker Compose](/docs/code integration and code deployment/ci-cd-installation#appendix)</span> for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
@@ -77,7 +77,7 @@ following environment variable are required to start local development.
 
 Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page. 
 
-![](../assets/cicd/installation/SecretKey_Code.png)
+![](../assets/cicd/secret-key-code.png)
 
 <span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file will look like as below-
 
@@ -102,7 +102,7 @@ services:
     ```
     docker-compose up
     ```
-    ![](../assets/cicd/installation/Docker-compose-execution.PNG)
+    ![](../assets/cicd/docker-compose-execution.png)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
@@ -110,17 +110,17 @@ When application is ready to accept the request, open **http://localhost:1881/**
 
 If your installation and setup was successful, you should see a page similar to the following
 
-![](../assets/cicd/installation/Ignite-Runtime.png)
+![](../assets/cicd/ignite-runtime.png)
 
 ### Runtime Registration
 
 To start the application development, register your application on registration page. 
 
-![](../assets/cicd/installation/RunTimeRegistration.png)
+![](../assets/cicd/runtime-registration.png)
 
 1.	Select Development & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
 
-![](../assets/cicd/installation/SelectRuntimeEnvironment.png)
+![](../assets/cicd/select-runtime-environment.png)
 
 2.	Click on **Test Connection** button to test and complete the registration process
 
@@ -128,7 +128,7 @@ To start the application development, register your application on registration 
 
 If your environment variable is correct, you should see a page similar to the following,
 
-![](../assets/cicd/installation/CreateProjectPage.png)
+![](../assets/cicd/create-project-page.png)
 
 ### Creating your first project
 
@@ -165,7 +165,7 @@ Once you have created your project, you can continue to use the editor just as y
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](../assets/cicd/installation/ProjectSettingDialogue.png)
+![](../assets/cicd/project-setting-dialogue.png)
 
 You can also access this from the Projects -> Project Settings option in the main menu.
 
@@ -181,7 +181,7 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](../assets/cicd/installation/ProjectDependencies.png)
+![](../assets/cicd/project-dependencies.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
@@ -211,7 +211,7 @@ Whenever you change a project file, such as by deploying a new flow configuratio
 
 When you have staged the files you want to commit, click the commit button, enter a message and confirm.
     
-![](../assets/cicd/installation/LocalChanges.png)
+![](../assets/cicd/local-changes.png)
 
 ##### Commit History
 
@@ -221,7 +221,7 @@ At the top of the list is the ‘Branch’ button. That allows you to checkout/c
 
 If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
 
-![](../assets/cicd/installation/CommitHistory.png)
+![](../assets/cicd/commit-history.png)
 
 This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
 

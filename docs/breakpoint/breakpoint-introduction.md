@@ -12,15 +12,15 @@ breakpoint allows you to pause the execution of the flow and helps you to explor
 
 The <b>breakpoint</b> node initially starts with status <b>Stopped</b>.
 
-![](../assets/breakpoint/ignite-breakpoint-Stopped.PNG)
+![](../assets/breakpoint/ignite-breakpoint-stopped.PNG)
 
 When you initiate a message within it, the node changes to status <b>Running</b>.
 
-![](../assets/breakpoint/ignite-breakpoint-Running.PNG)
+![](../assets/breakpoint/ignite-breakpoint-running.PNG)
 
 Once the node finishes the timeout value and stops running service, the node changes to status <b>Resumed</b>.
 
-![](../assets/breakpoint/ignite-breakpoint-Resumed.PNG)
+![](../assets/breakpoint/ignite-breakpoint-resumed.PNG)
 
 ![](../assets/breakpoint/Ignite-breakpoint-status.gif)
 
@@ -38,4 +38,4 @@ Set the amout of time that you want to pause the execution of the flow and want 
 
 When the node is in <b>Running</b> status, data will be available in breakpoint node and when you will click on the button, data will be automatically loaded into JSONata explorer in another tab.
 
-![](../assets/breakpoint/ignite-breakpoint-Properties.PNG)
+![](../assets/breakpoint/ignite-breakpoint-properties.PNG)

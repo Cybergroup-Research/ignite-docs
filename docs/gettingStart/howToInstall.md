@@ -17,13 +17,13 @@ Visit <a href="https://www.cgignite.com/" target="_blank">CgIgnite</a>
 
 Click on <b>"Try Now On Heroku"</b>
 
-![](../assets/gettingStart/Ignite_TryOnHeroku.PNG)
+![](../assets/gettingStart/ignite-try-on-heroku.png)
 
 ### Step:3
 
 Fill the <b>Registration</b> form and press submit button
 
-![](../assets/gettingStart/Ignite_Registration.PNG)
+![](../assets/gettingStart/ignite-registration.png)
 
 You will be redirect to Heroku application. If not already register then you need to register in Heroku first. Then you will be redirected to the create new app page.
 
@@ -31,13 +31,13 @@ You will be redirect to Heroku application. If not already register then you nee
 
 Provide any application name which will be available
 
-![](../assets/gettingStart/Ignite_AppName.PNG)
+![](../assets/gettingStart/ignite-app-name.png)
 
 ### Step:5
 
 Click button <b>"Deploy App"</b>
 
-![](../assets/gettingStart/Ignite_DeployeApp.PNG)
+![](../assets/gettingStart/ignite-deploye-app.png)
 
 Deployment, can take few minutes
 
@@ -45,19 +45,19 @@ Deployment, can take few minutes
 
 Once application deployed successfully, then click on button <b>"Manage App"</b>
 
-![](../assets/gettingStart/Ignite_ManageApp.PNG)
+![](../assets/gettingStart/ignite-manage-app.png)
 
 ### Step:7
 
 You will be redirect to your newly created application. There you will find addon <b>Ignite Editor</b>. Click on that.
 
-![](../assets/gettingStart/Ignite_Editor.PNG)
+![](../assets/gettingStart/ignite-editor.png)
 
 ### Step:8
 
 You will successfully installed Ignite editor, and you will get the welcome page
 
-![](../assets/gettingStart/Ignite_welcome_Screen.PNG)
+![](../assets/gettingStart/ignite-welcome-screen.png)
 
 ## Example
 

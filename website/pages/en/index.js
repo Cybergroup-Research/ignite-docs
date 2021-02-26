@@ -44,33 +44,33 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="flow-control" className="category-title">Flow control</h3>
-							<a className="category-element" href="docs/flow control/trigger-on-start">Trigger a flow whenever Ignite starts</a>
-							<a className="category-element" href="docs/flow control/trigger-at-interval">Trigger a flow at regular intervals</a>
-							<a className="category-element" href="docs/flow control/trigger-at-time">Trigger a flow at a specific time</a>
-							<a className="category-element" href="docs/flow control/route-on-property">Route a message based on one of its properties</a>
-							<a className="category-element" href="docs/flow control/route-on-context">Route a message based on a context value</a>
-							<a className="category-element" href="docs/flow control/operate-on-array">Perform an operation on each element in an array</a>
-							<a className="category-element" href="docs/flow control/trigger-timeout">Trigger a flow if a message isn’t received after a defined time</a>
-							<a className="category-element" href="docs/flow control/trigger-placeholder">Send placeholder messages when a stream stops sending</a>
-							<a className="category-element" href="docs/flow control/rate-limit-messages">Slow down messages passing through a flow</a>
-							<a className="category-element" href="docs/flow control/rate-limit-message-stream">Handle messages at a regular rate</a>
-							<a className="category-element" href="docs/flow control/report-by-exception">Drop messages that have not changed value</a>
-							<a className="category-element" href="docs/flow control/join-streams">Create a single message from separate streams of messages</a>
+							<a className="category-element" href="docs/flow-control/trigger-on-start">Trigger a flow whenever Ignite starts</a>
+							<a className="category-element" href="docs/flow-control/trigger-at-interval">Trigger a flow at regular intervals</a>
+							<a className="category-element" href="docs/flow-control/trigger-at-time">Trigger a flow at a specific time</a>
+							<a className="category-element" href="docs/flow-control/route-on-property">Route a message based on one of its properties</a>
+							<a className="category-element" href="docs/flow-control/route-on-context">Route a message based on a context value</a>
+							<a className="category-element" href="docs/flow-control/operate-on-array">Perform an operation on each element in an array</a>
+							<a className="category-element" href="docs/flow-control/trigger-timeout">Trigger a flow if a message isn’t received after a defined time</a>
+							<a className="category-element" href="docs/flow-control/trigger-placeholder">Send placeholder messages when a stream stops sending</a>
+							<a className="category-element" href="docs/flow-control/rate-limit-messages">Slow down messages passing through a flow</a>
+							<a className="category-element" href="docs/flow-control/rate-limit-message-stream">Handle messages at a regular rate</a>
+							<a className="category-element" href="docs/flow-control/report-by-exception">Drop messages that have not changed value</a>
+							<a className="category-element" href="docs/flow-control/join-streams">Create a single message from separate streams of messages</a>
 						</div>
 						<div className="category-container">
 							<h3 id="error-handling" className="category-title">Error handling</h3>
-							<a className="category-element" href="docs/error handling/retry-on-error">Trigger a flow when a node throws an error</a>
-							<a className="category-element" href="docs/error handling/trigger-on-error">Automatically retry an action after an error</a>
+							<a className="category-element" href="docs/error-handling/retry-on-error">Trigger a flow when a node throws an error</a>
+							<a className="category-element" href="docs/error-handling/trigger-on-error">Automatically retry an action after an error</a>
 						</div>
 						<div className="category-container">
 							<h3 id="working-with-data-formats" className="category-title">Working with data formats</h3>
-							<a className="category-element" href="docs/data formats/convert-json">Convert to/from JSON</a>
-							<a className="category-element" href="docs/data formats/convert-xml">Convert to/from XML</a>
-							<a className="category-element" href="docs/data formats/convert-yaml">Convert to/from YAML</a>
-							<a className="category-element" href="docs/data formats/generate-csv">Generate CSV output</a>
-							<a className="category-element" href="docs/data formats/parse-csv">Parse CSV input</a>
-							<a className="category-element" href="docs/data formats/simple-get-request">Extracting data from an HTML page</a>
-							<a className="category-element" href="docs/data formats/split-text">Split text into one message per line</a>
+							<a className="category-element" href="docs/data-formats/convert-json">Convert to/from JSON</a>
+							<a className="category-element" href="docs/data-formats/convert-xml">Convert to/from XML</a>
+							<a className="category-element" href="docs/data-formats/convert-yaml">Convert to/from YAML</a>
+							<a className="category-element" href="docs/data-formats/generate-csv">Generate CSV output</a>
+							<a className="category-element" href="docs/data-formats/parse-csv">Parse CSV input</a>
+							<a className="category-element" href="docs/data-formats/simple-get-request">Extracting data from an HTML page</a>
+							<a className="category-element" href="docs/data-formats/split-text">Split text into one message per line</a>
 						</div>
 						<div className="category-container">
 							<h3 id="http-endpoints" className="category-title">HTTP endpoints</h3>
@@ -149,12 +149,12 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="release-management" className="category-title">Release Management</h3>
-							<a className="category-element" href="docs/release management/upload-download-release-management">Upload Download Release Packages</a>
+							<a className="category-element" href="docs/release-management/upload-download-release-management">Upload Download Release Packages</a>
 						</div>
 						<div className="category-container">
 							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
-							<a className="category-element" href="docs/code integration and code deployment/ci-cd-introduction">Introduction</a>
-							<a className="category-element" href="docs/code integration and code deployment/ci-cd-installation">Installation</a>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
 						</div>
 					</div>
 				</div>

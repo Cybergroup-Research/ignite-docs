@@ -8,31 +8,31 @@
       "messages/map-range"
     ],
     "Data Formats":[
-      "data formats/convert-json",
-      "data formats/convert-xml",
-      "data formats/convert-yaml",
-      "data formats/generate-csv",
-      "data formats/parse-csv",
-      "data formats/simple-get-request",
-      "data formats/split-text"
+      "data-formats/convert-json",
+      "data-formats/convert-xml",
+      "data-formats/convert-yaml",
+      "data-formats/generate-csv",
+      "data-formats/parse-csv",
+      "data-formats/simple-get-request",
+      "data-formats/split-text"
     ],
     "Flow Control": [
-      "flow control/trigger-on-start",
-      "flow control/trigger-at-interval",
-      "flow control/trigger-at-time",
-      "flow control/route-on-property",
-      "flow control/route-on-context",
-      "flow control/operate-on-array",
-      "flow control/trigger-timeout",
-      "flow control/trigger-placeholder",
-      "flow control/rate-limit-messages",
-      "flow control/rate-limit-message-stream",
-      "flow control/report-by-exception",
-      "flow control/join-streams"
+      "flow-control/trigger-on-start",
+      "flow-control/trigger-at-interval",
+      "flow-control/trigger-at-time",
+      "flow-control/route-on-property",
+      "flow-control/route-on-context",
+      "flow-control/operate-on-array",
+      "flow-control/trigger-timeout",
+      "flow-control/trigger-placeholder",
+      "flow-control/rate-limit-messages",
+      "flow-control/rate-limit-message-stream",
+      "flow-control/report-by-exception",
+      "flow-control/join-streams"
     ],
     "Error handling": [
-      "error handling/retry-on-error",
-      "error handling/trigger-on-error"
+      "error-handling/retry-on-error",
+      "error-handling/trigger-on-error"
     ],
     "HTTP Endpoints": [
       "http endpoints/create-endpoint",
@@ -92,7 +92,7 @@
       "openAPI/openAPI-client"
     ],
     "Release Management": [
-      "release management/upload-download-release-management"
+      "release-management/upload-download-release-management"
     ],
     "Designer": [
       "designer/designer"
@@ -102,11 +102,8 @@
       "monitor/monitor-howToUse"
     ],
     "CI/CD": [
-      "code integration and code deployment/ci-cd-introduction",
-      "code integration and code deployment/ci-cd-installation"
+      "code-integration-and-code-deployment/ci-cd-introduction",
+      "code-integration-and-code-deployment/ci-cd-installation"
     ]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }

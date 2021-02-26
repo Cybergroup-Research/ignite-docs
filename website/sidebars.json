@@ -102,8 +102,8 @@
       "monitor/monitor-howToUse"
     ],
     "CI/CD": [
-      "versionControl-CI-CD/VC-CI-CD-introduction",
-      "versionControl-CI-CD/VC-CI-CD-installation"
+      "code-integration-and-code-deployment/introduction",
+      "code-integration-and-code-deployment/installation"
     ]
   },
   "docs-other": {

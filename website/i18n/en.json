@@ -23,6 +23,14 @@
       "breakpoint/breakpoint-introduction": {
         "title": "Introduction"
       },
+      "code-integration-and-code-deployment/code-integration-and-code-deployment-installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "code-integration-and-code-deployment/code-integration-and-code-deployment-introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
+      },
       "data formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"
@@ -281,14 +289,6 @@
       "sequelize/execute-a-query": {
         "title": "Execute a query - Sequelize node",
         "sidebar_label": "Execute a Query"
-      },
-      "versionControl-CI-CD/VC-CI-CD-installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "versionControl-CI-CD/VC-CI-CD-introduction": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
       }
     },
     "links": {

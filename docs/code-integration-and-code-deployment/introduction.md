@@ -1,8 +1,8 @@
 ---
-id: VC-CI-CD-introduction
+id: code-integration-and-code-deployment-introduction
 title: Introduction
 sidebar_label: Introduction
-layout: VC-CI-CD-introduction
+layout: code-integration-and-code-deployment-introduction
 ---
 
 ## About
@@ -12,4 +12,4 @@ Projects are a new way to manage your flow files. They represent everything you 
 They are backed by a Git repository, meaning all of the files are fully version controlled and allow developers to use familiar workflows to collaborate with others.
 
 
-![](../assets/versionControl-CI-CD/VersionControl-CI-CD.png)
+![](../assets/code-integration-and-code-deployment/VersionControl-CI-CD.png)

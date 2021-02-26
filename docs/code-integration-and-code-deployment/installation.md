@@ -1,8 +1,8 @@
 ---
-id: VC-CI-CD-installation
+id: code-integration-and-code-deployment-installation
 title: Installation
 sidebar_label: Installation
-layout: VC-CI-CD-installation
+layout: code-integration-and-code-deployment-installation
 ---
 
 ## Setting up the Local Environment and Workspace
@@ -30,7 +30,7 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
     ```
     in a terminal window.
 
-    ![](../assets/versionControl-CI-CD/DockerVersion.PNG)
+    ![](../assets/code-integration-and-code-deployment/installation/DockerVersion.PNG)
 
 - **Postgres**
 
@@ -45,13 +45,13 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](../assets/versionControl-CI-CD/NewAppButton.PNG)
+    ![](../assets/code-integration-and-code-deployment/installation/NewAppButton.PNG)
 
-    ![](../assets/versionControl-CI-CD/CreateNewApp.png)
+    ![](../assets/code-integration-and-code-deployment/installation/CreateNewApp.png)
 
 2.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](../assets/versionControl-CI-CD/RunTimeRegistration.png)
+    ![](../assets/code-integration-and-code-deployment/installation/RunTimeRegistration.png)
 
 ### Run the application
 
@@ -59,13 +59,13 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 1.	Open explorer, Create new workspace folder, such as my-app.
 
-![](../assets/versionControl-CI-CD/CreateNewFolder.PNG)
+![](../assets/code-integration-and-code-deployment/installation/CreateNewFolder.PNG)
 
 2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](../assets/versionControl-CI-CD/CreateDockerComposeFile.PNG)
+![](../assets/code-integration-and-code-deployment/installation/CreateDockerComposeFile.PNG)
 
-See, Appendix <span class="link">[Docker Compose](/docs/versionControl-CI-CD/VC-CI-CD-installation#appendix)</span> for reference.
+See, Appendix <span class="link">[Docker Compose](/docs/code-integration-and-code-deployment/installation/installation#appendix)</span> for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
@@ -78,7 +78,7 @@ following environment variable are required to start local development.
 
 Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page. 
 
-![](../assets/versionControl-CI-CD/SecretKey_Code.png)
+![](../assets/code-integration-and-code-deployment/installation/SecretKey_Code.png)
 
 <span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file will look like as below-
 
@@ -103,7 +103,7 @@ services:
     ```
     docker-compose up
     ```
-    ![](../assets/versionControl-CI-CD/Docker-compose-execution.PNG)
+    ![](../assets/code-integration-and-code-deployment/installation/Docker-compose-execution.PNG)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
@@ -111,17 +111,17 @@ When application is ready to accept the request, open **http://localhost:1881/**
 
 If your installation and setup was successful, you should see a page similar to the following
 
-![](../assets/versionControl-CI-CD/Ignite-Runtime.png)
+![](../assets/code-integration-and-code-deployment/installation/Ignite-Runtime.png)
 
 ### Runtime Registration
 
 To start the application development, register your application on registration page. 
 
-![](../assets/versionControl-CI-CD/RunTimeRegistration.png)
+![](../assets/code-integration-and-code-deployment/installation/RunTimeRegistration.png)
 
 1.	Select Development & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
 
-![](../assets/versionControl-CI-CD/SelectRuntimeEnvironment.png)
+![](../assets/code-integration-and-code-deployment/installation/SelectRuntimeEnvironment.png)
 
 2.	Click on **Test Connection** button to test and complete the registration process
 
@@ -129,7 +129,7 @@ To start the application development, register your application on registration 
 
 If your environment variable is correct, you should see a page similar to the following,
 
-![](../assets/versionControl-CI-CD/CreateProjectPage.png)
+![](../assets/code-integration-and-code-deployment/installation/CreateProjectPage.png)
 
 ### Creating your first project
 
@@ -166,7 +166,7 @@ Once you have created your project, you can continue to use the editor just as y
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](../assets/versionControl-CI-CD/ProjectSettingDialogue.png)
+![](../assets/code-integration-and-code-deployment/installation/ProjectSettingDialogue.png)
 
 You can also access this from the Projects -> Project Settings option in the main menu.
 
@@ -182,7 +182,7 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](../assets/versionControl-CI-CD/ProjectDependencies.png)
+![](../assets/code-integration-and-code-deployment/installation/ProjectDependencies.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
@@ -212,7 +212,7 @@ Whenever you change a project file, such as by deploying a new flow configuratio
 
 When you have staged the files you want to commit, click the commit button, enter a message and confirm.
     
-![](../assets/versionControl-CI-CD/LocalChanges.png)
+![](../assets/code-integration-and-code-deployment/installation/LocalChanges.png)
 
 ##### Commit History
 
@@ -222,7 +222,7 @@ At the top of the list is the ‘Branch’ button. That allows you to checkout/c
 
 If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
 
-![](../assets/versionControl-CI-CD/CommitHistory.png)
+![](../assets/code-integration-and-code-deployment/installation/CommitHistory.png)
 
 This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
 
@@ -262,7 +262,7 @@ The Ignite Application runs on docker container, you can build image from projec
 
 2.  Clone your git repository
 
-3.  Create a Docker file. See, Appendix <span class="link">[Build](/docs/versionControl-CI-CD/VC-CI-CD-installation#dockerfile)</span> for reference or <span class="link">[Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)</span>
+3.  Create a Docker file. See, Appendix <span class="link">[Build](/docs/code-integration-and-code-deployment/installation/installation#dockerfile)</span> for reference or <span class="link">[Sample Dockerfile](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/Dockerfile)</span>
 
 4.  Run the following command:
 

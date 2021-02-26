@@ -15,7 +15,7 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 
 ## Example
 
-![](../assets/dataformats/simple-get-request.png)
+![](../assets/data-formats/simple-get-request.png)
 
 <b>Flow JSON</b>
 ~~~json

@@ -31,31 +31,31 @@
         "title": "Introduction",
         "sidebar_label": "Introduction"
       },
-      "data formats/convert-json": {
+      "data-formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"
       },
-      "data formats/convert-xml": {
+      "data-formats/convert-xml": {
         "title": "Convert to/from XML",
         "sidebar_label": "Convert to/from XML"
       },
-      "data formats/convert-yaml": {
+      "data-formats/convert-yaml": {
         "title": "Convert to/from YAML",
         "sidebar_label": "Convert to/from YAML"
       },
-      "data formats/generate-csv": {
+      "data-formats/generate-csv": {
         "title": "Generate CSV output",
         "sidebar_label": "Generate CSV output"
       },
-      "data formats/parse-csv": {
+      "data-formats/parse-csv": {
         "title": "Parse CSV input",
         "sidebar_label": "Parse CSV input"
       },
-      "data formats/simple-get-request": {
+      "data-formats/simple-get-request": {
         "title": "Simple GET request",
         "sidebar_label": "Simple GET request"
       },
-      "data formats/split-text": {
+      "data-formats/split-text": {
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
       },

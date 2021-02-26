@@ -64,13 +64,13 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="working-with-data-formats" className="category-title">Working with data formats</h3>
-							<a className="category-element" href="docs/data formats/convert-json">Convert to/from JSON</a>
-							<a className="category-element" href="docs/data formats/convert-xml">Convert to/from XML</a>
-							<a className="category-element" href="docs/data formats/convert-yaml">Convert to/from YAML</a>
-							<a className="category-element" href="docs/data formats/generate-csv">Generate CSV output</a>
-							<a className="category-element" href="docs/data formats/parse-csv">Parse CSV input</a>
-							<a className="category-element" href="docs/data formats/simple-get-request">Extracting data from an HTML page</a>
-							<a className="category-element" href="docs/data formats/split-text">Split text into one message per line</a>
+							<a className="category-element" href="docs/data-formats/convert-json">Convert to/from JSON</a>
+							<a className="category-element" href="docs/data-formats/convert-xml">Convert to/from XML</a>
+							<a className="category-element" href="docs/data-formats/convert-yaml">Convert to/from YAML</a>
+							<a className="category-element" href="docs/data-formats/generate-csv">Generate CSV output</a>
+							<a className="category-element" href="docs/data-formats/parse-csv">Parse CSV input</a>
+							<a className="category-element" href="docs/data-formats/simple-get-request">Extracting data from an HTML page</a>
+							<a className="category-element" href="docs/data-formats/split-text">Split text into one message per line</a>
 						</div>
 						<div className="category-container">
 							<h3 id="http-endpoints" className="category-title">HTTP endpoints</h3>

@@ -8,13 +8,13 @@
       "messages/map-range"
     ],
     "Data Formats":[
-      "data formats/convert-json",
-      "data formats/convert-xml",
-      "data formats/convert-yaml",
-      "data formats/generate-csv",
-      "data formats/parse-csv",
-      "data formats/simple-get-request",
-      "data formats/split-text"
+      "data-formats/convert-json",
+      "data-formats/convert-xml",
+      "data-formats/convert-yaml",
+      "data-formats/generate-csv",
+      "data-formats/parse-csv",
+      "data-formats/simple-get-request",
+      "data-formats/split-text"
     ],
     "Flow Control": [
       "flow-control/trigger-on-start",

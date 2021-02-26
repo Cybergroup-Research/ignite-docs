@@ -11,4 +11,4 @@ Projects are a new way to manage your flow files. They represent everything you 
 They are backed by a Git repository, meaning all of the files are fully version controlled and allow developers to use familiar workflows to collaborate with others.
 
 
-![](../assets/cicd/VersionControl-CI-CD.png)
+![](../assets/code-integration-and-code-deployment/version-control-ci-cd.png)

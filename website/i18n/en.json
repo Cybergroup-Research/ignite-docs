@@ -74,51 +74,51 @@
         "title": "Trigger a flow when a node throws an error",
         "sidebar_label": "Trigger On Error"
       },
-      "flow control/join-streams": {
+      "flow-control/join-streams": {
         "title": "Create a single message from separate streams of messages",
         "sidebar_label": "Join Streams"
       },
-      "flow control/operate-on-array": {
+      "flow-control/operate-on-array": {
         "title": "Perform an operation on each element in an array",
         "sidebar_label": "Operate On Array"
       },
-      "flow control/rate-limit-message-stream": {
+      "flow-control/rate-limit-message-stream": {
         "title": "Handle messages at a regular rate",
         "sidebar_label": "Rate Limit Message Stream"
       },
-      "flow control/rate-limit-messages": {
+      "flow-control/rate-limit-messages": {
         "title": "Slow down messages passing through a flow",
         "sidebar_label": "Rate Limit Messages"
       },
-      "flow control/report-by-exception": {
+      "flow-control/report-by-exception": {
         "title": "Drop messages that have not changed value",
         "sidebar_label": "Report By Exception"
       },
-      "flow control/route-on-context": {
+      "flow-control/route-on-context": {
         "title": "Route a message based on a context value",
         "sidebar_label": "Route On Context"
       },
-      "flow control/route-on-property": {
+      "flow-control/route-on-property": {
         "title": "Route a message based on one of its properties",
         "sidebar_label": "Route On Property"
       },
-      "flow control/trigger-at-interval": {
+      "flow-control/trigger-at-interval": {
         "title": "Trigger a flow at regular intervals",
         "sidebar_label": "Trigger At Interval"
       },
-      "flow control/trigger-at-time": {
+      "flow-control/trigger-at-time": {
         "title": "Trigger a flow at a specific time",
         "sidebar_label": "Trigger At Time"
       },
-      "flow control/trigger-on-start": {
+      "flow-control/trigger-on-start": {
         "title": "Trigger a flow whenever Ignite Runtime starts",
         "sidebar_label": "Trigger On Start"
       },
-      "flow control/trigger-placeholder": {
+      "flow-control/trigger-placeholder": {
         "title": "Send placeholder messages when a stream stops sending",
         "sidebar_label": "Trigger Placeholder"
       },
-      "flow control/trigger-timeout": {
+      "flow-control/trigger-timeout": {
         "title": "Trigger a flow if a message isn’t received after a defined time",
         "sidebar_label": "Trigger Timeout"
       },

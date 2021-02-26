@@ -44,18 +44,18 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="flow-control" className="category-title">Flow control</h3>
-							<a className="category-element" href="docs/flow control/trigger-on-start">Trigger a flow whenever Ignite starts</a>
-							<a className="category-element" href="docs/flow control/trigger-at-interval">Trigger a flow at regular intervals</a>
-							<a className="category-element" href="docs/flow control/trigger-at-time">Trigger a flow at a specific time</a>
-							<a className="category-element" href="docs/flow control/route-on-property">Route a message based on one of its properties</a>
-							<a className="category-element" href="docs/flow control/route-on-context">Route a message based on a context value</a>
-							<a className="category-element" href="docs/flow control/operate-on-array">Perform an operation on each element in an array</a>
-							<a className="category-element" href="docs/flow control/trigger-timeout">Trigger a flow if a message isn’t received after a defined time</a>
-							<a className="category-element" href="docs/flow control/trigger-placeholder">Send placeholder messages when a stream stops sending</a>
-							<a className="category-element" href="docs/flow control/rate-limit-messages">Slow down messages passing through a flow</a>
-							<a className="category-element" href="docs/flow control/rate-limit-message-stream">Handle messages at a regular rate</a>
-							<a className="category-element" href="docs/flow control/report-by-exception">Drop messages that have not changed value</a>
-							<a className="category-element" href="docs/flow control/join-streams">Create a single message from separate streams of messages</a>
+							<a className="category-element" href="docs/flow-control/trigger-on-start">Trigger a flow whenever Ignite starts</a>
+							<a className="category-element" href="docs/flow-control/trigger-at-interval">Trigger a flow at regular intervals</a>
+							<a className="category-element" href="docs/flow-control/trigger-at-time">Trigger a flow at a specific time</a>
+							<a className="category-element" href="docs/flow-control/route-on-property">Route a message based on one of its properties</a>
+							<a className="category-element" href="docs/flow-control/route-on-context">Route a message based on a context value</a>
+							<a className="category-element" href="docs/flow-control/operate-on-array">Perform an operation on each element in an array</a>
+							<a className="category-element" href="docs/flow-control/trigger-timeout">Trigger a flow if a message isn’t received after a defined time</a>
+							<a className="category-element" href="docs/flow-control/trigger-placeholder">Send placeholder messages when a stream stops sending</a>
+							<a className="category-element" href="docs/flow-control/rate-limit-messages">Slow down messages passing through a flow</a>
+							<a className="category-element" href="docs/flow-control/rate-limit-message-stream">Handle messages at a regular rate</a>
+							<a className="category-element" href="docs/flow-control/report-by-exception">Drop messages that have not changed value</a>
+							<a className="category-element" href="docs/flow-control/join-streams">Create a single message from separate streams of messages</a>
 						</div>
 						<div className="category-container">
 							<h3 id="error-handling" className="category-title">Error handling</h3>

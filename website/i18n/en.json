@@ -220,11 +220,13 @@
         "title": "Set a message property to a fixed value",
         "sidebar_label": "Set Property Fixed"
       },
-      "monitor/monitor-howToUse": {
-        "title": "How To Use"
+      "monitor/monitor-how-to-use": {
+        "title": "How To Use",
+        "sidebar_label": "How To Use"
       },
       "monitor/monitor-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
       "mqtt/connect-to-broker": {
         "title": "Connect to an MQTT broker",
@@ -299,7 +301,7 @@
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",
-      "Error handling": "Error handling",
+      "Error Handling": "Error Handling",
       "HTTP Endpoints": "HTTP Endpoints",
       "HTTP Requests": "HTTP Requests",
       "MQTT": "MQTT",
@@ -308,7 +310,7 @@
       "Auth": "Auth",
       "JSONata": "JSONata",
       "Breakpoint": "Breakpoint",
-      "OpenAPI": "OpenAPI",
+      "Open API": "Open API",
       "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",

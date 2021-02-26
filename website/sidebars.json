@@ -102,8 +102,8 @@
       "monitor/monitor-howToUse"
     ],
     "CI/CD": [
-      "code-integration-and-code-deployment/introduction",
-      "code-integration-and-code-deployment/installation"
+      "code integration and code deployment/ci-cd-introduction",
+      "code integration and code deployment/ci-cd-installation"
     ]
   },
   "docs-other": {

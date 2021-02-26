@@ -1,5 +1,5 @@
 ---
-layout: breakpoint-howToUse
+layout: breakpoint-how-to-use
 title: How to Use
 ---
 

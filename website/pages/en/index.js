@@ -130,7 +130,7 @@ class Content extends React.Component {
 						<div className="category-container">
 							<h3 id="breakpoint" className="category-title">Breakpoint</h3>
 							<a className="category-element" href="docs/breakpoint/breakpoint-introduction">Introduction</a>
-							<a className="category-element" href="docs/breakpoint/breakpoint-howToUse">How to use</a>
+							<a className="category-element" href="docs/breakpoint/breakpoint-how-to-use">How to use</a>
 						</div>
 						<div className="category-container">
 							<h3 id="openAPI" className="category-title">Open API</h3>

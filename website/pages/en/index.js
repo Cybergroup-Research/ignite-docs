@@ -153,8 +153,8 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
-							<a className="category-element" href="docs/code integration and code deployment/ci-cd-introduction">Introduction</a>
-							<a className="category-element" href="docs/code integration and code deployment/ci-cd-installation">Installation</a>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
 						</div>
 					</div>
 				</div>

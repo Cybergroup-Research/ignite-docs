@@ -23,11 +23,11 @@
       "breakpoint/breakpoint-introduction": {
         "title": "Introduction"
       },
-      "code integration and code deployment/ci-cd-installation": {
+      "code-integration-and-code-deployment/ci-cd-installation": {
         "title": "Installation",
         "sidebar_label": "Installation"
       },
-      "code integration and code deployment/ci-cd-introduction": {
+      "code-integration-and-code-deployment/ci-cd-introduction": {
         "title": "Introduction",
         "sidebar_label": "Introduction"
       },

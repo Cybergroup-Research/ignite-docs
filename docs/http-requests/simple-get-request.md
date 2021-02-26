@@ -15,7 +15,7 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 
 ## Example
 
-![](../assets/httpRequests/simple-get-request.png)
+![](../assets/http-requests/simple-get-request.png)
 
 <b>Flow JSON</b>
 ~~~json
@@ -37,4 +37,4 @@ class `Ignite-latest-version`.
 The <code class="node">HTML</code> node can be configured with the CSS selector
 `.Ignite-latest-version` to return a message for each matching element.
 
-![](../assets/httpRequests/simple-get-request-example-page.png)
+![](../assets/http-requests/simple-get-request-example-page.png)

@@ -130,71 +130,71 @@
         "title": "How To Install",
         "sidebar_label": "How To Install"
       },
-      "http endpoints/access-request-headers": {
+      "http-endpoints/access-request-headers": {
         "title": "Access HTTP request headers",
         "sidebar_label": "Access Headers"
       },
-      "http endpoints/create-endpoint": {
+      "http-endpoints/create-endpoint": {
         "title": "Create an HTTP Endpoint",
         "sidebar_label": "Create Endpoint"
       },
-      "http endpoints/handle-query-parameters": {
+      "http-endpoints/handle-query-parameters": {
         "title": "Handle query parameters passed to an HTTP endpoint",
         "sidebar_label": "Handle Query Parameters"
       },
-      "http endpoints/handle-url-parameters": {
+      "http-endpoints/handle-url-parameters": {
         "title": "Handle url parameters in an HTTP endpoint",
         "sidebar_label": "Handle Url Parameters"
       },
-      "http endpoints/post-form-data": {
+      "http-endpoints/post-form-data": {
         "title": "Post form data to a flow",
         "sidebar_label": "Post Form Data"
       },
-      "http endpoints/post-json-data": {
+      "http-endpoints/post-json-data": {
         "title": "Post JSON data to a flow",
         "sidebar_label": "Post JSON"
       },
-      "http endpoints/post-raw-data": {
+      "http-endpoints/post-raw-data": {
         "title": "Post raw data to a flow",
         "sidebar_label": "Post Data"
       },
-      "http endpoints/serve-local-file": {
+      "http-endpoints/serve-local-file": {
         "title": "Serve a local file",
         "sidebar_label": "Serve Local File"
       },
-      "http endpoints/serve-json-content": {
+      "http-endpoints/serve-json-content": {
         "title": "Serve JSON content",
         "sidebar_label": "Serve JSON"
       },
-      "http endpoints/work-with-cookies": {
+      "http-endpoints/work-with-cookies": {
         "title": "Work with cookies",
         "sidebar_label": "Cookies"
       },
-      "http requests/get-binary-response": {
+      "http-requests/get-binary-response": {
         "title": "Get binary response",
         "sidebar_label": "Binary Response"
       },
-      "http requests/get-parsed-JSON": {
+      "http-requests/get-parsed-JSON": {
         "title": "Get a parsed JSON Response",
         "sidebar_label": "Parse JSON"
       },
-      "http requests/set-query-string-params": {
+      "http-requests/set-query-string-params": {
         "title": "Set the query string parameters in a URL",
         "sidebar_label": "Set Query String"
       },
-      "http requests/set-request-headers": {
+      "http-requests/set-request-headers": {
         "title": "Set a request header",
         "sidebar_label": "Set Request Header"
       },
-      "http requests/set-url-using-template": {
+      "http-requests/set-url-using-template": {
         "title": "Set the URL of a request using a template",
         "sidebar_label": "Set URL using Template"
       },
-      "http requests/set-request-url": {
+      "http-requests/set-request-url": {
         "title": "Set the URL of a request",
         "sidebar_label": "Set URL"
       },
-      "http requests/get-request": {
+      "http-requests/get-request": {
         "title": "Simple GET request",
         "sidebar_label": "GET Request"
       },

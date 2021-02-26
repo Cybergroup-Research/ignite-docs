@@ -1,6 +1,7 @@
 ---
-layout: openAPI-router
-title: OpenAPI Router
+id: openAPI-router
+title: OpenAPI router
+sidebar_label: OpenAPI Router
 ---
 
 ## About

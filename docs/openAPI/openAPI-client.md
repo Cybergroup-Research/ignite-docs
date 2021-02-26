@@ -1,6 +1,7 @@
 ---
-layout: openAPI-client
-title: OpenAPI Client
+id: openAPI-client
+title: OpenAPI client
+sidebar_label: OpenAPI Client
 ---
 
 ## About

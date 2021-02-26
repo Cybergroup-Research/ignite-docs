@@ -1,6 +1,6 @@
 ---
 id: serve-local-file
-title:  Serve a local file
+title: Serve a local file
 sidebar_label: Serve Local File
 ---
 

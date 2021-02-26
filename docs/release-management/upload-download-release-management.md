@@ -1,8 +1,7 @@
 ---
 id: upload-download-release-management
-title: Upload Download Release Management
+title: Upload download release management
 sidebar_label: Upload Download Release Management
-layout: upload-download-release-management
 ---
 
 ## About

@@ -1,6 +1,7 @@
 ---
-layout: jsonata-explorer
-title: JSONata Explorer
+id: jsonata-explorer
+title: JSONata explorer
+sidebar_label: JSONata Explorer 
 ---
 
 ## What Is JSONata

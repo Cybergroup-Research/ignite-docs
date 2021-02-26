@@ -1,6 +1,7 @@
 ---
-layout: jsonata-node
-title: JSONata Node
+id: jsonata-node
+title: JSONata node
+sidebar_label: JSONata Node
 ---
 
 ## Introduction

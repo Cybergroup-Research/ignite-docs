@@ -2,7 +2,6 @@
 id: howToInstall
 title: How To Install
 sidebar_label: How To Install
-layout: howToInstall
 ---
 
 ## Installation Steps

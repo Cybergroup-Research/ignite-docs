@@ -1,6 +1,7 @@
 ---
-layout: breakpoint-introduction
+id: breakpoint-introduction
 title: Introduction
+sidebar_label: Introduction
 ---
 
 ## About

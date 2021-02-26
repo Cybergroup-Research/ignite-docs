@@ -1,6 +1,7 @@
 ---
-layout: breakpoint-how-to-use
-title: How to Use
+id: breakpoint-how-to-use
+title: How to use
+sidebar_label: How to Use
 ---
 
 ## How To Use

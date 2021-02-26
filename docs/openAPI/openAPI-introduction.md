@@ -1,6 +1,7 @@
 ---
-layout: openAPI-introduction
+id: openAPI-introduction
 title: Introduction
+sidebar_label: Introduction
 ---
 
 ## About

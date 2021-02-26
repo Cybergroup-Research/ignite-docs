@@ -18,10 +18,12 @@
         "sidebar_label": "Verify JWT"
       },
       "breakpoint/breakpoint-how-to-use": {
-        "title": "How to Use"
+        "title": "How to use",
+        "sidebar_label": "How to Use"
       },
       "breakpoint/breakpoint-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
       "code-integration-and-code-deployment/ci-cd-installation": {
         "title": "Installation",
@@ -199,10 +201,12 @@
         "sidebar_label": "GET Request"
       },
       "jsonata/jsonata-explorer": {
-        "title": "JSONata Explorer"
+        "title": "JSONata explorer",
+        "sidebar_label": "JSONata Explorer"
       },
       "jsonata/jsonata-node": {
-        "title": "JSONata Node"
+        "title": "JSONata node",
+        "sidebar_label": "JSONata Node"
       },
       "messages/delete-property": {
         "title": "Delete a message property",
@@ -221,7 +225,7 @@
         "sidebar_label": "Set Property Fixed"
       },
       "monitor/monitor-how-to-use": {
-        "title": "How To Use",
+        "title": "How to use",
         "sidebar_label": "How To Use"
       },
       "monitor/monitor-introduction": {
@@ -233,7 +237,8 @@
         "sidebar_label": "MQTT broker"
       },
       "mqtt/index": {
-        "title": "MQTT Recipes"
+        "title": "MQTT Recipes",
+        "sidebar_label": "MQTT Recipes"
       },
       "mqtt/publish-retained-message": {
         "title": "Publish a retained message to a topic",
@@ -276,16 +281,19 @@
         "sidebar_label": "Read Only OData Service"
       },
       "openAPI/openAPI-client": {
-        "title": "OpenAPI Client"
+        "title": "OpenAPI client",
+        "sidebar_label": "OpenAPI Client"
       },
       "openAPI/openAPI-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
       "openAPI/openAPI-router": {
-        "title": "OpenAPI Router"
+        "title": "OpenAPI router",
+        "sidebar_label": "OpenAPI Router"
       },
       "release-management/upload-download-release-management": {
-        "title": "Upload Download Release Management",
+        "title": "Upload download release management",
         "sidebar_label": "Upload Download Release Management"
       },
       "sequelize/execute-a-query": {

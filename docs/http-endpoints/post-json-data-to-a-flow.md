@@ -1,6 +1,6 @@
 ---
 id: post-json-data
-title:  Post JSON data to a flow
+title: Post JSON data to a flow
 sidebar_label: Post JSON
 ---
 

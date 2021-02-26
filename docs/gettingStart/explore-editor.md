@@ -2,7 +2,6 @@
 id: exploreEditor
 title: Explore Editor
 sidebar_label: Explore Editor
-layout: exploreEditor
 ---
 
 ## Explore Ignite Editor

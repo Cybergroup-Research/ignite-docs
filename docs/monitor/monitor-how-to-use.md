@@ -1,6 +1,6 @@
 ---
 id: monitor-how-to-use
-title: How To Use
+title: How to use
 sidebar_label: How To Use
 ---
 

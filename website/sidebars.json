@@ -31,8 +31,8 @@
       "flow control/join-streams"
     ],
     "Error handling": [
-      "error handling/retry-on-error",
-      "error handling/trigger-on-error"
+      "error-handling/retry-on-error",
+      "error-handling/trigger-on-error"
     ],
     "HTTP Endpoints": [
       "http endpoints/create-endpoint",
@@ -92,7 +92,7 @@
       "openAPI/openAPI-client"
     ],
     "Release Management": [
-      "release management/upload-download-release-management"
+      "release-management/upload-download-release-management"
     ],
     "Designer": [
       "designer/designer"
@@ -105,8 +105,5 @@
       "code integration and code deployment/ci-cd-introduction",
       "code integration and code deployment/ci-cd-installation"
     ]
-  },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
   }
 }

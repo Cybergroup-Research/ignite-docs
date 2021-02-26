@@ -66,11 +66,11 @@
       "doc2": {
         "title": "document number 2"
       },
-      "error handling/retry-on-error": {
+      "error-handling/retry-on-error": {
         "title": "Automatically retry an action after an error",
         "sidebar_label": "Retry On Error"
       },
-      "error handling/trigger-on-error": {
+      "error-handling/trigger-on-error": {
         "title": "Trigger a flow when a node throws an error",
         "sidebar_label": "Trigger On Error"
       },
@@ -282,7 +282,7 @@
       "openAPI/openAPI-router": {
         "title": "OpenAPI Router"
       },
-      "release management/upload-download-release-management": {
+      "release-management/upload-download-release-management": {
         "title": "Upload Download Release Management",
         "sidebar_label": "Upload Download Release Management"
       },
@@ -312,8 +312,7 @@
       "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",
-      "CI/CD": "CI/CD",
-      "First Category": "First Category"
+      "CI/CD": "CI/CD"
     }
   },
   "pages-strings": {

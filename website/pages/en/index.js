@@ -59,8 +59,8 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="error-handling" className="category-title">Error handling</h3>
-							<a className="category-element" href="docs/error handling/retry-on-error">Trigger a flow when a node throws an error</a>
-							<a className="category-element" href="docs/error handling/trigger-on-error">Automatically retry an action after an error</a>
+							<a className="category-element" href="docs/error-handling/retry-on-error">Trigger a flow when a node throws an error</a>
+							<a className="category-element" href="docs/error-handling/trigger-on-error">Automatically retry an action after an error</a>
 						</div>
 						<div className="category-container">
 							<h3 id="working-with-data-formats" className="category-title">Working with data formats</h3>
@@ -149,7 +149,7 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 id="release-management" className="category-title">Release Management</h3>
-							<a className="category-element" href="docs/release management/upload-download-release-management">Upload Download Release Packages</a>
+							<a className="category-element" href="docs/release-management/upload-download-release-management">Upload Download Release Packages</a>
 						</div>
 						<div className="category-container">
 							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>

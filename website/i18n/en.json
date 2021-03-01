@@ -17,39 +17,57 @@
         "title": "Verify a JSON Web Token",
         "sidebar_label": "Verify JWT"
       },
-      "breakpoint/breakpoint-howToUse": {
-        "title": "How to Use"
+      "breakpoint/breakpoint-how-to-use": {
+        "title": "How to use",
+        "sidebar_label": "How To Use"
       },
       "breakpoint/breakpoint-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
-      "data formats/convert-json": {
+      "code-integration-and-code-deployment/ci-cd-installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "code-integration-and-code-deployment/ci-cd-introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
+      },
+      "data-formats/convert-json": {
         "title": "Convert to/from JSON",
         "sidebar_label": "Convert to/from JSON"
       },
-      "data formats/convert-xml": {
+      "data-formats/convert-xml": {
         "title": "Convert to/from XML",
         "sidebar_label": "Convert to/from XML"
       },
-      "data formats/convert-yaml": {
+      "data-formats/convert-yaml": {
         "title": "Convert to/from YAML",
         "sidebar_label": "Convert to/from YAML"
       },
-      "data formats/generate-csv": {
+      "data-formats/generate-csv": {
         "title": "Generate CSV output",
         "sidebar_label": "Generate CSV output"
       },
-      "data formats/parse-csv": {
+      "data-formats/parse-csv": {
         "title": "Parse CSV input",
         "sidebar_label": "Parse CSV input"
       },
-      "data formats/simple-get-request": {
+      "data-formats/simple-get-request": {
         "title": "Simple GET request",
         "sidebar_label": "Simple GET request"
       },
-      "data formats/split-text": {
+      "data-formats/split-text": {
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
+      },
+      "deploy-to-azure/how-to-deploy-in-azure": {
+        "title": "How to Deploy in Azure",
+        "sidebar_label": "How To Deploy"
+      },
+      "deploy-to-azure/manage-application": {
+        "title": "Manage Application in Azure",
+        "sidebar_label": "Manage Application In Azure"
       },
       "designer/designer": {
         "title": "Designer",
@@ -58,59 +76,59 @@
       "doc2": {
         "title": "document number 2"
       },
-      "error handling/retry-on-error": {
+      "error-handling/retry-on-error": {
         "title": "Automatically retry an action after an error",
         "sidebar_label": "Retry On Error"
       },
-      "error handling/trigger-on-error": {
+      "error-handling/trigger-on-error": {
         "title": "Trigger a flow when a node throws an error",
         "sidebar_label": "Trigger On Error"
       },
-      "flow control/join-streams": {
+      "flow-control/join-streams": {
         "title": "Create a single message from separate streams of messages",
         "sidebar_label": "Join Streams"
       },
-      "flow control/operate-on-array": {
+      "flow-control/operate-on-array": {
         "title": "Perform an operation on each element in an array",
         "sidebar_label": "Operate On Array"
       },
-      "flow control/rate-limit-message-stream": {
+      "flow-control/rate-limit-message-stream": {
         "title": "Handle messages at a regular rate",
         "sidebar_label": "Rate Limit Message Stream"
       },
-      "flow control/rate-limit-messages": {
+      "flow-control/rate-limit-messages": {
         "title": "Slow down messages passing through a flow",
         "sidebar_label": "Rate Limit Messages"
       },
-      "flow control/report-by-exception": {
+      "flow-control/report-by-exception": {
         "title": "Drop messages that have not changed value",
         "sidebar_label": "Report By Exception"
       },
-      "flow control/route-on-context": {
+      "flow-control/route-on-context": {
         "title": "Route a message based on a context value",
         "sidebar_label": "Route On Context"
       },
-      "flow control/route-on-property": {
+      "flow-control/route-on-property": {
         "title": "Route a message based on one of its properties",
         "sidebar_label": "Route On Property"
       },
-      "flow control/trigger-at-interval": {
+      "flow-control/trigger-at-interval": {
         "title": "Trigger a flow at regular intervals",
         "sidebar_label": "Trigger At Interval"
       },
-      "flow control/trigger-at-time": {
+      "flow-control/trigger-at-time": {
         "title": "Trigger a flow at a specific time",
         "sidebar_label": "Trigger At Time"
       },
-      "flow control/trigger-on-start": {
+      "flow-control/trigger-on-start": {
         "title": "Trigger a flow whenever Ignite Runtime starts",
         "sidebar_label": "Trigger On Start"
       },
-      "flow control/trigger-placeholder": {
+      "flow-control/trigger-placeholder": {
         "title": "Send placeholder messages when a stream stops sending",
         "sidebar_label": "Trigger Placeholder"
       },
-      "flow control/trigger-timeout": {
+      "flow-control/trigger-timeout": {
         "title": "Trigger a flow if a message isn’t received after a defined time",
         "sidebar_label": "Trigger Timeout"
       },
@@ -122,79 +140,81 @@
         "title": "How To Install",
         "sidebar_label": "How To Install"
       },
-      "http endpoints/access-request-headers": {
+      "http-endpoints/access-request-headers": {
         "title": "Access HTTP request headers",
         "sidebar_label": "Access Headers"
       },
-      "http endpoints/create-endpoint": {
+      "http-endpoints/create-endpoint": {
         "title": "Create an HTTP Endpoint",
         "sidebar_label": "Create Endpoint"
       },
-      "http endpoints/handle-query-parameters": {
+      "http-endpoints/handle-query-parameters": {
         "title": "Handle query parameters passed to an HTTP endpoint",
         "sidebar_label": "Handle Query Parameters"
       },
-      "http endpoints/handle-url-parameters": {
+      "http-endpoints/handle-url-parameters": {
         "title": "Handle url parameters in an HTTP endpoint",
         "sidebar_label": "Handle Url Parameters"
       },
-      "http endpoints/post-form-data": {
+      "http-endpoints/post-form-data": {
         "title": "Post form data to a flow",
         "sidebar_label": "Post Form Data"
       },
-      "http endpoints/post-json-data": {
+      "http-endpoints/post-json-data": {
         "title": "Post JSON data to a flow",
         "sidebar_label": "Post JSON"
       },
-      "http endpoints/post-raw-data": {
+      "http-endpoints/post-raw-data": {
         "title": "Post raw data to a flow",
         "sidebar_label": "Post Data"
       },
-      "http endpoints/serve-local-file": {
+      "http-endpoints/serve-local-file": {
         "title": "Serve a local file",
         "sidebar_label": "Serve Local File"
       },
-      "http endpoints/serve-json-content": {
+      "http-endpoints/serve-json-content": {
         "title": "Serve JSON content",
         "sidebar_label": "Serve JSON"
       },
-      "http endpoints/work-with-cookies": {
+      "http-endpoints/work-with-cookies": {
         "title": "Work with cookies",
         "sidebar_label": "Cookies"
       },
-      "http requests/get-binary-response": {
+      "http-requests/get-binary-response": {
         "title": "Get binary response",
         "sidebar_label": "Binary Response"
       },
-      "http requests/get-parsed-JSON": {
+      "http-requests/get-parsed-JSON": {
         "title": "Get a parsed JSON Response",
         "sidebar_label": "Parse JSON"
       },
-      "http requests/set-query-string-params": {
+      "http-requests/set-query-string-params": {
         "title": "Set the query string parameters in a URL",
         "sidebar_label": "Set Query String"
       },
-      "http requests/set-request-headers": {
+      "http-requests/set-request-headers": {
         "title": "Set a request header",
         "sidebar_label": "Set Request Header"
       },
-      "http requests/set-url-using-template": {
+      "http-requests/set-url-using-template": {
         "title": "Set the URL of a request using a template",
         "sidebar_label": "Set URL using Template"
       },
-      "http requests/set-request-url": {
+      "http-requests/set-request-url": {
         "title": "Set the URL of a request",
         "sidebar_label": "Set URL"
       },
-      "http requests/get-request": {
+      "http-requests/get-request": {
         "title": "Simple GET request",
         "sidebar_label": "GET Request"
       },
       "jsonata/jsonata-explorer": {
-        "title": "JSONata Explorer"
+        "title": "JSONata explorer",
+        "sidebar_label": "JSONata Explorer"
       },
       "jsonata/jsonata-node": {
-        "title": "JSONata Node"
+        "title": "JSONata node",
+        "sidebar_label": "JSONata Node"
       },
       "messages/delete-property": {
         "title": "Delete a message property",
@@ -212,18 +232,21 @@
         "title": "Set a message property to a fixed value",
         "sidebar_label": "Set Property Fixed"
       },
-      "monitor/monitor-howToUse": {
-        "title": "How To Use"
+      "monitor/monitor-how-to-use": {
+        "title": "How to use",
+        "sidebar_label": "How To Use"
       },
       "monitor/monitor-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
       "mqtt/connect-to-broker": {
         "title": "Connect to an MQTT broker",
         "sidebar_label": "MQTT broker"
       },
       "mqtt/index": {
-        "title": "MQTT Recipes"
+        "title": "MQTT Recipes",
+        "sidebar_label": "MQTT Recipes"
       },
       "mqtt/publish-retained-message": {
         "title": "Publish a retained message to a topic",
@@ -266,29 +289,24 @@
         "sidebar_label": "Read Only OData Service"
       },
       "openAPI/openAPI-client": {
-        "title": "OpenAPI Client"
+        "title": "OpenAPI client",
+        "sidebar_label": "OpenAPI Client"
       },
       "openAPI/openAPI-introduction": {
-        "title": "Introduction"
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
       },
       "openAPI/openAPI-router": {
-        "title": "OpenAPI Router"
+        "title": "OpenAPI router",
+        "sidebar_label": "OpenAPI Router"
       },
-      "release management/upload-download-release-management": {
-        "title": "Upload Download Release Management",
+      "release-management/upload-download-release-management": {
+        "title": "Upload download release management",
         "sidebar_label": "Upload Download Release Management"
       },
       "sequelize/execute-a-query": {
         "title": "Execute a query - Sequelize node",
         "sidebar_label": "Execute a Query"
-      },
-      "versionControl-CI-CD/VC-CI-CD-installation": {
-        "title": "Installation",
-        "sidebar_label": "Installation"
-      },
-      "versionControl-CI-CD/VC-CI-CD-introduction": {
-        "title": "Introduction",
-        "sidebar_label": "Introduction"
       }
     },
     "links": {
@@ -299,7 +317,7 @@
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",
-      "Error handling": "Error handling",
+      "Error Handling": "Error Handling",
       "HTTP Endpoints": "HTTP Endpoints",
       "HTTP Requests": "HTTP Requests",
       "MQTT": "MQTT",
@@ -308,12 +326,12 @@
       "Auth": "Auth",
       "JSONata": "JSONata",
       "Breakpoint": "Breakpoint",
-      "OpenAPI": "OpenAPI",
+      "Open API": "Open API",
       "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",
       "CI/CD": "CI/CD",
-      "First Category": "First Category"
+      "Deploy to Azure": "Deploy to Azure"
     }
   },
   "pages-strings": {

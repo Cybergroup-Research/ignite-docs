@@ -2,7 +2,6 @@
 id: designer
 title: Designer
 sidebar_label: Designer
-layout: designer
 ---
 
 ## About

@@ -1,6 +1,7 @@
 ---
-layout: jsonata-explorer
-title: JSONata Explorer
+id: jsonata-explorer
+title: JSONata explorer
+sidebar_label: JSONata Explorer 
 ---
 
 ## What Is JSONata
@@ -28,13 +29,13 @@ It is an Open-editor to explore your JSON. It has 3 sections as shown in the bel
 
 - <b>Section-3:</b> You will get the customized result value.
 
-![](../assets/jsonata/ignite-jsonata-editor-Detail.PNG)
+![](../assets/jsonata/ignite-jsonata-editor-detail.png)
 
 ## Redirect To JSONata Explorer From Ignite Editor
 
 You can redirect to Ignite JSONata from the editor
 
-![](../assets/jsonata/Ignite_Editor_LinkToJSONataExplorer.gif)
+![](../assets/jsonata/ignite-editor-link-to-jsonata-explorer.gif)
 
 ## How To Use JSONata Explorer
 
@@ -60,9 +61,9 @@ You can redirect to Ignite JSONata from the editor
 
 - <b>Step-4:</b> You will get the result "John" in the Section-3 inside JSONata Explorer
 
-![](../assets/jsonata/Ignite-JSONata_example.png)
+![](../assets/jsonata/ignite-jsonata-example.png)
 
-![](../assets/jsonata/Ignite_JSONata_Sample.gif)
+![](../assets/jsonata/ignite-jsonata-sample.gif)
 
 ## Example
 
@@ -70,23 +71,23 @@ Here are some example expressions and their results when applied to the JSON doc
 
 - <b>Basic Query</b>
 
-![](../assets/jsonata/Ignite_JSONata_Basic_Query.gif)
+![](../assets/jsonata/ignite-jsonata-basic-query.gif)
 
 - <b>String Function</b>
 
-![](../assets/jsonata/Ignite_JSONata_String_Function.gif)
+![](../assets/jsonata/ignite-jsonata-string-function.gif)
 
 - <b>Numeric Function</b>
 
-![](../assets/jsonata/Ignite_JSONata_Numeric_Function.gif)
+![](../assets/jsonata/ignite-jsonata-numeric-function.gif)
 
 - <b>String Expressions</b>
 
-![](../assets/jsonata/Ignite_JSONata_String_Expression.gif)
+![](../assets/jsonata/ignite-jsonata-string-expression.gif)
 
 - <b>Numeric Expressions</b>
 
-![](../assets/jsonata/Ignite_JSONata_Numeric_Expressions.gif)
+![](../assets/jsonata/ignite-jsonata-numeric-expressions.gif)
 
 ## Additional Resource
 

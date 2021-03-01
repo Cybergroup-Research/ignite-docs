@@ -19,7 +19,7 @@
       },
       "breakpoint/breakpoint-how-to-use": {
         "title": "How to use",
-        "sidebar_label": "How to Use"
+        "sidebar_label": "How To Use"
       },
       "breakpoint/breakpoint-introduction": {
         "title": "Introduction",
@@ -60,6 +60,14 @@
       "data-formats/split-text": {
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
+      },
+      "deploy-to-azure/how-to-deploy-in-azure": {
+        "title": "How to Deploy in Azure",
+        "sidebar_label": "How To Deploy"
+      },
+      "deploy-to-azure/manage-application": {
+        "title": "Manage Application in Azure",
+        "sidebar_label": "Manage Application In Azure"
       },
       "designer/designer": {
         "title": "Designer",
@@ -322,7 +330,8 @@
       "Release Management": "Release Management",
       "Designer": "Designer",
       "Monitor": "Monitor",
-      "CI/CD": "CI/CD"
+      "CI/CD": "CI/CD",
+      "Deploy to Azure": "Deploy to Azure"
     }
   },
   "pages-strings": {

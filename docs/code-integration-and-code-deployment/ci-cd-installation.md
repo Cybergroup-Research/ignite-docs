@@ -29,7 +29,7 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
     ```
     in a terminal window.
 
-    ![](../assets/code-integration-and-code-deployment/installation/docker-version.png)
+    ![](../assets/code-integration-and-code-deployment/docker-version.png)
 
 - **Postgres**
 
@@ -44,13 +44,13 @@ You develop apps in the context of an <a href="https://dashboard.cgignite.io/app
 To create a new, Ignite App: 
 1.	Navigate to <a href="https://dashboard.cgignite.io/apps" style="color:blue" taget="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](../assets/code-integration-and-code-deployment/installation/new-app-button.png)
+    ![](../assets/code-integration-and-code-deployment/new-app-button.png)
 
-    ![](../assets/code-integration-and-code-deployment/installation/create-new-app.png)
+    ![](../assets/code-integration-and-code-deployment/create-new-app.png)
 
 2.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](../assets/code-integration-and-code-deployment/installation/runtime-registration.png)
+    ![](../assets/code-integration-and-code-deployment/runtime-registration.png)
 
 ### Run the application
 
@@ -58,11 +58,11 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 1.	Open explorer, Create new workspace folder, such as my-app.
 
-![](../assets/code-integration-and-code-deployment/installation/create-new-folder.png)
+![](../assets/code-integration-and-code-deployment/create-new-folder.png)
 
 2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](../assets/code-integration-and-code-deployment/installation/create-docker-compose-file.png)
+![](../assets/code-integration-and-code-deployment/create-docker-compose-file.png)
 
 See, Appendix <span class="link">[Docker Compose](/docs/code-integration-and-code-deployment/ci-cd-installation#appendix)</span> for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
@@ -77,7 +77,7 @@ following environment variable are required to start local development.
 
 Provide **IGNITE_EDITOR_API_SECRET** from Runtime Registration Page. 
 
-![](../assets/code-integration-and-code-deployment/installation/secret-key-code.png)
+![](../assets/code-integration-and-code-deployment/secret-key-code.png)
 
 <span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file will look like as below-
 
@@ -102,7 +102,7 @@ services:
     ```
     docker-compose up
     ```
-    ![](../assets/code-integration-and-code-deployment/installation/docker-compose-execution.png)
+    ![](../assets/code-integration-and-code-deployment/docker-compose-execution.png)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
@@ -110,17 +110,17 @@ When application is ready to accept the request, open **http://localhost:1881/**
 
 If your installation and setup was successful, you should see a page similar to the following
 
-![](../assets/code-integration-and-code-deployment/installation/ignite-runtime.png)
+![](../assets/code-integration-and-code-deployment/ignite-runtime.png)
 
 ### Runtime Registration
 
 To start the application development, register your application on registration page. 
 
-![](../assets/code-integration-and-code-deployment/installation/runtime-registration.png)
+![](../assets/code-integration-and-code-deployment/runtime-registration.png)
 
 1.	Select Development & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
 
-![](../assets/code-integration-and-code-deployment/installation/select-runtime-environment.png)
+![](../assets/code-integration-and-code-deployment/select-runtime-environment.png)
 
 2.	Click on **Test Connection** button to test and complete the registration process
 
@@ -128,7 +128,7 @@ To start the application development, register your application on registration 
 
 If your environment variable is correct, you should see a page similar to the following,
 
-![](../assets/code-integration-and-code-deployment/installation/create-project-page.png)
+![](../assets/code-integration-and-code-deployment/create-project-page.png)
 
 ### Creating your first project
 
@@ -165,7 +165,7 @@ Once you have created your project, you can continue to use the editor just as y
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](../assets/code-integration-and-code-deployment/installation/project-setting-dialogue.png)
+![](../assets/code-integration-and-code-deployment/project-setting-dialogue.png)
 
 You can also access this from the Projects -> Project Settings option in the main menu.
 
@@ -181,7 +181,7 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](../assets/code-integration-and-code-deployment/installation/project-dependencies.png)
+![](../assets/code-integration-and-code-deployment/project-dependencies.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
@@ -211,7 +211,7 @@ Whenever you change a project file, such as by deploying a new flow configuratio
 
 When you have staged the files you want to commit, click the commit button, enter a message and confirm.
     
-![](../assets/code-integration-and-code-deployment/installation/local-changes.png)
+![](../assets/code-integration-and-code-deployment/local-changes.png)
 
 ##### Commit History
 
@@ -221,7 +221,7 @@ At the top of the list is the ‘Branch’ button. That allows you to checkout/c
 
 If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
 
-![](../assets/code-integration-and-code-deployment/installation/commit-history.png)
+![](../assets/code-integration-and-code-deployment/commit-history.png)
 
 This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
 

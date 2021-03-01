@@ -24,6 +24,7 @@ class Content extends React.Component {
 						<a className="sidebar-topic" href="#monitor">Monitor</a>
 						<a className="sidebar-topic" href="#release-management">Release Management</a>
 						<a className="sidebar-topic" href="#code-integration-and-code-deployment">CI/CD</a>
+						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
 					</div>
 				</div>
 				<div style={{width:"80%"}}>
@@ -155,6 +156,11 @@ class Content extends React.Component {
 							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
 							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
 							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
+						</div>
+						<div className="category-container">
+							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>
+							<a className="category-element" href="docs/deploy-to-azure/how-to-deploy-in-azure">How to Deploy</a>
+							<a className="category-element" href="docs/deploy-to-azure/manage-application">Manage Application</a>
 						</div>
 					</div>
 				</div>

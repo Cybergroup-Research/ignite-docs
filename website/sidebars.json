@@ -103,6 +103,10 @@
     "CI/CD": [
       "code-integration-and-code-deployment/ci-cd-introduction",
       "code-integration-and-code-deployment/ci-cd-installation"
+    ],
+    "Deploy to Azure": [
+      "deploy-to-azure/how-to-deploy-in-azure",
+      "deploy-to-azure/manage-application"
     ]
   }
 }

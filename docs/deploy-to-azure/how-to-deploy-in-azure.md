@@ -8,11 +8,11 @@ sidebar_label: How To Deploy
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 
-![](../assets/deployToAzure/deploy-to-azure.png)
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Cybergroup-Research/ignite-runtime-image/master/azure-deployment.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
 
-> *Note: You may need to sign up or login in azure for this.*
+> *You may need a Microsoft Azure account.*
 
-You will be redirect to custom deployment page, where you need to fill few fields for custom deployments
+> *You will be redirected to Azure after clicking this button.*
 
 ![](../assets/deployToAzure/custom-deployment.png)
 
@@ -34,11 +34,11 @@ All resources in an Azure subscription are billed together.
 - **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
     > **[https://myDemo.azurewebsites.net/](#)**
 
-- **ENV_DATABASE_URL:** Ignite Application's Database URL
+- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to your database configurations
 
-- **ENV_IGNITE_EDITOR_API_SECRET:** Ignite Application's API Secret key
+- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app
 
-- **ENV_DB_SSL_OPTION:** Ignite Application's Database SSL option (true/false)
+- **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
 ### Observation 1: 
 If someone else is using the same web app name then during deployment, you will get error like below-

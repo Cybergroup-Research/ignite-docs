@@ -31,7 +31,7 @@ All resources in an Azure subscription are billed together.
 
 - **App_Service_Plan_SKU:** Select the suitable Azure plan. For more information about Azure plan visit <u><a href="https://azure.microsoft.com/en-us/pricing/details/app-service/linux/" target="_blank">Azure Pricing Plans</a></u>
 
-- **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example if Web_App_name is "myDemo" then application will be hosted in url 
+- **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
     > **[https://myDemo.azurewebsites.net/](#)**
 
 - **ENV_DATABASE_URL:** Ignite Application's Database URL
@@ -41,7 +41,7 @@ All resources in an Azure subscription are billed together.
 - **ENV_DB_SSL_OPTION:** Ignite Application's Database SSL option (true/false)
 
 ### Observation 1: 
-If some one else is using the same web app name then during deployment, you will get error like below-
+If someone else is using the same web app name then during deployment, you will get error like below-
 
 ![](../assets/deployToAzure/deployment-failed.png)
 ![](../assets/deployToAzure/website-already-exist.png)
@@ -53,7 +53,7 @@ If there is any validation issue, you will get the status like below–
 ![](../assets/deployToAzure/custom-deployment-success.png)
 
 ### Observation 3: 
-Once deployement completed you will get message as below–
+Once deployment completed you will get message as below–
 
 ![](../assets/deployToAzure/deployment-complete-msg.png)
 

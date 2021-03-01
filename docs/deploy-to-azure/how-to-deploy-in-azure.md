@@ -8,7 +8,7 @@ sidebar_label: How To Deploy
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://raw.githubusercontent.com/Cybergroup-Research/ignite-runtime-image/master/azure-deployment.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-deployment.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
 
 > *You may need a Microsoft Azure account.*
 

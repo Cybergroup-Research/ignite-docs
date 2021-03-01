@@ -12,7 +12,7 @@ To view all your azure application list, just go to Dashboard screen. You can fi
 
 ![](../assets/deployToAzure/azure-left-menu-option-expanded.png)
 
-You will find the list of all you applications under section "All resources"
+You will find the list of all your applications under section "All resources"
 
 ![](../assets/deployToAzure/azure-app-list.png)
 
@@ -24,10 +24,10 @@ Click on any application from the application list, you will get details about t
 
 You can get different section with specific details about the application
 
-- Stauts: Running/Stopped
-- URL: Where you can found the deployed application.
+- Status: Running/Stopped
+- URL: Where you can find the deployed application.
 - App Service Plan: Azure plan for the application
-- Health Check: You can configure the helth check for the application at some application end point.
+- Health Check: You can configure the health check for the application at some application end point.
 
 ## Check log 
 

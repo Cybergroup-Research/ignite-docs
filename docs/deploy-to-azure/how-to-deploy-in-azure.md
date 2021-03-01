@@ -6,7 +6,7 @@ sidebar_label: How To Deploy
 
 ## Deploy application
 
-After successful registration from <u><a href="https://www.cgignite.com/trynow" target="_blank">Ignite Registration</a></u> you will found the deployment button "Deploy to Azure"
+After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 
 ![](../assets/deployToAzure/deploy-to-azure.png)
 

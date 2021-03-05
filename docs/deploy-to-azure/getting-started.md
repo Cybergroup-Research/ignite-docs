@@ -1,20 +1,20 @@
 ---
-id: how-to-deploy-in-azure
-title: How to Deploy in Azure
-sidebar_label: How To Deploy
+id: getting-started
+title: Getting Started
+sidebar_label: Getting Started
 ---
 
-## Deploy application using docker hub public repository
+## Deploy using private repository (local development)
 
-After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
+After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started your deployment using local development with private repository.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-deployment.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-docker-private-image.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
 
-> *You may need a Microsoft Azure account.*
+> *You may need a Microsoft Azure account, docker account with azure container registry*
 
 > *You will be redirected to Azure after clicking this button.*
 
-![](../assets/deployToAzure/custom-deployment.png)
+![](../assets/deployToAzure/custom-deployment-private-repo.png)
 
 Below are required parameters details-
 
@@ -41,6 +41,14 @@ All resources in an Azure subscription are billed together.
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
 - **ENV_START_MODE:** Select desired start mode (Required for git based application development)
+
+- **Env_DOCKER_REGISTRY_SERVER_URL** Provide docker registry server URL
+
+- **Env_DOCKER_CUSTOM_IMAGE_NAME** Provide docker image name URL
+
+- **Env_DOCKER_REGISTRY_SERVER_USERNAME** Provide docker registry server username
+
+- **Env_DOCKER_REGISTRY_SERVER_PASSWORD** Provide docker registry server password
 
 ### Observation 1: 
 If someone else is using the same web app name then during deployment, you will get error like below-

@@ -7,6 +7,8 @@ class Content extends React.Component {
 				<div style={{width:"20%"}}>
 					<div className="sidebar-topics-heading">Topics</div>
 					<div className="sidebar-topic-container">
+						<a className="sidebar-topic" href="#code-integration-and-code-deployment">CI/CD</a>
+						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
 						<a className="sidebar-topic" href="#messages">Messages</a>
 						<a className="sidebar-topic" href="#flow-control">Flow Control</a>
 						<a className="sidebar-topic" href="#error-handling">Error Handling</a>
@@ -23,8 +25,6 @@ class Content extends React.Component {
 						<a className="sidebar-topic" href="#designer">Designer</a>
 						<a className="sidebar-topic" href="#monitor">Monitor</a>
 						<a className="sidebar-topic" href="#release-management">Release Management</a>
-						<a className="sidebar-topic" href="#code-integration-and-code-deployment">CI/CD</a>
-						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
 					</div>
 				</div>
 				<div style={{width:"80%"}}>
@@ -35,6 +35,17 @@ class Content extends React.Component {
 							<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks.</p>
 							<p>Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
 							<h2 id="table-of-contents">Table of Contents</h2>
+						</div>
+						<div className="category-container">
+							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
+							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
+						</div>
+						<div className="category-container">
+							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>
+							<a className="category-element" href="docs/deploy-to-azure/getting-started">Getting Started</a>
+							<a className="category-element" href="docs/deploy-to-azure/how-to-deploy-in-azure">How to Deploy</a>
+							<a className="category-element" href="docs/deploy-to-azure/manage-application">Manage Application</a>
 						</div>
 						<div className="category-container">
 							<h3 id="messages" className="category-title">Messages</h3>
@@ -151,16 +162,6 @@ class Content extends React.Component {
 						<div className="category-container">
 							<h3 id="release-management" className="category-title">Release Management</h3>
 							<a className="category-element" href="docs/release-management/upload-download-release-management">Upload Download Release Packages</a>
-						</div>
-						<div className="category-container">
-							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
-							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
-							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
-						</div>
-						<div className="category-container">
-							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>
-							<a className="category-element" href="docs/deploy-to-azure/how-to-deploy-in-azure">How to Deploy</a>
-							<a className="category-element" href="docs/deploy-to-azure/manage-application">Manage Application</a>
 						</div>
 					</div>
 				</div>

@@ -1,5 +1,14 @@
 {
   "docs": { 
+    "CI/CD": [
+      "code-integration-and-code-deployment/ci-cd-introduction",
+      "code-integration-and-code-deployment/ci-cd-installation"
+    ],
+    "Deploy to Azure": [
+      "deploy-to-azure/getting-started",
+      "deploy-to-azure/how-to-deploy-in-azure",
+      "deploy-to-azure/manage-application"
+    ],
     "Messages": [
       "messages/set-message-property-fixed",
       "messages/delete-property",
@@ -99,14 +108,6 @@
     "Monitor": [
       "monitor/monitor-introduction",
       "monitor/monitor-how-to-use"
-    ],
-    "CI/CD": [
-      "code-integration-and-code-deployment/ci-cd-introduction",
-      "code-integration-and-code-deployment/ci-cd-installation"
-    ],
-    "Deploy to Azure": [
-      "deploy-to-azure/how-to-deploy-in-azure",
-      "deploy-to-azure/manage-application"
     ]
   }
 }

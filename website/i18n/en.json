@@ -61,6 +61,10 @@
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
       },
+      "deploy-to-azure/getting-started": {
+        "title": "Getting Started",
+        "sidebar_label": "Getting Started"
+      },
       "deploy-to-azure/how-to-deploy-in-azure": {
         "title": "How to Deploy in Azure",
         "sidebar_label": "How To Deploy"
@@ -314,6 +318,8 @@
       "Home": "Home"
     },
     "categories": {
+      "CI/CD": "CI/CD",
+      "Deploy to Azure": "Deploy to Azure",
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",
@@ -329,9 +335,7 @@
       "Open API": "Open API",
       "Release Management": "Release Management",
       "Designer": "Designer",
-      "Monitor": "Monitor",
-      "CI/CD": "CI/CD",
-      "Deploy to Azure": "Deploy to Azure"
+      "Monitor": "Monitor"
     }
   },
   "pages-strings": {

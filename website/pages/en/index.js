@@ -7,8 +7,9 @@ class Content extends React.Component {
 				<div style={{width:"20%"}}>
 					<div className="sidebar-topics-heading">Topics</div>
 					<div className="sidebar-topic-container">
-						<a className="sidebar-topic" href="#code-integration-and-code-deployment">CI/CD</a>
 						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
+						<a className="sidebar-topic" href="#how-to-deploy-in-heroku">Deploy to Heroku</a>
+						<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS LightSail</a>
 						<a className="sidebar-topic" href="#messages">Messages</a>
 						<a className="sidebar-topic" href="#flow-control">Flow Control</a>
 						<a className="sidebar-topic" href="#error-handling">Error Handling</a>
@@ -37,15 +38,27 @@ class Content extends React.Component {
 							<h2 id="table-of-contents">Table of Contents</h2>
 						</div>
 						<div className="category-container">
-							<h3 id="code-integration-and-code-deployment" className="category-title">CI/CD</h3>
-							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-introduction">Introduction</a>
-							<a className="category-element" href="docs/code-integration-and-code-deployment/ci-cd-installation">Installation</a>
-						</div>
-						<div className="category-container">
-							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>
+							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Heroku</h3>
+							<a className="category-element" href="docs/deploy-to-azure/introduction">Introduction</a>
 							<a className="category-element" href="docs/deploy-to-azure/getting-started">Getting Started</a>
 							<a className="category-element" href="docs/deploy-to-azure/how-to-deploy-in-azure">How to Deploy</a>
 							<a className="category-element" href="docs/deploy-to-azure/manage-application">Manage Application</a>
+							<a className="category-element" href="docs/deploy-to-azure/cicd">CI/CD</a>
+						</div>
+						<div className="category-container">
+							<h3 id="how-to-deploy-in-heroku" className="category-title">Deploy to Heroku</h3>
+							<a className="category-element" href="docs/deploy-to-heroku/introduction">Introduction</a>
+							<a className="category-element" href="docs/deploy-to-heroku/getting-started">Getting Started</a>
+							<a className="category-element" href="docs/deploy-to-heroku/how-to-deploy-in-heroku">How to Deploy</a>
+							<a className="category-element" href="docs/deploy-to-heroku/manage-application">Manage Application</a>
+							<a className="category-element" href="docs/deploy-to-heroku/cicd">CI/CD</a>
+						</div>
+						<div className="category-container">
+							<h3 id="how-to-deploy-in-aws-lightsail" className="category-title">Deploy to AWS LightSail</h3>
+							<a className="category-element" href="docs/deploy-to-aws-lightsail/introduction">Introduction</a>
+							<a className="category-element" href="docs/deploy-to-aws-lightsail/getting-started">Getting Started</a>
+							<a className="category-element" href="docs/deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail">How to Deploy</a>
+							<a className="category-element" href="docs/deploy-to-aws-lightsail/manage-application">Manage Application</a>
 						</div>
 						<div className="category-container">
 							<h3 id="messages" className="category-title">Messages</h3>

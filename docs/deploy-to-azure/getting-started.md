@@ -4,68 +4,16 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
-## Deploy using private repository (local development)
+## Prerequisite
 
-After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started your deployment using local development with private repository.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-docker-private-image.json" target="_blank">![](../assets/deployToAzure/deploy-to-azure.png)</a>
+ - **<u><a href="https://signup.live.com/signup" target="_blank">Sign up</a></u>** and **<u><a href="https://login.microsoftonline.com/" target="_blank">Login</a></u>** into **<u><a href="https://azure.microsoft.com/en-us/" target="_blank">Microsoft Azure</a></u>**.
 
-> *You may need a Microsoft Azure account, docker account with azure container registry*
+ - For local development you need, Docker Account with Azure container registry. Go to **<u><a href="https://hub.docker.com/signup?next=%2Forgs%3Fref%3Dlogin" target="_blank">Sign up</a></u>** or **<u><a href="http://hub.docker.com/sso/start" target="_blank">login</a></u>** page.
+ - **<u><a href="https://www.cgignite.com/contact-us" target="_blank">Ignite Platform team</a></u>** needs to provision your account. 
 
-> *You will be redirected to Azure after clicking this button.*
+You can clone **<u><a href="https://github.com/Cybergroup-Research/ignite-runtime-image.git" target="_blank">Runtime</a></u>**.
 
-![](../assets/deployToAzure/custom-deployment-private-repo.png)
-
-Below are required parameters details-
-
-- **Subscription:** Select your azure account subscription type that you want for this custom deployment.
-All resources in an Azure subscription are billed together.
-
-- **Resource group:** A resource group is a collection of resources that share the same lifecycle, permissions, and policies. You can select your existing resource group or can also create new one.
-
-- **Region:** Select a location for the resource group. For example, Central US. Not every resource is available in every region.
-
-- **Location:** Select a location for the storage account. For example, Central US.
-
-- **App_Service_Plan_Name:** Provide app service plan name
-
-- **App_Service_Plan_SKU:** Select the suitable Azure plan. For more information about Azure plan visit <u><a href="https://azure.microsoft.com/en-us/pricing/details/app-service/linux/" target="_blank">Azure Pricing Plans</a></u>
-
-- **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
-    > **[https://myDemo.azurewebsites.net/](#)**
-
-- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to your database configurations
-
-- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app
-
-- **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
-
-- **ENV_START_MODE:** Select desired start mode (Required for git based application development)
-
-- **Env_DOCKER_REGISTRY_SERVER_URL** Provide docker registry server URL
-
-- **Env_DOCKER_CUSTOM_IMAGE_NAME** Provide docker image name URL
-
-- **Env_DOCKER_REGISTRY_SERVER_USERNAME** Provide docker registry server username
-
-- **Env_DOCKER_REGISTRY_SERVER_PASSWORD** Provide docker registry server password
-
-### Observation 1: 
-If someone else is using the same web app name then during deployment, you will get error like below-
-
-![](../assets/deployToAzure/deployment-failed.png)
-![](../assets/deployToAzure/website-already-exist.png)
-
-### Observation 2: 
-If there is any validation issue, you will get the status like below–
-
-![](../assets/deployToAzure/custom-deployment-failed.png)
-![](../assets/deployToAzure/custom-deployment-success.png)
-
-### Observation 3: 
-Once deployment completed you will get message as below–
-
-![](../assets/deployToAzure/deployment-complete-msg.png)
 
 
 

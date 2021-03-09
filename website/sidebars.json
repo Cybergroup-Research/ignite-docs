@@ -1,13 +1,24 @@
 {
   "docs": { 
-    "CI/CD": [
-      "code-integration-and-code-deployment/ci-cd-introduction",
-      "code-integration-and-code-deployment/ci-cd-installation"
-    ],
     "Deploy to Azure": [
+      "deploy-to-azure/introduction",
       "deploy-to-azure/getting-started",
       "deploy-to-azure/how-to-deploy-in-azure",
-      "deploy-to-azure/manage-application"
+      "deploy-to-azure/manage-application",
+      "deploy-to-azure/cicd"
+    ],
+    "Deploy to Heroku": [
+      "deploy-to-heroku/introduction",
+      "deploy-to-heroku/getting-started",
+      "deploy-to-heroku/how-to-deploy-in-heroku",
+      "deploy-to-heroku/manage-application",
+      "deploy-to-heroku/cicd"
+    ],
+    "Deploy to AWS LightSail": [
+      "deploy-to-aws-lightsail/introduction",
+      "deploy-to-aws-lightsail/getting-started",
+      "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail",
+      "deploy-to-aws-lightsail/manage-application"
     ],
     "Messages": [
       "messages/set-message-property-fixed",

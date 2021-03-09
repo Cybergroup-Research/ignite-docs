@@ -61,6 +61,26 @@
         "title": "Split text into one message per line",
         "sidebar_label": "Split text"
       },
+      "deploy-to-aws-lightsail/getting-started": {
+        "title": "Getting Started",
+        "sidebar_label": "Getting Started"
+      },
+      "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail": {
+        "title": "How to Deploy in AWS LightSail",
+        "sidebar_label": "How To Deploy in AWS LightSail"
+      },
+      "deploy-to-aws-lightsail/introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
+      },
+      "deploy-to-aws-lightsail/manage-application": {
+        "title": "Manage Application in AWS LightSail",
+        "sidebar_label": "Manage Application in AWS LightSail"
+      },
+      "deploy-to-azure/cicd": {
+        "title": "CI/CD",
+        "sidebar_label": "CI/CD"
+      },
       "deploy-to-azure/getting-started": {
         "title": "Getting Started",
         "sidebar_label": "Getting Started"
@@ -69,9 +89,33 @@
         "title": "How to Deploy in Azure",
         "sidebar_label": "How To Deploy"
       },
+      "deploy-to-azure/introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
+      },
       "deploy-to-azure/manage-application": {
         "title": "Manage Application in Azure",
         "sidebar_label": "Manage Application In Azure"
+      },
+      "deploy-to-heroku/cicd": {
+        "title": "CI/CD",
+        "sidebar_label": "CI/CD"
+      },
+      "deploy-to-heroku/getting-started": {
+        "title": "Getting Started",
+        "sidebar_label": "Getting Started"
+      },
+      "deploy-to-heroku/how-to-deploy-in-heroku": {
+        "title": "How to Deploy in Heroku",
+        "sidebar_label": "How To Deploy"
+      },
+      "deploy-to-heroku/introduction": {
+        "title": "Introduction",
+        "sidebar_label": "Introduction"
+      },
+      "deploy-to-heroku/manage-application": {
+        "title": "Manage Application in Heroku",
+        "sidebar_label": "Manage Application In Heroku"
       },
       "designer/designer": {
         "title": "Designer",
@@ -318,8 +362,9 @@
       "Home": "Home"
     },
     "categories": {
-      "CI/CD": "CI/CD",
       "Deploy to Azure": "Deploy to Azure",
+      "Deploy to Heroku": "Deploy to Heroku",
+      "Deploy to AWS LightSail": "Deploy to AWS LightSail",
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",

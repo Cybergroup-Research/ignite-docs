@@ -1,10 +1,10 @@
 ---
 id: manage-application
-title: Manage Application in AWS LightSail
-sidebar_label: Manage Application in AWS LightSail
+title: Manage Application in AWS Lightsail
+sidebar_label: Manage Application in AWS Lightsail
 ---
 
-## Manage Application in AWS LightSail
+## Manage Application in AWS Lightsail
 
 ### Find all application list
  

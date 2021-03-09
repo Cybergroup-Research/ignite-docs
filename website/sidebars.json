@@ -14,7 +14,7 @@
       "deploy-to-heroku/manage-application",
       "deploy-to-heroku/cicd"
     ],
-    "Deploy to AWS LightSail": [
+    "Deploy to AWS Lightsail": [
       "deploy-to-aws-lightsail/introduction",
       "deploy-to-aws-lightsail/getting-started",
       "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail",

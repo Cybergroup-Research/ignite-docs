@@ -1,10 +1,10 @@
 ---
 id: how-to-deploy-in-aws-lightsail
-title: How to Deploy in AWS LightSail
-sidebar_label: How To Deploy in AWS LightSail
+title: How to Deploy in AWS Lightsail
+sidebar_label: How To Deploy In AWS Lightsail
 ---
 
-## Deploy application in AWS LightSail
+## Deploy application in AWS Lightsail
 
 ### Create Instance
 

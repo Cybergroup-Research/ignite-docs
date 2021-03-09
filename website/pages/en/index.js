@@ -9,7 +9,7 @@ class Content extends React.Component {
 					<div className="sidebar-topic-container">
 						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
 						<a className="sidebar-topic" href="#how-to-deploy-in-heroku">Deploy to Heroku</a>
-						<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS LightSail</a>
+						<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS Lightsail</a>
 						<a className="sidebar-topic" href="#messages">Messages</a>
 						<a className="sidebar-topic" href="#flow-control">Flow Control</a>
 						<a className="sidebar-topic" href="#error-handling">Error Handling</a>
@@ -54,7 +54,7 @@ class Content extends React.Component {
 							<a className="category-element" href="docs/deploy-to-heroku/cicd">CI/CD</a>
 						</div>
 						<div className="category-container">
-							<h3 id="how-to-deploy-in-aws-lightsail" className="category-title">Deploy to AWS LightSail</h3>
+							<h3 id="how-to-deploy-in-aws-lightsail" className="category-title">Deploy to AWS Lightsail</h3>
 							<a className="category-element" href="docs/deploy-to-aws-lightsail/introduction">Introduction</a>
 							<a className="category-element" href="docs/deploy-to-aws-lightsail/getting-started">Getting Started</a>
 							<a className="category-element" href="docs/deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail">How to Deploy</a>

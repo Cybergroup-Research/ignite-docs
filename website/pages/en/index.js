@@ -38,7 +38,7 @@ class Content extends React.Component {
 							<h2 id="table-of-contents">Table of Contents</h2>
 						</div>
 						<div className="category-container">
-							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Heroku</h3>
+							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>
 							<a className="category-element" href="docs/deploy-to-azure/introduction">Introduction</a>
 							<a className="category-element" href="docs/deploy-to-azure/getting-started">Getting Started</a>
 							<a className="category-element" href="docs/deploy-to-azure/how-to-deploy-in-azure">How to Deploy</a>

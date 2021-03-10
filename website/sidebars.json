@@ -1,11 +1,5 @@
 {
-  "docs": { 
-    "Deploy To AWS":[
-      "deploy-to-aws-lightsail/introduction",
-      "deploy-to-aws-lightsail/getting-started",
-      "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail",
-      "deploy-to-aws-lightsail/manage-application"
-    ],
+  "docs": {
     "Deploy to Azure": [
       "deploy-to-azure/introduction",
       "deploy-to-azure/getting-started",
@@ -20,11 +14,26 @@
       "deploy-to-heroku/manage-application",
       "deploy-to-heroku/cicd"
     ],
+    "Deploy to AWS Lightsail": [
+      "deploy-to-aws-lightsail/introduction",
+      "deploy-to-aws-lightsail/getting-started",
+      "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail",
+      "deploy-to-aws-lightsail/manage-application"
+    ],
     "Messages": [
       "messages/set-message-property-fixed",
       "messages/delete-property",
       "messages/move-property",
       "messages/map-range"
+    ],
+    "Data Formats": [
+      "data-formats/convert-json",
+      "data-formats/convert-xml",
+      "data-formats/convert-yaml",
+      "data-formats/generate-csv",
+      "data-formats/parse-csv",
+      "data-formats/simple-get-request",
+      "data-formats/split-text"
     ],
     "Flow Control": [
       "flow-control/trigger-on-start",
@@ -43,15 +52,6 @@
     "Error Handling": [
       "error-handling/retry-on-error",
       "error-handling/trigger-on-error"
-    ],
-    "Data Formats":[
-      "data-formats/convert-json",
-      "data-formats/convert-xml",
-      "data-formats/convert-yaml",
-      "data-formats/generate-csv",
-      "data-formats/parse-csv",
-      "data-formats/simple-get-request",
-      "data-formats/split-text"
     ],
     "HTTP Endpoints": [
       "http-endpoints/create-endpoint",
@@ -91,12 +91,12 @@
     ],
     "Sequelize": [
       "sequelize/execute-a-query"
-    ],    
+    ],
     "Auth": [
       "auth/basic-auth",
       "auth/generate-jwt",
       "auth/verify-jwt"
-    ],    
+    ],
     "JSONata": [
       "jsonata/jsonata-node",
       "jsonata/jsonata-explorer"
@@ -106,22 +106,19 @@
       "breakpoint/breakpoint-how-to-use"
     ],
     "Open API": [
-      "open-api/open-api-introduction",
-      "open-api/open-api-client",
-      "open-api/open-api-router"
+      "openAPI/openAPI-introduction",
+      "openAPI/openAPI-router",
+      "openAPI/openAPI-client"
     ],
-    "Monitor":[
-      "monitor/monitor-introduction",
-      "monitor/monitor-how-to-use"
+    "Release Management": [
+      "release-management/upload-download-release-management"
     ],
     "Designer": [
       "designer/designer"
     ],
-    "Explorer": [
-      "designer/designer"
-    ],
-    "CI/CD": [
-      "release-management/upload-download-release-management"
+    "Monitor": [
+      "monitor/monitor-introduction",
+      "monitor/monitor-how-to-use"
     ]
   }
 }

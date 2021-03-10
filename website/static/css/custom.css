@@ -75,7 +75,7 @@ span .link {
 }
 .category-element:hover{
     /* background-color: azure; */
-    color: #F46224;
+    /* color: #F46224; */
     transform: scale(1.02);
 }
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

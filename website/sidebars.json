@@ -1,5 +1,5 @@
 {
-  "docs": { 
+  "docs": {
     "Deploy to Azure": [
       "deploy-to-azure/introduction",
       "deploy-to-azure/getting-started",
@@ -26,7 +26,7 @@
       "messages/move-property",
       "messages/map-range"
     ],
-    "Data Formats":[
+    "Data Formats": [
       "data-formats/convert-json",
       "data-formats/convert-xml",
       "data-formats/convert-yaml",
@@ -91,12 +91,12 @@
     ],
     "Sequelize": [
       "sequelize/execute-a-query"
-    ],    
+    ],
     "Auth": [
       "auth/basic-auth",
       "auth/generate-jwt",
       "auth/verify-jwt"
-    ],    
+    ],
     "JSONata": [
       "jsonata/jsonata-node",
       "jsonata/jsonata-explorer"

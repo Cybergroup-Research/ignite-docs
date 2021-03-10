@@ -19,11 +19,3 @@ Click on the three dots in the instance.
 You will get different option to manage the application
 
 ![](../assets/deployToAwsLightsail/app-manage.png)
-
-Select option **“Manage”**, there you will get various other option to manage the application
-
-![](../assets/deployToAwsLightsail/app-manage-options.png)
-
-
-
-

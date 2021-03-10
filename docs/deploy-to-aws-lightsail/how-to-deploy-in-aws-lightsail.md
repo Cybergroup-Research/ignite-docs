@@ -4,7 +4,9 @@ title: How to Deploy in AWS Lightsail
 sidebar_label: How To Deploy In AWS Lightsail
 ---
 
-## Create Database in AWS Lightsail
+## 1. Create Database in AWS Lightsail
+
+<hr>
 
 ### Initiate Database Creation
 
@@ -84,7 +86,9 @@ postgres://<username>:<password>@<host>:<port>/<database>
 
 Copy or save this DATABASE_URL for <u>**[AWS Container Creation Process](#set-environment-variables)**</u>
 
-## Create App and Get Ignite Keys in Cgignite Dashboard
+## 2. Create App and Get Ignite Keys in Cgignite Dashboard
+
+<hr>
 
 ### Create App
 
@@ -112,8 +116,9 @@ We will setup this URL once we will finish the "<u>**[AWS container creation pro
 
 ![](../assets/deployToAwsLightsail/ignite-runtime-url-popup.png)
 
+## 3. Create and Setup Container in AWS Lightsail
 
-## Create and Setup Container in AWS Lightsail
+<hr>
 
 ### Initiate Container Creation Process
 

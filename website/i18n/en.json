@@ -121,9 +121,6 @@
         "title": "Designer",
         "sidebar_label": "Designer"
       },
-      "doc2": {
-        "title": "document number 2"
-      },
       "error-handling/retry-on-error": {
         "title": "Automatically retry an action after an error",
         "sidebar_label": "Retry On Error"
@@ -336,16 +333,16 @@
         "title": "OData Service with Read Only Support",
         "sidebar_label": "Read Only OData Service"
       },
-      "openAPI/openAPI-client": {
-        "title": "OpenAPI client",
+      "open-api/open-api-client": {
+        "title": "OpenAPI Client",
         "sidebar_label": "OpenAPI Client"
       },
-      "openAPI/openAPI-introduction": {
+      "open-api/open-api-introduction": {
         "title": "Introduction",
         "sidebar_label": "Introduction"
       },
-      "openAPI/openAPI-router": {
-        "title": "OpenAPI router",
+      "open-api/open-api-router": {
+        "title": "OpenAPI Router",
         "sidebar_label": "OpenAPI Router"
       },
       "release-management/upload-download-release-management": {
@@ -362,13 +359,13 @@
       "Home": "Home"
     },
     "categories": {
-      "Deploy to AWS": "Deploy to AWS",
+      "Deploy To AWS": "Deploy To AWS",
       "Deploy to Azure": "Deploy to Azure",
       "Deploy to Heroku": "Deploy to Heroku",
       "Messages": "Messages",
-      "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",
       "Error Handling": "Error Handling",
+      "Data Formats": "Data Formats",
       "HTTP Endpoints": "HTTP Endpoints",
       "HTTP Requests": "HTTP Requests",
       "MQTT": "MQTT",
@@ -378,9 +375,10 @@
       "JSONata": "JSONata",
       "Breakpoint": "Breakpoint",
       "Open API": "Open API",
-      "Release Management": "Release Management",
+      "Monitor": "Monitor",
       "Designer": "Designer",
-      "Monitor": "Monitor"
+      "Explorer": "Explorer",
+      "CI/CD": "CI/CD"
     }
   },
   "pages-strings": {

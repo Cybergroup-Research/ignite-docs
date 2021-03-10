@@ -7,12 +7,12 @@ class Content extends React.Component {
 				<div style={{ width: "20%" }}>
 					<div className="sidebar-topics-heading">Topics</div>
 					<div className="sidebar-topic-container">
-						<div className="sidebar-topic-category">
+						{/* <div className="sidebar-topic-category">
 							<a className="sidebar-topic-category-heading" href="#introduction">Introduction</a>
-						</div>
+						</div> */}
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Getting Started</span>
-							<a className="sidebar-topic" href="#what-is-ignite">What is Ignite</a>
+							<a className="sidebar-topic" href="#introduction">Introduction</a>
 							<a className="sidebar-topic" href="#try-ignite">Try Ignite</a>
 							<a className="sidebar-topic" href="#deploy-to-aws">Deploy to AWS</a>
 							<a className="sidebar-topic" href="#deploy-to-azure">Deploy to Azure</a>
@@ -92,15 +92,12 @@ class Content extends React.Component {
 							<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks.</p>
 							<p>Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
 							<h2 id="table-of-contents">Table of Contents</h2>
-							<h6 id="what-is-ignite"></h6>
+							<h6 id="introduction"></h6>
 						</div>
 						<div className="category-container">
-							<h3 className="category-title">What is Ignite</h3>
-							<a className="category-element" href="docs/deploy-to-azure/introduction" id="try-ignite">Introduction</a>
-						</div>
-						<div className="category-container">
-							<h3 className="category-title">Try Ignite</h3>
-							<a className="category-element" href="docs/deploy-to-azure/introduction" id="deploy-to-aws">Introduction</a>
+							<h3 className="category-title">Getting Started</h3>
+							<a className="category-element" href="docs/deploy-to-azure/introduction">Introduction</a>
+							<a className="category-element" href="docs/deploy-to-azure/introduction" id="deploy-to-aws">Try Ignite</a>
 						</div>
 						<div className="category-container">
 							<h3 className="category-title">Deploy to AWS Lightsail</h3>
@@ -161,7 +158,7 @@ class Content extends React.Component {
 							<a className="category-element" href="docs/error-handling/trigger-on-error" id="data-formats">Automatically retry an action after an error</a>
 						</div>
 						<div className="category-container">
-							<h3 className="category-title">Data Dormats</h3>
+							<h3 className="category-title">Data Formats</h3>
 							<a className="category-element" href="docs/data-formats/convert-json">Convert to/from JSON</a>
 							<a className="category-element" href="docs/data-formats/convert-xml">Convert to/from XML</a>
 							<a className="category-element" href="docs/data-formats/convert-yaml">Convert to/from YAML</a>
@@ -232,9 +229,9 @@ class Content extends React.Component {
 						</div>
 						<div className="category-container">
 							<h3 className="category-title">Open API</h3>
-							<a className="category-element" href="docs/openAPI/openAPI-introduction">Introduction</a>
-							<a className="category-element" href="docs/openAPI/openAPI-router">OpenAPI Router</a>
-							<a className="category-element" href="docs/openAPI/openAPI-client" id="designer">OpenAPI Client</a>
+							<a className="category-element" href="docs/open-api/open-api-introduction">Introduction</a>
+							<a className="category-element" href="docs/open-api/open-api-router">OpenAPI Router</a>
+							<a className="category-element" href="docs/open-api/open-api-client" id="designer">OpenAPI Client</a>
 						</div>
 						<div className="category-container">
 							<h3 className="category-title">Designer</h3>

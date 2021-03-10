@@ -4,111 +4,201 @@ title: How to Deploy in AWS Lightsail
 sidebar_label: How To Deploy In AWS Lightsail
 ---
 
-## Deploy application in AWS Lightsail
+## Create Database in AWS Lightsail
 
-### Create Instance
+### Initiate Database Creation
 
-Visit: **<u><a href="https://lightsail.aws.amazon.com/ls/webapp/home/instances" target="_blank">https://lightsail.aws.amazon.com/ls/webapp/home/instances</a></u>**
+Visit: **<u><a href="https://lightsail.aws.amazon.com/ls/webapp/home/databases" target="_blank">https://lightsail.aws.amazon.com/ls/webapp/home/databases</a></u>**
 
-Click on button **“Create instance”**.
+Click on button **“Create database**.
 
-![](../assets/deployToAwsLightsail/create-instance.png)
+![](../assets/deployToAwsLightsail/create-aws-db.png)
 
-### Select Platform
+### Select Database Location
 
-Select suitable platform for you among Linux/Unix and Windows.
+![](../assets/deployToAwsLightsail/select-db-location.png)
 
-![](../assets/deployToAwsLightsail/select-platform.png)
+### Select an Availability Zone
 
-### Select a Blueprint
+![](../assets/deployToAwsLightsail/select-db-zone.png)
 
-![](../assets/deployToAwsLightsail/select-blueprint.png)
+### Select Database
 
-### Select Instance Plan
+![](../assets/deployToAwsLightsail/select-db.png)
 
-![](../assets/deployToAwsLightsail/select-instance-plan.png)
+### Set Database Credential
 
-### Create Instance 
+![](../assets/deployToAwsLightsail/specify-login-credentials.png)
 
-Provide suitable instance name.
+Set your database username and password for further connecting to the database
 
-![](../assets/deployToAwsLightsail/provide-instance-name.png)
+![](../assets/deployToAwsLightsail/specify-login-credentials-form.png)
 
-Click on button **"Create Instance"**.
+### Set your master database name
 
-![](../assets/deployToAwsLightsail/create-instance.png)
+![](../assets/deployToAwsLightsail/specify-master-db-name.png)
 
-Application will start processing...
+![](../assets/deployToAwsLightsail/specify-master-db-name-form.png)
 
-![](../assets/deployToAwsLightsail/app-processing.png)
+Copy or save this **database name** for <u>**[Set up database url](#set-up-database-url-for-aws-container-creation)**</u>**
 
-Once processing completed, application will start running.
+### Choose Database Plan
 
-![](../assets/deployToAwsLightsail/app-running.png)
+![](../assets/deployToAwsLightsail/select-db-plan.png)
 
-### Set Static IP
+### Set Database Identify
 
-Click on Application instance name and select Networking tab and click on link button **“Create static IP”**.
+![](../assets/deployToAwsLightsail/set-db-identity.png)
 
-![](../assets/deployToAwsLightsail/app-network.png)
+### Create Database
 
-Select Application instance from **"Select an instance"** dropdown menu.
+![](../assets/deployToAwsLightsail/create-db-button.png)
 
-![](../assets/deployToAwsLightsail/app-attach-instance.png)
+Once database creation will finish you can see the database as below-
 
-Provide any static IP identifier for your application.
+![](../assets/deployToAwsLightsail/created-db-instance.png)
 
-![](../assets/deployToAwsLightsail/app-static-ip-identifier.png)
+### Set Database Public Mode On
 
-Click on button **“Create”**
+![](../assets/deployToAwsLightsail/set-db-public-mode.png)
 
-![](../assets/deployToAwsLightsail/static-ip-create.png)
+### Set up Database URL for AWS Container Creation
 
-After static Ip will create, this will look like below-
+![](../assets/deployToAwsLightsail/get-db-connection-details.png)
 
-![](../assets/deployToAwsLightsail/app-static-ip-attached.png)
+Select tab **“Connect”**, there you will get following details-
 
-### Add Port Number
+Endpoint (Host)
 
-You can add port number from link button **“Add rule”** under **“Networking”** tab.
+Database: Get from <u>**[Set your master database name](#set-your-master-database-name)**</u>
 
-![](../assets/deployToAwsLightsail/app-add-rule.png)
+User name
 
-Provide port number.
+Password
 
-![](../assets/deployToAwsLightsail/app-add-rule-1.png)
+Port: Default 5432 for PostgreSQL
 
-You can see the latest added rule.
+Now create your DATABASE_URL as below format by using above values
 
-![](../assets/deployToAwsLightsail/app-rule-list.png)
+postgres://<username>:<password>@<host>:<port>/<database>
 
-### Setup Instance
+Copy or save this DATABASE_URL for <u>**[AWS Container Creation Process](#set-environment-variables)**</u>
 
-Select tab **“Instances”**, there you can see your newly added instance. Click on the console icon in the instance (Make sure instance is in Running status).
+## Create App and Get Ignite Keys in Cgignite Dashboard
 
-![](../assets/deployToAwsLightsail/app-instance.png)
+### Create App
 
-A console window will be open.
+Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
 
-![](../assets/deployToAwsLightsail/app-console-blank.png)
+Click on button **“New App”**
 
-Run the following commands
+![](../assets/deployToAwsLightsail/new-app.png)
 
-    ls
-    cd htdocs
-    rm -rf *
-    git clone urlForYourGitHubRepository
-    Provide github UserName and Password
-    cd yourApplicationDirectory
-    ls
-    npm install
-    node yourJsFileName
+### Set App Name
 
-![](../assets/deployToAwsLightsail/app-console-command.png)
+Provide a suitable name for your application and click on button **“Create App”**
 
-### Run Application on Browser
+![](../assets/deployToAwsLightsail/new-app-popup.png)
 
-Now open the static IP in the browser, you will find that application will be running there.
+### Get Key for AWS Container Creation
 
-![](../assets/deployToAwsLightsail/app-web-browser.png)
+You will get the IGNIT_EDITOR_API_SECRET key, copy or save this key for later use in <u>**[AWS container creation process](#set-environment-variables)**</u>.
 
+![](../assets/deployToAwsLightsail/ignite-runtime-registration.png)
+
+### Set Ignite Runtime URL
+
+We will setup this URL once we will finish the "<u>**[AWS container creation process](#set-cgignite-dashboard-app)**</u>".
+
+![](../assets/deployToAwsLightsail/ignite-runtime-url-popup.png)
+
+
+## Create and Setup Container in AWS Lightsail
+
+### Initiate Container Creation Process
+
+Visit: **<u><a href="https://lightsail.aws.amazon.com/ls/webapp/home/containers" target="_blank">https://lightsail.aws.amazon.com/ls/webapp/home/containers</a></u>**
+
+Click on button **“Create container service”**
+
+![](../assets/deployToAwsLightsail/initiate-container-creation-service.png)
+
+### Select Container Service Location
+
+![](../assets/deployToAwsLightsail/select-db-location.png)
+
+### Select Service Capacity
+
+Select container service capacity for memory utilization
+
+![](../assets/deployToAwsLightsail/select-container-service-capacity.png)
+
+### Set up Deployment
+
+Click on link button **“Set up deployment”**
+
+![](../assets/deployToAwsLightsail/setup-deployment.png)
+
+Select option **“Specify a customer deployment”** 
+
+![](../assets/deployToAwsLightsail/setup-deployment-form.png)
+
+Container name: Provide your suitable container name
+Image: Provide Ignite runtime image
+cybergroupignite/runtime:v2.0.0
+
+### Set Environment Variables
+
+Click on link button **“Add environment variables”**
+
+![](../assets/deployToAwsLightsail/add-environment-variable-button.png)
+
+Set DATABASE_URL from step “<u>**[Set up Database URL for AWS Container Creation](#set-up-database-url-for-aws-container-creation)**</u>”
+
+Set IGNITE_EDITOR_API_SECRET from step “<u>**[Get Key for AWS Container Creation](#get-key-for-aws-container-creation)**</u>”
+
+Set DB_SSL_OPTION: true/false (Default: true)
+
+Set PORT: Set Port Number (Default: 1881)
+
+![](../assets/deployToAwsLightsail/set-environment-variable-form.png)
+
+### Set Port
+
+Click on link button **“Add open ports”**
+
+![](../assets/deployToAwsLightsail/add-open-port-button.png)
+
+Add port 80 with Protocol HTTP/HTTPS
+
+![](../assets/deployToAwsLightsail/set-port.png)
+
+### Set your public end point 
+
+![](../assets/deployToAwsLightsail/set-public-end-point.png)
+
+### Provide your container service identity
+
+![](../assets/deployToAwsLightsail/set-service-name.png)
+
+### Create container service
+
+![](../assets/deployToAwsLightsail/create-container-service-button.png)
+
+It takes couple of minutes to create the container server. Once successfully copy the public domain value.
+
+![](../assets/deployToAwsLightsail/ignite-service-created.png)
+
+### Set CgIgnite Dashboard App
+
+Continue the step from “<u>**[Set Ignite Run Time URL](#set-ignite-runtime-url)**</u>” in CgIgnite Dashboard
+
+![](../assets/deployToAwsLightsail/ignite-runtime-registration-final.png)
+
+Click on button **“Test Connection”**. You will get the newly created app in the dashboard.
+
+![](../assets/deployToAwsLightsail/ignite-dashboard-app-final.png)
+
+### Launch App
+
+Now click on right launch app button and you will get that your Ignite running application on browser.

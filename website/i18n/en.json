@@ -66,16 +66,16 @@
         "sidebar_label": "Getting Started"
       },
       "deploy-to-aws-lightsail/how-to-deploy-in-aws-lightsail": {
-        "title": "How to Deploy in AWS LightSail",
-        "sidebar_label": "How To Deploy In AWS LightSail"
+        "title": "How to Deploy in AWS Lightsail",
+        "sidebar_label": "How To Deploy In AWS Lightsail"
       },
       "deploy-to-aws-lightsail/introduction": {
         "title": "Introduction",
         "sidebar_label": "Introduction"
       },
       "deploy-to-aws-lightsail/manage-application": {
-        "title": "Manage Application in AWS LightSail",
-        "sidebar_label": "Manage Application in AWS LightSail"
+        "title": "Manage Application in AWS Lightsail",
+        "sidebar_label": "Manage Application in AWS Lightsail"
       },
       "deploy-to-azure/cicd": {
         "title": "CI/CD",

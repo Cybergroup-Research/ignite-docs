@@ -1,6 +1,6 @@
 ---
-id: openAPI-client
-title: OpenAPI client
+id: open-api-client
+title: OpenAPI Client
 sidebar_label: OpenAPI Client
 ---
 

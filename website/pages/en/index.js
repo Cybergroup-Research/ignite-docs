@@ -2,40 +2,101 @@ const React = require('react');
 
 class Content extends React.Component {
 	render() {
-		return(
-			<div className="wrapper homeWrapper" style={{display:"flex",flexDirection:"col"}}>
-				<div style={{width:"20%"}}>
+		return (
+			<div className="wrapper homeWrapper" style={{ display: "flex", flexDirection: "col" }}>
+				<div style={{ width: "20%" }}>
 					<div className="sidebar-topics-heading">Topics</div>
 					<div className="sidebar-topic-container">
-						<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
-						<a className="sidebar-topic" href="#how-to-deploy-in-heroku">Deploy to Heroku</a>
-						<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS Lightsail</a>
-						<a className="sidebar-topic" href="#messages">Messages</a>
-						<a className="sidebar-topic" href="#flow-control">Flow Control</a>
-						<a className="sidebar-topic" href="#error-handling">Error Handling</a>
-						<a className="sidebar-topic" href="#working-with-data-formats">Data Formats</a>
-						<a className="sidebar-topic" href="#http-endpoints">HTTP Endpoints</a>
-						<a className="sidebar-topic" href="#http-requests">HTTP Requests</a>
-						<a className="sidebar-topic" href="#mqtt">MQTT</a>
-						<a className="sidebar-topic" href="#odata">OData</a>
-						<a className="sidebar-topic" href="#sequelize">Sequelize</a>
-						<a className="sidebar-topic" href="#auth">Auth</a>
-						<a className="sidebar-topic" href="#jsonata">JSONata</a>
-						<a className="sidebar-topic" href="#breakpoint">Breakpoint</a>
-						<a className="sidebar-topic" href="#openAPI">Open API</a>
-						<a className="sidebar-topic" href="#designer">Designer</a>
-						<a className="sidebar-topic" href="#monitor">Monitor</a>
-						<a className="sidebar-topic" href="#release-management">Release Management</a>
+						<div className="sidebar-topic-category">
+							<a className="sidebar-topic-category-heading" href="#introduction">Introduction</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Getting Started</span>
+							<a className="sidebar-topic" href="#what-is-ignite">What is Ignite</a>
+							<a className="sidebar-topic" href="#try-ignite">Try Ignite</a>
+							<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS</a>
+							<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
+							<a className="sidebar-topic" href="#how-to-deploy-in-heroku">Deploy to Heroku</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Developing Flows</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Flow Structure</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Message Design</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Developer Guide</span>
+							<a className="sidebar-topic" href="#messages">Messages</a>
+							<a className="sidebar-topic" href="#flow-control">Flow Control</a>
+							<a className="sidebar-topic" href="#error-handling">Error Handling</a>
+							<a className="sidebar-topic" href="#working-with-data-formats">Data Formats</a>
+							<a className="sidebar-topic" href="#http-endpoints">HTTP Endpoints</a>
+							<a className="sidebar-topic" href="#http-requests">HTTP Requests</a>
+							<a className="sidebar-topic" href="#mqtt">MQTT</a>
+							<a className="sidebar-topic" href="#odata">OData</a>
+							<a className="sidebar-topic" href="#sequelize">Sequelize</a>
+							<a className="sidebar-topic" href="#auth">Auth</a>
+							<a className="sidebar-topic" href="#jsonata">JSONata</a>
+							<a className="sidebar-topic" href="#breakpoint">Breakpoint</a>
+							<a className="sidebar-topic" href="#openAPI">Open API</a>
+							<a className="sidebar-topic" href="#designer">Designer</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Connectors</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Salesforce</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Netsuite</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Plaid</a>
+							<a className="sidebar-topic" href="#what-is-ignite">MySql</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Tutorials</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Tutorial 1</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Tutorial 2</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Monitoring</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Runtime Monitor</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Jobs</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Flows</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Flow Audit</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Runtime Mode</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Postgres</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Project</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Build</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">Editor</span>
+							<a className="sidebar-topic" href="#what-is-ignite">Flows</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Subflows</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Configuration Nodes</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Import Flows</a>
+							<a className="sidebar-topic" href="#what-is-ignite">Export Export</a>
+						</div>
+						<div className="sidebar-topic-category">
+							<span className="sidebar-topic-category-heading">CI/CD</span>
+							<a className="sidebar-topic" href="#monitor">Monitor</a>
+							<a className="sidebar-topic" href="#release-management">Release Management</a>
+						</div>
 					</div>
 				</div>
-				<div style={{width:"80%"}}>
+				<div style={{ width: "80%" }}>
 					<div className="docs-content">
 						<div>
-							<h1 style={{margin:"0px"}}>Ignite Cookbook</h1>
-							<hr style={{width:"100%",border:"1px solid #F46224"}}></hr>
+							<h1 style={{ margin: "0px" }}>Ignite Cookbook</h1>
+							<hr style={{ width: "100%", border: "1px solid #F46224" }}></hr>
 							<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks.</p>
 							<p>Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
 							<h2 id="table-of-contents">Table of Contents</h2>
+							<h1 id="what-is-ignite"></h1>
+						</div>
+						<div className="category-container">
+							<h3 className="category-title">What is Ignite</h3>
+							<a className="category-element" href="docs/deploy-to-azure/introduction" id="try-ignite">Introduction</a>
+						</div>
+						<div className="category-container">
+							<h3 className="category-title">Try Ignite</h3>
+							<a className="category-element" href="docs/deploy-to-azure/introduction">Introduction</a>
 						</div>
 						<div className="category-container">
 							<h3 id="how-to-deploy-in-azure" className="category-title">Deploy to Azure</h3>

@@ -362,9 +362,9 @@
       "Home": "Home"
     },
     "categories": {
+      "Deploy to AWS": "Deploy to AWS",
       "Deploy to Azure": "Deploy to Azure",
       "Deploy to Heroku": "Deploy to Heroku",
-      "Deploy to AWS LightSail": "Deploy to AWS LightSail",
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",

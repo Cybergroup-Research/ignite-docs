@@ -14,21 +14,21 @@ class Content extends React.Component {
 							<span className="sidebar-topic-category-heading">Getting Started</span>
 							<a className="sidebar-topic" href="#what-is-ignite">What is Ignite</a>
 							<a className="sidebar-topic" href="#try-ignite">Try Ignite</a>
-							<a className="sidebar-topic" href="#how-to-deploy-in-aws-lightsail">Deploy to AWS</a>
-							<a className="sidebar-topic" href="#how-to-deploy-in-azure">Deploy to Azure</a>
-							<a className="sidebar-topic" href="#how-to-deploy-in-heroku">Deploy to Heroku</a>
+							<a className="sidebar-topic" href="#deploy-to-aws">Deploy to AWS</a>
+							<a className="sidebar-topic" href="#deploy-to-azure">Deploy to Azure</a>
+							<a className="sidebar-topic" href="#deploy-to-heroku">Deploy to Heroku</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Developing Flows</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Flow Structure</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Message Design</a>
+							<a className="sidebar-topic" href="#flow-structure">Flow Structure</a>
+							<a className="sidebar-topic" href="#message-design">Message Design</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Developer Guide</span>
 							<a className="sidebar-topic" href="#messages">Messages</a>
 							<a className="sidebar-topic" href="#flow-control">Flow Control</a>
 							<a className="sidebar-topic" href="#error-handling">Error Handling</a>
-							<a className="sidebar-topic" href="#working-with-data-formats">Data Formats</a>
+							<a className="sidebar-topic" href="#data-formats">Data Formats</a>
 							<a className="sidebar-topic" href="#http-endpoints">HTTP Endpoints</a>
 							<a className="sidebar-topic" href="#http-requests">HTTP Requests</a>
 							<a className="sidebar-topic" href="#mqtt">MQTT</a>
@@ -37,45 +37,49 @@ class Content extends React.Component {
 							<a className="sidebar-topic" href="#auth">Auth</a>
 							<a className="sidebar-topic" href="#jsonata">JSONata</a>
 							<a className="sidebar-topic" href="#breakpoint">Breakpoint</a>
-							<a className="sidebar-topic" href="#openAPI">Open API</a>
+							<a className="sidebar-topic" href="#open-api">Open API</a>
 							<a className="sidebar-topic" href="#designer">Designer</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Connectors</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Salesforce</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Netsuite</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Plaid</a>
-							<a className="sidebar-topic" href="#what-is-ignite">MySql</a>
+							<a className="sidebar-topic" href="#salesforce-connector">Salesforce</a>
+							<a className="sidebar-topic" href="#netsuite-connector">Netsuite</a>
+							<a className="sidebar-topic" href="#plaid-connector">Plaid</a>
+							<a className="sidebar-topic" href="#mysql-connector">MySql</a>
+							<a className="sidebar-topic" href="#sqlserver-connector">Sql Server</a>
+							<a className="sidebar-topic" href="#postgres-connector">Postgres</a>
+							<a className="sidebar-topic" href="#sendgrid-connector">Sendgrid</a>
+							<a className="sidebar-topic" href="#twilio-connector">Twilio</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Tutorials</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Tutorial 1</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Tutorial 2</a>
+							<a className="sidebar-topic" href="#tutorial-1">Tutorial 1</a>
+							<a className="sidebar-topic" href="#tutorial-2">Tutorial 2</a>
+							<a className="sidebar-topic" href="#tutorial-3">Tutorial 2</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Monitoring</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Runtime Monitor</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Jobs</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Flows</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Flow Audit</a>
+							<a className="sidebar-topic" href="#runtime-monitor">Runtime Monitor</a>
+							<a className="sidebar-topic" href="#automated-flows">Automated Jobs</a>
+							<a className="sidebar-topic" href="#ignite-flows">Ignite Flows</a>
+							<a className="sidebar-topic" href="#flow-audit">Flow Audit</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Runtime Mode</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Postgres</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Project</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Build</a>
+							<a className="sidebar-topic" href="#postgres-mode">Postgres</a>
+							<a className="sidebar-topic" href="#project-mode">Project</a>
+							<a className="sidebar-topic" href="#build-mode">Build</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">Editor</span>
-							<a className="sidebar-topic" href="#what-is-ignite">Flows</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Subflows</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Configuration Nodes</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Import Flows</a>
-							<a className="sidebar-topic" href="#what-is-ignite">Export Export</a>
+							<a className="sidebar-topic" href="#flows">Flows</a>
+							<a className="sidebar-topic" href="#subflows">Subflows</a>
+							<a className="sidebar-topic" href="#configuration-nodes">Configuration Nodes</a>
+							<a className="sidebar-topic" href="#import-flows">Import Flows</a>
+							<a className="sidebar-topic" href="#export-flows">Export Export</a>
 						</div>
 						<div className="sidebar-topic-category">
 							<span className="sidebar-topic-category-heading">CI/CD</span>
-							<a className="sidebar-topic" href="#monitor">Monitor</a>
 							<a className="sidebar-topic" href="#release-management">Release Management</a>
 						</div>
 					</div>

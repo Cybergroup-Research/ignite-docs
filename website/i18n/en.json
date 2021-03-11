@@ -361,7 +361,6 @@
     "categories": {
       "Deploy to Azure": "Deploy to Azure",
       "Deploy to Heroku": "Deploy to Heroku",
-      "Deploy to AWS Lightsail": "Deploy to AWS Lightsail",
       "Messages": "Messages",
       "Data Formats": "Data Formats",
       "Flow Control": "Flow Control",
